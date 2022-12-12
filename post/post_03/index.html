@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html class='theme-container'>
+
+<head>
+    <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="referrer" content="no-referrer">
+    
+
+    <title>客製 Hugo Theme</title>
+
+    <link rel="canonical" href="http://localhost:1313/">
+
+    
+    <link rel='stylesheet' type='text/css' href='/css/common.min.32fe52b49681cf19b4b808f714b6415442d924df10d671b064fcf4939fc7cdb5.css'/>
+    
+    <link rel='stylesheet' media='screen and (min-width: 1201px)' type='text/css'
+          href='/css/normal.min.9c058bc32a7d4d7bb6c2aa1d315116792c684d1ed389eec2741b5b46a52711b4.css'/>
+    
+    <link rel='stylesheet' media='screen and (max-width: 1200px)' type='text/css'
+          href='/css/small.min.e47b2efc4087d6f608db7a76b068966259b87238bb82e48604c1eac68e99b6a8.css'/>
+
+    
+    <link rel='stylesheet' type='text/css' href='/css/androidstudio.min.min.c0869a17349d3f1bdd078763e8c11ec9808c9f38239bb254720577662fba87bf.css'/>
+    
+    <script src="/js/highlight.min.min.e43d95bacbb7722ec18abacdf493f46e46a3aac20bb5a91a598f1894d5e2fc9c.js"></script>
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+</head>
+<script>
+    hljs.highlightAll();
+</script>
+<body>
+
+<div class="top">
+    <a href="/">
+        <img src="/img/logo.png"/>
+    </a>
+    <nav>
+        
+        <a href="/note/">
+            Note
+        </a>
+        
+        <a href="/post/">
+            Blog
+        </a>
+        
+        <a href="/projects/">
+            Projects
+        </a>
+        
+        <a href="/about">
+            About
+        </a>
+        
+    </nav>
+</div>
+
+<div id="center" class='center' >
+    
+<header class="center_head">
+    <h1>
+    客製 Hugo Theme
+</h1>
+<div style="text-align: center;opacity: 0.5;margin-top: 0.5em;">
+    2022.09.23 13:29
+</div>
+</header>
+
+    
+<div class="center_main">
+    <a href="../" class="center_main_contents_left">
+        <h1>My Blog</h1>
+    </a>
+    <style>
+    .content_post h2::before {
+        content: "※ ";
+    }
+
+    .content_post h3::before {
+        content: "✧ ";
+    }
+</style>
+<article class="content_post heti heti--ancient">
+    <h2 id="變成喜歡的樣子">變成喜歡的樣子!</h2>
+<p>通常 Hugo Theme 的開發者們都會設計很多可以變更的部分, 以主題 onelou 為範例, 該作者設計了 logo 區塊 &amp; SVG 區塊等, 所以可以換上自己網站的 logo 以及自己設計的 SVG 圖片.</p>
+<h2 id="logo-design">Logo Design</h2>
+<h3 id="製作網站-logo">製作網站 logo</h3>
+<blockquote>
+<p>前往 DesignEvo =====&gt; <a href="https://www.designevo.com/tw/">https://www.designevo.com/tw/</a></p>
+</blockquote>
+<p>中文介面, 適合剛接觸設計的新手, 有許多板模可以直接套用並且可以自行修改, 可以 &ldquo;免費&rdquo; 匯出 300px X 300px 的圖檔.</p>
+<p>進入頁面後點選 &ldquo;免費製作 LOGO&rdquo;:</p>
+<p><img src="/img/post_3_1.png" alt="image"></p>
+<p>選擇想要的主題:</p>
+<p><img src="/img/post_3_2.png" alt="image"></p>
+<p>就可以開始修改成自己的 logo 了:</p>
+<p><img src="/img/post_3_3.png" alt="image"></p>
+<p>可以善加利用 &ldquo;搜尋圖標&rdquo; 加入不同的圖, 但要記得用英文搜尋.</p>
+<p>設計完成後, 可以免費輸出 300px X 300px 的檔, 就算超過網站也會自動幫你轉成 300px X 300px.</p>
+<p>點選 &ldquo;免費下載一個低質量的 logo&rdquo;:</p>
+<p><img src="/img/post_3_4.png" alt="image"></p>
+<p>但如果只想要保留圖形本體, 不要背景的話, DesignEvo 就要付費了, 身為一個優秀的免費仔, 要錢跟要命一樣, 所以這邊會用到這款去背軟體.</p>
+<blockquote>
+<p>前往 RemoveBg =====&gt; <a href="https://www.remove.bg/zh/upload">https://www.remove.bg/zh/upload</a></p>
+</blockquote>
+<p><img src="/img/post_3_5.png" alt="image"></p>
+<p>將剛剛設計好的圖片匯入 RemoveBg 就會自動去背拉:</p>
+<p><img src="/img/post_3_6.png" alt="image"></p>
+<p>下載後, 將其改取代原本 static 資料夾裡的圖檔就可以了, 記得要將其像素壓縮 &amp; css 排版調整一下, 網頁的專屬 logo 就完成了!</p>
+<h3 id="製作-faviconico">製作 favicon.ico</h3>
+<blockquote>
+<p>前往 Aconvert =====&gt; <a href="https://www.aconvert.com/tw/icon/png-to-ico">https://www.aconvert.com/tw/icon/png-to-ico</a></p>
+</blockquote>
+<p><img src="/img/post_3_7.png" alt="image"></p>
+<p>.ico 就是 icon 檔案, 也就是瀏覽器最上方邊邊顯示的 icon, 可以作為縮圖標誌. 圖示檔的尺寸通常比較小, 常見的尺寸有 16px X 16px, 32px X 32px 和 48px X 48px, 可以直接用來打開瀏覽.</p>
+<h2 id="svg-animation">SVG Animation</h2>
+<h3 id="什麼是-svg">什麼是 SVG?</h3>
+<p>可縮放向量圖形 Scalable Vector Graphics: SVG, 是一種向量圖形格式, 檔案尺寸比 PNG,  JPG 還小, 常用於網站的 logo &amp; icon 等，可以確保圖片在任何大小不失真。</p>
+<h3 id="製作-svg">製作 SVG</h3>
+<blockquote>
+<p>前往 Figma =====&gt; <a href="https://www.figma.com">https://www.figma.com</a></p>
+</blockquote>
+<p>在製作 SVG 動畫之前, 需要先繪製一個向量圖形, 這裡使用 Figma 製作, 因為 Figma 在瀏覽器可以直接設計, 不需要再額外安裝有的沒有的軟體, 入門的門檻不高且 &ldquo;免費&rdquo; 方案就可以完成各式各樣的簡易向量圖形.</p>
+<p>註冊登入後, 進入主畫面:</p>
+<p><img src="/img/post_3_8.png" alt="image"></p>
+<p>可以到 Community 搜尋想要使用的 Plugins, 這裡使用可以快速建立 SVG 的插件 Iconify:</p>
+<p><img src="/img/post_3_9.png" alt="image"></p>
+<p>選擇自己喜歡的圖案就可以開始設計自己的 SVG 囉!</p>
+<p>匯出 SVG 的話只需要按下, 右下角的 Export Vector:</p>
+<p><img src="/img/post_3_10.png" alt="image"></p>
+<p>記得匯出的檔案形式要選擇 .svg!</p>
+<h3 id="製作-svg-動畫">製作 SVG 動畫</h3>
+<blockquote>
+<p>前往 SVGator =====&gt; <a href="https://www.svgator.com">https://www.svgator.com</a></p>
+</blockquote>
+<p><img src="/img/post_3_11.png" alt="image"></p>
+<p>註冊登入後, 就可以開始設計囉:</p>
+<p><img src="/img/post_3_12.png" alt="image"></p>
+<p>調整每一個時間軸想要呈現的畫面後, 就可以按下右上角的 Export 匯出 SVG 動畫囉! 但這邊就要發揮我們的客家精神, 免費會員的動畫會受到限制, 例如隨著時間變化 SVG 顏色, 那就需要我們自己在 css 裡面加點東西.</p>
+<p><img src="/img/post_3_13.png" alt="image"></p>
+<p>先找到該動畫所在的 css, 使用 @keyframes 決定什麼階段填滿什麼樣的顏色:</p>
+<div class="highlight">
+    <span class="highlight-type">css</span>
+    <pre><code class="language-css hljs" data-lang="css">@keyframes eewkZaUJCNo4_c_f {
+    0% {fill: #343232;}
+    7.692308% {fill: #cc7832;}
+    100% {fill: #cc7832;}
+}</code></pre>
+</div>
+
+<style>
+    .highlight-type {
+        content: "css";
+        position: absolute;
+        opacity: 0.5;
+    }
+</style><p>原理跟 css 動畫是差不多的, 至於有什麼其他要調整的也都可以一起調整.</p>
+<h3 id="參考">參考</h3>
+<ul>
+<li>
+<p>SVG 資源好去處</p>
+<ul>
+<li><a href="https://iconmonstr.com">https://iconmonstr.com</a></li>
+</ul>
+</li>
+<li>
+<p>SVG SMIL Animation 介紹</p>
+<ul>
+<li><a href="https://blog.techbridge.cc/2021/06/21/svg-smil-animation-intro/">https://blog.techbridge.cc/2021/06/21/svg-smil-animation-intro/</a></li>
+</ul>
+</li>
+</ul>
+
+</article>
+
+<div class="content_post_button">
+    
+    <button onclick="window.location.href = 'http:\/\/localhost:1313\/post\/post_02\/'">
+        <span style="color: var(--primary-color);">上一篇</span><br />Mac 刪除 Symantec Endpoint Protection
+    </button>
+    
+    
+</div>
+<div class="back_top_svg">
+    <a class="back_top" href="javascript:window.scrollTo(0,0);">
+        <svg id="eewkZaUJCNo1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="114"
+            height="103" viewBox="0 0 114 103" shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
+            <g id="eewkZaUJCNo2_tr" transform="translate(57.000001,90.534501) rotate(0)">
+                <g transform="translate(-56.970901,-48.575)">
+                    <g id="eewkZaUJCNo3_to" transform="translate(56.9709,36.5)">
+                        <g transform="translate(-56.9709,-36.5)">
+                            <path id="eewkZaUJCNo4"
+                                d="M47.837,8.71715L56.9708,2l9.1339,6.71715c3.051,2.24395,5.5314,5.17405,7.2409,8.55355s2.6003,7.1137,2.6003,10.901v30.7533h-37.9501v-30.7533c0-3.7873.8908-7.5215,2.6003-10.901s4.1899-6.3096,7.2409-8.55355v0Z"
+                                fill="#343232" stroke="#000" stroke-width="4" stroke-linejoin="round" />
+                            <path id="eewkZaUJCNo5"
+                                d="M37.9959,24.425l-10.35,10.35v13.8l10.35-5.175v-18.975Zm37.95,0l10.35,10.35v13.8L75.9459,43.4v-18.975Z"
+                                fill="#343232" stroke="#000" stroke-width="4" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path id="eewkZaUJCNo6" d="M46.6208,62.375v5.175m10.35-5.175v8.625m10.35-8.625v5.175"
+                                opacity="0" fill="none" stroke="#cc3232" stroke-width="4" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <circle id="eewkZaUJCNo7" r="9.50667" transform="translate(56.970901 26.993299)" />
+                            <circle id="eewkZaUJCNo8" r="4.97596" transform="translate(56.970901 26.9461)"
+                                fill="#343232" />
+                        </g>
+                    </g>
+                    <g id="eewkZaUJCNo9" transform="translate(-.029122-41.348007)" opacity="0">
+                        <path
+                            d="M2,89.2061c0,3.0833,1.22485,6.0404,3.40511,8.2206c2.18025,2.1803,5.13729,3.4053,8.22069,3.4053h29.0644c2.2679.002,4.4647-.791,6.2079-2.2417c1.7431-1.4507,2.9221-3.467,3.3315-5.6976.4095-2.2306.0234-4.5341-1.091-6.5094-1.1143-1.9752-2.8863-3.4969-5.0072-4.3.4794-1.3634.568-2.8338.2558-4.245s-1.0128-2.707-2.0226-3.741-2.2887-1.765-3.6921-2.1106c-1.4034-.3455-2.8754-.2917-4.2499.1553-.889-3.4101-3.0703-6.3404-6.0822-8.1703-3.0118-1.8298-6.6176-2.4156-10.0538-1.6332s-6.4329,2.8715-8.3557,5.825c-1.9227,2.9534-2.62036,6.5392-1.94529,9.9981-2.32365.7669-4.34624,2.2471-5.77997,4.23s-2.20555,4.3675-2.20564,6.8145v0Z"
+                            fill="#d9d9d9" stroke="#000" stroke-width="4" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        <path
+                            d="M83.5804,67.4346c-3.3803,0-6.622,1.3428-9.0122,3.733s-3.733,5.6319-3.733,9.0121c.0079,1,.1295,1.9922.3687,2.9648h-.0079c-2.2762.1664-4.3994,1.2084-5.9237,2.9071s-2.331,3.922-2.2509,6.2029c.0802,2.281,1.0411,4.4421,2.681,6.0295s3.8309,2.478,6.1132,2.484h29.4114c1.63-.002,3.239-.373,4.705-1.0858c1.465-.7127,2.751-1.7485,3.759-3.0294s1.712-2.7736,2.06-4.366c.348-1.5923.331-3.2428-.051-4.8275-.381-1.5847-1.117-3.0622-2.152-4.3216-1.034-1.2594-2.341-2.2679-3.822-2.9497-1.48-.6817-3.096-1.019-4.726-.9865-1.6292.0325-3.2302.434-4.6824,1.1743l.0079-.1961c0-3.3802-1.3428-6.6219-3.733-9.0121s-5.6319-3.733-9.0121-3.733v0Z"
+                            fill="#d9d9d9" stroke="#000" stroke-width="4" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </g>
+                </g>
+            </g>
+        </svg>
+    </a>
+</div>
+
+    <div class="center_main_contents_title">
+    <h2>目錄</h2>
+</div>
+<div class="center_main_contents_main">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#變成喜歡的樣子">變成喜歡的樣子!</a></li>
+    <li><a href="#logo-design">Logo Design</a>
+      <ul>
+        <li><a href="#製作網站-logo">製作網站 logo</a></li>
+        <li><a href="#製作-faviconico">製作 favicon.ico</a></li>
+      </ul>
+    </li>
+    <li><a href="#svg-animation">SVG Animation</a>
+      <ul>
+        <li><a href="#什麼是-svg">什麼是 SVG?</a></li>
+        <li><a href="#製作-svg">製作 SVG</a></li>
+        <li><a href="#製作-svg-動畫">製作 SVG 動畫</a></li>
+        <li><a href="#參考">參考</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+</div>
+</div>
+
+</div>
+</body>
+
+
+
+
+
+</html>

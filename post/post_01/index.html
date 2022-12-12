@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html class='theme-container'>
+
+<head>
+    <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="referrer" content="no-referrer">
+    
+
+    <title>來建 HUGO 吧!</title>
+
+    <link rel="canonical" href="http://localhost:1313/">
+
+    
+    <link rel='stylesheet' type='text/css' href='/css/common.min.32fe52b49681cf19b4b808f714b6415442d924df10d671b064fcf4939fc7cdb5.css'/>
+    
+    <link rel='stylesheet' media='screen and (min-width: 1201px)' type='text/css'
+          href='/css/normal.min.9c058bc32a7d4d7bb6c2aa1d315116792c684d1ed389eec2741b5b46a52711b4.css'/>
+    
+    <link rel='stylesheet' media='screen and (max-width: 1200px)' type='text/css'
+          href='/css/small.min.e47b2efc4087d6f608db7a76b068966259b87238bb82e48604c1eac68e99b6a8.css'/>
+
+    
+    <link rel='stylesheet' type='text/css' href='/css/androidstudio.min.min.c0869a17349d3f1bdd078763e8c11ec9808c9f38239bb254720577662fba87bf.css'/>
+    
+    <script src="/js/highlight.min.min.e43d95bacbb7722ec18abacdf493f46e46a3aac20bb5a91a598f1894d5e2fc9c.js"></script>
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+</head>
+<script>
+    hljs.highlightAll();
+</script>
+<body>
+
+<div class="top">
+    <a href="/">
+        <img src="/img/logo.png"/>
+    </a>
+    <nav>
+        
+        <a href="/note/">
+            Note
+        </a>
+        
+        <a href="/post/">
+            Blog
+        </a>
+        
+        <a href="/projects/">
+            Projects
+        </a>
+        
+        <a href="/about">
+            About
+        </a>
+        
+    </nav>
+</div>
+
+<div id="center" class='center' >
+    
+<header class="center_head">
+    <h1>
+    來建 HUGO 吧!
+</h1>
+<div style="text-align: center;opacity: 0.5;margin-top: 0.5em;">
+    2022.09.14 03:42
+</div>
+</header>
+
+    
+<div class="center_main">
+    <a href="../" class="center_main_contents_left">
+        <h1>My Blog</h1>
+    </a>
+    <style>
+    .content_post h2::before {
+        content: "※ ";
+    }
+
+    .content_post h3::before {
+        content: "✧ ";
+    }
+</style>
+<article class="content_post heti heti--ancient">
+    <h2 id="hugo">HUGO</h2>
+<blockquote>
+<p>前往 Hugo =====&gt; <a href="https://gohugo.io">https://gohugo.io</a></p>
+</blockquote>
+<p>簡單來說, Hugo 可以選擇不同的主題樣板讓你套用, 再自行修改裡面的內容, 能夠產生 &ldquo;靜態網站&rdquo;, 並且可以直接架在 GitHub 上.</p>
+<p>為了成為軟體工程師, 懶惰 &amp; cost down 是不可或缺的特質, Hugo 宣稱他們是 &ldquo;The world’s fastest framework for building websites&rdquo;, 最重要的是 Hugo &amp; GitHub Pages 都不用錢!!!</p>
+<p>阿毛本身是用 mac 作為主要開發環境, 使用 windows 的建置方法可以參照 Hugo 的官網.</p>
+<h3 id="安裝-homebrew">安裝 Homebrew</h3>
+<p>先確認電腦有沒有安裝過 Homebrew:</p>
+<div class="highlight">
+    <span class="highlight-type">zsh</span>
+    <pre><code class="language-zsh hljs" data-lang="zsh">~ % brew --version</code></pre>
+</div>
+
+<style>
+    .highlight-type {
+        content: "zsh";
+        position: absolute;
+        opacity: 0.5;
+    }
+</style><p>如果沒有安裝過 Homebrew:</p>
+<div class="highlight">
+    <span class="highlight-type">zsh</span>
+    <pre><code class="language-zsh hljs" data-lang="zsh">~ % /bin/bash -c &#34;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)&#34;</code></pre>
+</div>
+
+<style>
+    .highlight-type {
+        content: "zsh";
+        position: absolute;
+        opacity: 0.5;
+    }
+</style><p>安裝的時候會需要等一陣子, 裝完後再去查看, 最後應該會是這樣子:</p>
+<div class="highlight">
+    <span class="highlight-type">zsh</span>
+    <pre><code class="language-zsh hljs" data-lang="zsh">==&gt; Installation successful!
+
+==&gt; Homebrew has enabled anonymous aggregate formulae and cask analytics.
+Read the analytics documentation (and how to opt-out) here:
+  https://docs.brew.sh/Analytics
+No analytics data has been sent yet (nor will any be during this install run).
+
+==&gt; Homebrew is run entirely by unpaid volunteers. Please consider donating:
+  https://github.com/Homebrew/brew#donations
+
+==&gt; Next steps:
+- Run brew help to get started
+- Further documentation:
+    https://docs.brew.sh</code></pre>
+</div>
+
+<style>
+    .highlight-type {
+        content: "zsh";
+        position: absolute;
+        opacity: 0.5;
+    }
+</style><h3 id="安裝-hugo">安裝 Hugo</h3>
+<p>用 Homebrew 下載 Hugo:</p>
+<div class="highlight">
+    <span class="highlight-type">zsh</span>
+    <pre><code class="language-zsh hljs" data-lang="zsh">~ % brew install hugo
+
+==&gt; Summary
+🍺  /usr/local/Cellar/hugo/0.102.3: 48 files, 57.5MB
+==&gt; Running `brew cleanup hugo`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).</code></pre>
+</div>
+
+<style>
+    .highlight-type {
+        content: "zsh";
+        position: absolute;
+        opacity: 0.5;
+    }
+</style><p>阿毛以前就下載過 Homebrew, 結果遇到衝突:</p>
+<div class="highlight">
+    <span class="highlight-type">zsh</span>
+    <pre><code class="language-zsh hljs" data-lang="zsh">~ % brew install hugo
+
+fatal: Could not resolve HEAD to a revision
+==&gt; Searching for similarly named formulae...
+Error: No similarly named formulae found.
+Error: No available formula or cask with the name &#34;hugo&#34;.
+==&gt; Searching for a previously deleted formula (in the last month)...
+Error: No previously deleted formula found.
+==&gt; Searching taps on GitHub...
+Error: No formulae found in taps.</code></pre>
+</div>
+
+<style>
+    .highlight-type {
+        content: "zsh";
+        position: absolute;
+        opacity: 0.5;
+    }
+</style><p>最懶的解決辦法就是解除安裝 Homebrew, 然後再重新安裝一次(注意!!! 刪除 Homebrew 會讓以前下載的 packages 也被刪除)</p>
+<div class="highlight">
+    <span class="highlight-type">zsh</span>
+    <pre><code class="language-zsh hljs" data-lang="zsh">~ % /bin/bash -c &#34;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/uninstall.sh)&#34;</code></pre>
+</div>
+
+<style>
+    .highlight-type {
+        content: "zsh";
+        position: absolute;
+        opacity: 0.5;
+    }
+</style><p>最後可以確認 Hugo 的版本:</p>
+<div class="highlight">
+    <span class="highlight-type">zsh</span>
+    <pre><code class="language-zsh hljs" data-lang="zsh">~ % hugo version
+
+hugo v0.102.3&#43;extended darwin/amd64 BuildDate=unknown</code></pre>
+</div>
+
+<style>
+    .highlight-type {
+        content: "zsh";
+        position: absolute;
+        opacity: 0.5;
+    }
+</style><h3 id="建立新的網站">建立新的網站</h3>
+<p>建立一個新的網站, 資料夾名稱可以自己調整, 這裡先跟著官方的教學一樣:</p>
+<div class="highlight">
+    <span class="highlight-type">zsh</span>
+    <pre><code class="language-zsh hljs" data-lang="zsh">~ % hugo new site quickstart</code></pre>
+</div>
+
+<style>
+    .highlight-type {
+        content: "zsh";
+        position: absolute;
+        opacity: 0.5;
+    }
+</style><p>接著就可以在目錄底下找的你的新網站資料夾.</p>
+<h3 id="選擇喜歡的主題套用">選擇喜歡的主題套用</h3>
+<blockquote>
+<p>前往 Hugo Theme =====&gt; <a href="https://themes.gohugo.io">https://themes.gohugo.io</a></p>
+</blockquote>
+<p>用主題為 <a href="https://themes.gohugo.io/themes/hugo-theme-onelou/">https://themes.gohugo.io/themes/hugo-theme-onelou/</a> 為例, 必須先到網站資料夾裡面:</p>
+<div class="highlight">
+    <span class="highlight-type">zsh</span>
+    <pre><code class="language-zsh hljs" data-lang="zsh">~ % cd quickstart</code></pre>
+</div>
+
+<style>
+    .highlight-type {
+        content: "zsh";
+        position: absolute;
+        opacity: 0.5;
+    }
+</style><p>再來初始化 git:</p>
+<div class="highlight">
+    <span class="highlight-type">zsh</span>
+    <pre><code class="language-zsh hljs" data-lang="zsh">quickstart % git init</code></pre>
+</div>
+
+<style>
+    .highlight-type {
+        content: "zsh";
+        position: absolute;
+        opacity: 0.5;
+    }
+</style><p>藉由 git 下載主題至 themes 資料夾:</p>
+<div class="highlight">
+    <span class="highlight-type">zsh</span>
+    <pre><code class="language-zsh hljs" data-lang="zsh">quickstart % git submodule add https://github.com/jyygithub/hugo-theme-onelou.git themes/onelou</code></pre>
+</div>
+
+<style>
+    .highlight-type {
+        content: "zsh";
+        position: absolute;
+        opacity: 0.5;
+    }
+</style><p>在 site configuration 加入 theme(在 config.toml 檔案裡, 新增一行 theme = &ldquo;onelou&rdquo;):</p>
+<div class="highlight">
+    <span class="highlight-type">zsh</span>
+    <pre><code class="language-zsh hljs" data-lang="zsh">quickstart % echo theme = \&#34;onelou\&#34; &gt;&gt; config.toml</code></pre>
+</div>
+
+<style>
+    .highlight-type {
+        content: "zsh";
+        position: absolute;
+        opacity: 0.5;
+    }
+</style><h3 id="調整檔案位置">調整檔案位置</h3>
+<p>由於 Hugo Theme 是開源的, 因此每個人的寫作方式都不一樣, 有可能你今天選中的主題, 會跟網站資料夾有重複的地方.</p>
+<p>例如 quickstart/content 與 quickstart/themes/onelou/content, 因此我會將其整理移至網站資料夾, 並刪除 quickstart/themes/onelou/content, 也就看個人習慣囉.</p>
+<h3 id="建立文章">建立文章</h3>
+<p>在 /content/posts 資料夾中建立 .md:</p>
+<div class="highlight">
+    <span class="highlight-type">zsh</span>
+    <pre><code class="language-zsh hljs" data-lang="zsh">quickstart % hugo new posts/my-first-post.md</code></pre>
+</div>
+
+<style>
+    .highlight-type {
+        content: "zsh";
+        position: absolute;
+        opacity: 0.5;
+    }
+</style><p>打開 .md 的話應該會長這樣:</p>
+<div class="highlight">
+    <span class="highlight-type">markdown</span>
+    <pre><code class="language-markdown hljs" data-lang="markdown">---
+title: &#34;2022-09-13&#34;
+date: 2022-09-13T10:21:27&#43;08:00
+draft: true
+---</code></pre>
+</div>
+
+<style>
+    .highlight-type {
+        content: "markdown";
+        position: absolute;
+        opacity: 0.5;
+    }
+</style><p>將 draft 改為 false 就可以將其顯示到網站上囉.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center"></th>
+<th style="text-align:center"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">draft: true</td>
+<td style="text-align:center">draft: false</td>
+</tr>
+<tr>
+<td style="text-align:center">不顯示在網站上</td>
+<td style="text-align:center">顯示在網站上</td>
+</tr>
+</tbody>
+</table>
+<h3 id="進行本地端測試">進行本地端測試</h3>
+<p>啟動 Hugo 伺服器:</p>
+<div class="highlight">
+    <span class="highlight-type">zsh</span>
+    <pre><code class="language-zsh hljs" data-lang="zsh">quickstart % hugo server -D
+
+Start building sites … 
+hugo v0.102.3&#43;extended darwin/amd64 BuildDate=unknown
+
+                   | EN  
+-------------------&#43;-----
+  Pages            | 15  
+  Paginator pages  |  0  
+  Non-page files   |  0  
+  Static files     |  8  
+  Processed images |  0  
+  Aliases          |  3  
+  Sitemaps         |  1  
+  Cleaned          |  0  
+
+Built in 60 ms
+Watching for changes in /quickstart/{archetypes,content,data,layouts,static,themes}
+Watching for config changes in /quickstart/config.toml, /quickstart/themes/onelou/config.yaml
+Environment: &#34;development&#34;
+Serving pages from memory
+Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Press Ctrl&#43;C to stop</code></pre>
+</div>
+
+<style>
+    .highlight-type {
+        content: "zsh";
+        position: absolute;
+        opacity: 0.5;
+    }
+</style><blockquote>
+<p>再連線至 =====&gt; http://localhost:1313/</p>
+</blockquote>
+<p>本地端的測試就成功了!!!</p>
+
+</article>
+
+<div class="content_post_button">
+    
+    
+    <button onclick="window.location.href = 'http:\/\/localhost:1313\/post\/post_02\/'">
+        <span style="color: var(--primary-color);">下一篇</span><br />Mac 刪除 Symantec Endpoint Protection
+    </button>
+    
+</div>
+<div class="back_top_svg">
+    <a class="back_top" href="javascript:window.scrollTo(0,0);">
+        <svg id="eewkZaUJCNo1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="114"
+            height="103" viewBox="0 0 114 103" shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
+            <g id="eewkZaUJCNo2_tr" transform="translate(57.000001,90.534501) rotate(0)">
+                <g transform="translate(-56.970901,-48.575)">
+                    <g id="eewkZaUJCNo3_to" transform="translate(56.9709,36.5)">
+                        <g transform="translate(-56.9709,-36.5)">
+                            <path id="eewkZaUJCNo4"
+                                d="M47.837,8.71715L56.9708,2l9.1339,6.71715c3.051,2.24395,5.5314,5.17405,7.2409,8.55355s2.6003,7.1137,2.6003,10.901v30.7533h-37.9501v-30.7533c0-3.7873.8908-7.5215,2.6003-10.901s4.1899-6.3096,7.2409-8.55355v0Z"
+                                fill="#343232" stroke="#000" stroke-width="4" stroke-linejoin="round" />
+                            <path id="eewkZaUJCNo5"
+                                d="M37.9959,24.425l-10.35,10.35v13.8l10.35-5.175v-18.975Zm37.95,0l10.35,10.35v13.8L75.9459,43.4v-18.975Z"
+                                fill="#343232" stroke="#000" stroke-width="4" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path id="eewkZaUJCNo6" d="M46.6208,62.375v5.175m10.35-5.175v8.625m10.35-8.625v5.175"
+                                opacity="0" fill="none" stroke="#cc3232" stroke-width="4" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <circle id="eewkZaUJCNo7" r="9.50667" transform="translate(56.970901 26.993299)" />
+                            <circle id="eewkZaUJCNo8" r="4.97596" transform="translate(56.970901 26.9461)"
+                                fill="#343232" />
+                        </g>
+                    </g>
+                    <g id="eewkZaUJCNo9" transform="translate(-.029122-41.348007)" opacity="0">
+                        <path
+                            d="M2,89.2061c0,3.0833,1.22485,6.0404,3.40511,8.2206c2.18025,2.1803,5.13729,3.4053,8.22069,3.4053h29.0644c2.2679.002,4.4647-.791,6.2079-2.2417c1.7431-1.4507,2.9221-3.467,3.3315-5.6976.4095-2.2306.0234-4.5341-1.091-6.5094-1.1143-1.9752-2.8863-3.4969-5.0072-4.3.4794-1.3634.568-2.8338.2558-4.245s-1.0128-2.707-2.0226-3.741-2.2887-1.765-3.6921-2.1106c-1.4034-.3455-2.8754-.2917-4.2499.1553-.889-3.4101-3.0703-6.3404-6.0822-8.1703-3.0118-1.8298-6.6176-2.4156-10.0538-1.6332s-6.4329,2.8715-8.3557,5.825c-1.9227,2.9534-2.62036,6.5392-1.94529,9.9981-2.32365.7669-4.34624,2.2471-5.77997,4.23s-2.20555,4.3675-2.20564,6.8145v0Z"
+                            fill="#d9d9d9" stroke="#000" stroke-width="4" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        <path
+                            d="M83.5804,67.4346c-3.3803,0-6.622,1.3428-9.0122,3.733s-3.733,5.6319-3.733,9.0121c.0079,1,.1295,1.9922.3687,2.9648h-.0079c-2.2762.1664-4.3994,1.2084-5.9237,2.9071s-2.331,3.922-2.2509,6.2029c.0802,2.281,1.0411,4.4421,2.681,6.0295s3.8309,2.478,6.1132,2.484h29.4114c1.63-.002,3.239-.373,4.705-1.0858c1.465-.7127,2.751-1.7485,3.759-3.0294s1.712-2.7736,2.06-4.366c.348-1.5923.331-3.2428-.051-4.8275-.381-1.5847-1.117-3.0622-2.152-4.3216-1.034-1.2594-2.341-2.2679-3.822-2.9497-1.48-.6817-3.096-1.019-4.726-.9865-1.6292.0325-3.2302.434-4.6824,1.1743l.0079-.1961c0-3.3802-1.3428-6.6219-3.733-9.0121s-5.6319-3.733-9.0121-3.733v0Z"
+                            fill="#d9d9d9" stroke="#000" stroke-width="4" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </g>
+                </g>
+            </g>
+        </svg>
+    </a>
+</div>
+
+    <div class="center_main_contents_title">
+    <h2>目錄</h2>
+</div>
+<div class="center_main_contents_main">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#hugo">HUGO</a>
+      <ul>
+        <li><a href="#安裝-homebrew">安裝 Homebrew</a></li>
+        <li><a href="#安裝-hugo">安裝 Hugo</a></li>
+        <li><a href="#建立新的網站">建立新的網站</a></li>
+        <li><a href="#選擇喜歡的主題套用">選擇喜歡的主題套用</a></li>
+        <li><a href="#調整檔案位置">調整檔案位置</a></li>
+        <li><a href="#建立文章">建立文章</a></li>
+        <li><a href="#進行本地端測試">進行本地端測試</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+</div>
+</div>
+
+</div>
+</body>
+
+
+
+
+
+</html>
