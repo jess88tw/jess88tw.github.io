@@ -37,7 +37,7 @@ num &amp;gt; 3 表示判斷當前的元素是否大於 3.</description>
     </item>
     
     <item>
-      <title>frontEnd 常用工具</title>
+      <title>常用網頁工具</title>
       <link>/blog/blog_11/</link>
       <pubDate>Sun, 12 Mar 2023 18:20:30 +0800</pubDate>
       
@@ -52,7 +52,8 @@ css https://caniuse.com/
 svg, png, webp https://heroicons.com/
 查找 svg 用. https://ionic.io/ionicons
 查找 svg 用. https://squoosh.app/
-可以壓縮圖片. </description>
+可以壓縮圖片. 製圖 https://excalidraw.com/
+可以畫示意圖. </description>
     </item>
     
     <item>
