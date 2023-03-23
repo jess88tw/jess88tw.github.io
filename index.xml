@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hihi</title>
+    <link>/</link>
+    <description>Recent content on Hihi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 18 Mar 2023 12:16:50 +0800</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Angular(10) Service</title>
+      <link>/articles/articale_13/</link>
+      <pubDate>Sat, 18 Mar 2023 12:16:50 +0800</pubDate>
+      
+      <guid>/articles/articale_13/</guid>
+      <description>Service 用途 Service 是可以 injectable 的一種 class,
+可以將 Angular Web App 的 業務邏輯 &amp;amp; 數據操作 Component 進行簡化.
+改由 Service 負責提供 Component 所需的邏輯 &amp;amp; 數據,
+讓 Component 可以必較容易進行數據間的溝通,
+而不需要直接進行數據操作.
+也可以將 Service 注入 Service,
+也就是所謂的 injectable.
+Service 的注入 Service 可以通過注入方式在 Component 之間進行共享.
+可以使用 Dependency Injection 來實現注入.
+當一個 Component 需要使用某個 Service 的時候,
+可以在該 Component 的 constructor 中聲明一個對應的參數,
+當該 Component 被創建時,
+就可以在 Component 中呼叫該 Service 中的物件 or 方法.
+import { Component } from &amp;#34;@angular/core&amp;#34;; // 這裡引用要使用的 Service import { MyService } from &amp;#34;.</description>
+    </item>
+    
+    <item>
+      <title>Angular(9) Router</title>
+      <link>/articles/articale_12/</link>
+      <pubDate>Sat, 18 Mar 2023 10:16:50 +0800</pubDate>
+      
+      <guid>/articles/articale_12/</guid>
+      <description> Router 用途 Angular Router 負責管理 Angular Web App 中的不同頁面之間的 路由.
+透過 Router 模組提供了路由的機制, 讓 Angular Web App 進行 類似傳統網頁應 的導航, 但 不需要重新加載 整個應用程式.
+可以通過 RouterModule 進行自訂 &amp;amp; 訪問.
+通過設定路由規則可以讓 Angular 在特定的 URL 下載入特定 Component.
+// path 為路徑, component 決定要載入的 Component const routes: Routes = [{ path: &amp;#34;users/:id&amp;#34;, component: UserComponent }]; 整理 參考 </description>
+    </item>
+    
+    <item>
+      <title>Angular(8) LifeCycle</title>
+      <link>/articles/articale_11/</link>
+      <pubDate>Fri, 17 Mar 2023 23:32:30 +0800</pubDate>
+      
+      <guid>/articles/articale_11/</guid>
+      <description>LifeCycle Hook Function 在 Angular 中,
+每個 Component &amp;amp; Directive 都有生命週期,
+其由一系列的生命週期 Hook 所組成.
+LifeCycle Hook Function 讓開發者在 Component &amp;amp; Directive 的 不同階段 做操作.
+Angular LifeCycle Hook：
+constructor =&amp;gt; ES6 提供給 class 的建構子, 並不屬於 Angular.
+ngOnChanges =&amp;gt; 當 Component 的一個 輸入屬性發生變化 時調用.
+ngOnInit =&amp;gt; 當 Component 初始化完成 時調用, 此時 Component 的輸入屬性和輸出屬性都已經確定.
+ngDoCheck =&amp;gt; 當 Angular 檢查 Component 的變化 時調用, 通常是由於輸入屬性發生變化或因為事件觸發引起的.
+ngAfterContentInit =&amp;gt; 當 Component 的 Content 完成初始化 之後調用, 通常用於對 Component 的 Content 執行操作.</description>
+    </item>
+    
+    <item>
+      <title>Angular(7) Pipe</title>
+      <link>/articles/articale_10/</link>
+      <pubDate>Fri, 17 Mar 2023 23:30:30 +0800</pubDate>
+      
+      <guid>/articles/articale_10/</guid>
+      <description>Pipe 用途 Angular 的 Pipe 是一種 轉換資料 的方式,
+它可以用在 Template 中對資料進行格式化或轉換等操作,
+並可以在程式碼中進行重複利用.
+Pipe 可以分為兩種類型:
+Angular 內建 Pipe, Angular 提供如 DatePipe, UpperCasePipe&amp;hellip;
+自訂 Pipe.
+內建 Pipe 只需要在模板中使用管道符號 | 來調用 Pipe 即可.
+以下是一些常用的內建 Pipe:
+DatePipe =&amp;gt; 格式化日期, {{ date | date:&#39;yyyy-MM-dd&#39; }}
+UpperCasePipe =&amp;gt; 將文字轉為大寫, {{ name | uppercase }}
+LowerCasePipe =&amp;gt; 將文字轉為小寫, {{ name | lowercase }}
+CurrencyPipe =&amp;gt; 格式化金額, {{ price | currency:&#39;USD&#39; }}
+PercentPipe =&amp;gt; 格式化百分比, {{ rate | percent }}</description>
+    </item>
+    
+    <item>
+      <title>Angular(6) Directive</title>
+      <link>/articles/articale_09/</link>
+      <pubDate>Fri, 17 Mar 2023 22:30:30 +0800</pubDate>
+      
+      <guid>/articles/articale_09/</guid>
+      <description>Directive 用途 Angular Directive 是用來擴充 HTML 的元素 &amp;amp; 屬性 &amp;amp; class &amp;amp; 樣式,
+可以透過 Directive 自定義 HTML 元素的行為 &amp;amp; 樣式.
+Angular 有三種 Directive:
+Component Directive, 用來構建可重複使用的 Component.
+Attribute Directive, 用來更改元素的外觀 &amp;amp; 行為.
+Structural Directive, 用來改變 HTML 的 布局 和 結構.
+Component Directive 可以把 Component Directive 當作是一個帶有 模板 的指令,
+用來構建 可重複使用的 &amp;amp; 有模板的元件,
+它可以與其它 Directive &amp;amp; 元素 &amp;amp; 屬性一起使用.
+Attribute Directive Attribute Directive 可以修改 HTML 元素的 外觀 &amp;amp; 行為,
+在 Angular 中,</description>
+    </item>
+    
+    <item>
+      <title>Angular(5) Data Binding</title>
+      <link>/articles/articale_08/</link>
+      <pubDate>Fri, 17 Mar 2023 21:30:30 +0800</pubDate>
+      
+      <guid>/articles/articale_08/</guid>
+      <description>Data Binding 用途 Angular 的 Data Binding 可以幫助我們將應用程式的資料和 DOM 建立關聯,
+實現動態資料更新 DOM 的效果.
+Angular Data Binding 主要有四種形式:
+插值綁定(Interpolation)
+屬性綁定(Property Binding)
+事件綁定(Event Binding)
+雙向綁定(Two-way Binding)
+Data Binding 優點 更加輕鬆地將 Component 與 Template 建立關聯.
+提高開發效率 &amp;amp; 可維護性.
+Angular 變更偵測機制 可以實現高效的資料更新, 避免不必要的 DOM 操作.
+Interpolation 使用 {{ }} 語法將資料綁定到 Template,
+通常用於將資料顯示在標題 &amp;amp; 段落或表格等元素中.
+&amp;lt;h1&amp;gt;{{ title }}&amp;lt;/h1&amp;gt; &amp;lt;p&amp;gt;{{ content }}&amp;lt;/p&amp;gt; Property Binding 使用 [ ] 語法將資料綁定到元素的 屬性 上,
+通常用於修改元素的屬性值,
+例如修改按鈕的文字 &amp;amp;　圖片的 URL 等&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Angular(4) Component</title>
+      <link>/articles/articale_07/</link>
+      <pubDate>Fri, 17 Mar 2023 18:30:30 +0800</pubDate>
+      
+      <guid>/articles/articale_07/</guid>
+      <description>Component 用途 Component 用於控制網頁視圖中的 一塊區域.
+渲染, 透過 HTML &amp;amp; CSS.
+資料該怎麼顯示, DOM 如何被操作, 透過 TS.
+資料改怎麼傳遞, 透過 Data Binding or TS 中的 Service.
+在 Component 中可以包含其他的 Component.
+因此好的 Component 必須可以 重複使用.
+建立新 Component 於 terminal 輸入 ng g c board 生成一個 board Component.
+PS C:\Users\Jess\Test&amp;gt; ng g c board CREATE src/app/board/board.component.html (20 bytes) CREATE src/app/board/board.component.spec.ts (592 bytes) CREATE src/app/board/board.component.ts (198 bytes) CREATE src/app/board/board.component.css (0 bytes) UPDATE src/app/app.module.ts (447 bytes) 在這裡 Angular CLI 幫我們建立了一個資料夾 board.</description>
+    </item>
+    
+    <item>
+      <title>Angular(3) 基礎結構</title>
+      <link>/articles/articale_06/</link>
+      <pubDate>Thu, 16 Mar 2023 18:30:30 +0800</pubDate>
+      
+      <guid>/articles/articale_06/</guid>
+      <description>What is NgModule? Angular 的特點之一就是 模組化開發的框架, 它有著自己特有的模組系統 NgModule.
+每個 Angular App 至少會有一個 NgModule 的 Root Module, 通常取名為 AppModule, 且這個根模組會放在 app.module.ts.
+解析 app.module.ts:
+// import 的程式碼都放在這個區塊 import { NgModule } from &amp;#34;@angular/core&amp;#34;; import { BrowserModule } from &amp;#34;@angular/platform-browser&amp;#34;; import { AppRoutingModule } from &amp;#34;./app-routing.module&amp;#34;; import { AppComponent } from &amp;#34;./app.component&amp;#34;; // Decorator 裝飾器 @NgModule({ declarations: [AppComponent], imports: [BrowserModule, AppRoutingModule], providers: [], bootstrap: [AppComponent], }) export class AppModule {} @NgModule:
+declarations =&amp;gt; 可以放入 Component, Directive, Pipe.</description>
+    </item>
+    
+    <item>
+      <title>Angular(2) 環境安裝</title>
+      <link>/articles/articale_05/</link>
+      <pubDate>Thu, 16 Mar 2023 12:30:30 +0800</pubDate>
+      
+      <guid>/articles/articale_05/</guid>
+      <description>Visual Studio Code IDE 推薦使用 Visual Studio Code.
+Vs code Extensions 安裝 Angular Extension Pack.
+前往 Visual Studio Code 官網 =====&amp;gt; https://code.visualstudio.com/
+安裝 NodeJS 安裝 NodeJS LTS 版本.
+於環境變數中的 Path, 新增 nodejs 的安裝路徑.
+前往 NodeJS 官網 =====&amp;gt; https://nodejs.org/en/
+在 terminal 輸入 node -v, 測試 nodejs 確認安裝是否成功.
+C:\Users\Jess&amp;gt;node -v v16.13.1 安裝 Angular CLI 輸入 npm install -g @angular/cli,
+再輸入 ng version 測試 Angular CLI 確認安裝是否成功.
+C:\Users\Jess&amp;gt;ng version _ _ ____ _ ___ / \ _ __ __ _ _ _| | __ _ _ __ / ___| | |_ _| / △ \ | &amp;#39;_ \ / _` | | | | |/ _` | &amp;#39;__| | | | | | | / ___ \| | | | (_| | |_| | | (_| | | | |___| |___ | | /_/ \_\_| |_|\__, |\__,_|_|\__,_|_| \____|_____|___| |___/ Angular CLI: 15.</description>
+    </item>
+    
+    <item>
+      <title>Angular(1) 簡介</title>
+      <link>/articles/articale_04/</link>
+      <pubDate>Thu, 16 Mar 2023 09:30:30 +0800</pubDate>
+      
+      <guid>/articles/articale_04/</guid>
+      <description>What is Angular? Angular 是一個開源的前端框架, 由 Google 團隊開發和維護, 用於構建 動態 Web App.
+有完整的開發工具包, 讓開發者可以更加快速 &amp;amp; 高效地開發 Web App.
+Why Angular? Data Binding Component(TypeScript) &amp;amp; Template(HTML) 互相傳遞資料的方式, 減少了手動處理 DOM 的繁雜工作, 提高了開發效率.
+模組化架構 將 Web App 拆分為多個模塊, 每個模塊專注於一個特定的功能, 提高程式的 可維護性 和 可擴展性.
+Dependency injection Angular 提供了依賴注入的機制, 可以創建可 重用 &amp;amp; 可 測試 的 Component, 減少程式的重工.
+Directives Directives 可以幫助開發者更輕鬆地實現各種常見 DOM 操作.
+*ngFor
+*ngIf
+[ngSwitch]
+Typescript Angular 使用 TypeScript 作為開發語言.
+擁有 型別 與 介面</description>
+    </item>
+    
+    <item>
+      <title>JavaScript Spread Operator 用法</title>
+      <link>/blog/blog_14/</link>
+      <pubDate>Tue, 14 Mar 2023 11:24:47 +0800</pubDate>
+      
+      <guid>/blog/blog_14/</guid>
+      <description>Spread Operator 在 JavaScript, Spread operator 是一個用來展開 array or object 的運算符號, 可以分解成單獨的元素,可以分解成單獨的元素, 讓它們可以被傳遞到函式或者陣列中, 好處是可以簡化程式碼, 使其簡潔易讀.
+Spread operator 使用三個點 ... 來表示.
+展開陣列 const arr1 = [1, 2, 3]; const arr2 = [...arr1, 4, 5, 6]; console.log(arr2); // [1, 2, 3, 4, 5, 6] 將兩個陣列合併 const arr1 = [1, 2, 3]; const arr2 = [4, 5, 6]; const arr3 = [...arr1, ...arr2]; console.log(arr3); // [1, 2, 3, 4, 5, 6] 在函式中傳遞陣列 function myFunction(x, y, z) { console.</description>
+    </item>
+    
+    <item>
+      <title>JavaScript find() &amp; reduce() 用法和差異</title>
+      <link>/blog/blog_13/</link>
+      <pubDate>Mon, 13 Mar 2023 18:00:30 +0800</pubDate>
+      
+      <guid>/blog/blog_13/</guid>
+      <description>find() 方法 用法: array.find(callback[, thisArg])
+功能: 尋找符合指定條件的 第一個元素, 如果找到則返回該元素, 否則返回 undefined.
+callback:
+接受 3 個參數:
+element: 當前遍歷到的陣列元素.
+index(可選): 當前遍歷到的陣列元素的索引.
+array(可選): 被遍歷的陣列.
+返回值: 如果符合指定條件, 則返回 true, 否則返回 false.
+find() 範例 const arr = [1, 2, 3, 4, 5]; const result = arr.find((num) =&amp;gt; num &amp;gt; 3); console.log(result); // 4 (num) =&amp;gt; num &amp;gt; 3 是回調函數, 用來判斷陣列中的每個元素是否大於 3, 當 第一個 符合條件的元素被找到時, 該元素就會成為 find() 方法的返回值.
+num 是當前遍歷到的陣列元素.
+num &amp;gt; 3 表示判斷當前的元素是否大於 3.</description>
+    </item>
+    
+    <item>
+      <title>frontEnd 常用工具</title>
+      <link>/blog/blog_11/</link>
+      <pubDate>Sun, 12 Mar 2023 18:20:30 +0800</pubDate>
+      
+      <guid>/blog/blog_11/</guid>
+      <description> html https://www.editorx.com/
+可以直接參考上面的設計樣式, 或直接在上自行設計之後再刻畫面.
+可以配合 RWD 設計不同版面.
+css https://caniuse.com/
+查詢各種 css 屬性, 那些瀏覽器版本支援. https://coolors.co/e67e22
+可以在上面直接找顏色列表.
+可以比較顏色對比度.
+svg, png, webp https://heroicons.com/
+查找 svg 用. https://ionic.io/ionicons
+查找 svg 用. https://squoosh.app/
+可以壓縮圖片. </description>
+    </item>
+    
+    <item>
+      <title>20230113 Weekly Report</title>
+      <link>/blog/blog_12/</link>
+      <pubDate>Fri, 13 Jan 2023 08:30:24 +0800</pubDate>
+      
+      <guid>/blog/blog_12/</guid>
+      <description>本週進度 投履歷囉!
+TODO.
+更新履歷.
+作品集整理.
+去比薪水留下 鼎盛 的評語.
+普天同慶 在跟 前 主管提完離職後, 無債一身, 把 104 履歷再次打開, 也開始遞履歷給自己心儀的公司, 在經過一系列奮鬥, 終於被錄取拉～～～
+新的公司主要在做資料相關的治理, 也有前後端分離, 但基本都要會, 也與我的職涯發展志同道合, 錄取後直接報到, 完全沒有猶豫, 面試那天看看環境的時候, 我看到每個人標配兩個螢幕, 寬敞的桌面, 乾淨的廁所, 衛生的茶水間, 著實讓我大開眼界, 感覺是把員工當人看的公司, 外面的世界還真大, 好險我跳出那潭泥沼了.
+新公司目前想給我的任務是做前端的部分, 也就是公司在使用的 Angular, 試用期也是以這做為評分標準, 接下來就是全力衝刺把前端的部分學好學滿.
+接下來該做什麼?
+加深 html &amp;amp; css 基礎.
+學習 Angular.</description>
+    </item>
+    
+    <item>
+      <title>20221230 Weekly Report</title>
+      <link>/blog/blog_10/</link>
+      <pubDate>Fri, 30 Dec 2022 08:30:22 +0800</pubDate>
+      
+      <guid>/blog/blog_10/</guid>
+      <description>本週進度 本週主要在工作上的交接, 但說實在的交接的東習其實學長都看過了.
+TODO.
+公司.
+完成公司交代的功能.
+交接負責的部份.
+好好休息.
+不幹最大 終於有空更新了!
+前陣子被公司壓榨, 太忙根本沒有精力去做自己的事情, 終於受不了跟主管提離職後, 哇嗚, 整個態度都不一樣, 說話完全客客氣氣, 還想要加薪留人, 難道沒有意識到其實根本不是錢的問題嗎? 至少我現在相信員工會離職有一大部分都是因為 人, 反正這邊就是把違約金付一付, 高歌離席! 雖然繳完違約金後, 生活可能會過得有點苦, 也有點捨不得一起奮鬥的戰友, 但只有脫離這個險惡的環境, 我的身心才能得以休息.
+現在該做什麼?
+把公司原本指派的功能寫好.
+與學長交接之前負責的部分.
+存錢(違約金很貴).
+未來該做什麼?
+找工作.
+持續學習新技能(如前端框架等&amp;hellip;).</description>
+    </item>
+    
+    <item>
+      <title>20221123 Weekly Report</title>
+      <link>/blog/blog_09/</link>
+      <pubDate>Wed, 23 Nov 2022 10:22:50 +0800</pubDate>
+      
+      <guid>/blog/blog_09/</guid>
+      <description>本週進度 這些日子許久沒更新了, 原本想說哪一間公司會這麼佛心, 培訓還給錢又幫忙分配工作, 但水很深啊&amp;hellip;
+TODO.
+Md.
+總結目前為止學到的特別技術. 公司.
+前台 Apis.
+後台 Apis.
+電文 Apis.
+Cosera.
+獲得 Google Data Analytics 證書 11/30. 心力交瘁 這個月簡直疲勞轟炸, 好不容易通過考核期, 開心沒多久終於露出真面目了&amp;hellip;
+分發到的主管好像不怎麼會管理, 無償加班就算了(但也是很糟糕), 比較不解的是就只有新人沒有加班費, 除了我們之外其他人都有&amp;hellip; 也沒有前輩有空帶我們, 他們自身難保, 感覺在工作的分配上很有問題, 12 月初要交案的東西, 10 月中丟給我們做也沒有解釋, 就要我們自己生出來, 11 月開始要趕案子加班我能理解, 但不給加班費的理由竟然是&amp;quot;覺得這是你們該準時交的!&amp;quot;, 哇, 當初再從同事間選人的時候, 為什麼要選兩個要當兵教召三個禮拜的人呢? 等於原本 3 個人的工作量變成 2 人做, 再來怪新人沒有按時做出來, 優秀, 太優秀了, 平日加班到 9 點也不給吃飯, 禮拜六一早到晚上也不支薪.
+原本以為大公司不敢亂來, 看來是我太天真, 原來當初網友說的都是真的, 狗在這公司都比我們像人.
+為什麼不離職.
+培訓完後應工作一年, 不然要賠償金(不確定金額).
+工作未滿一年, 履歷不好看.
+青年就業補助應該到 01/06.
+為什麼該離職.
+不認可主管價值觀(想當年 blablabla).</description>
+    </item>
+    
+    <item>
+      <title>常用快捷</title>
+      <link>/blog/blog_08/</link>
+      <pubDate>Tue, 18 Oct 2022 18:32:50 +0800</pubDate>
+      
+      <guid>/blog/blog_08/</guid>
+      <description> VsCode 主要常用在 Python, 前端開發, 有自動排版功能.
+自動排版.
+⌘(command) + ⇧(shift) + P 選擇通樣多項.
+⌘(command) + D Intellij 主要用在 Java, 後端開發.
+選擇通樣多項.
+control + G Windows Screen Shot.
+Win + Shift + S </description>
+    </item>
+    
+    <item>
+      <title>Java Optional 常用方法</title>
+      <link>/blog/blog_07/</link>
+      <pubDate>Sat, 15 Oct 2022 12:50:47 +0800</pubDate>
+      
+      <guid>/blog/blog_07/</guid>
+      <description>Optional 是什麼? Optional 是值的容器, 只有兩種狀態, 不是有值就是沒值.
+將輸入的值產生為 Optional 物件, 這時 Optional 物件即為該值的容器, 若要取回該值, 必須使用 get() 方法.
+將值轉為 Optional 的方法 of(): 接受 非 null 的值 並回傳 Optional 物件.
+ofNullable(): 可以接受 null 的值, 回傳 Optional 物件.
+取得放在 Optional 物件內的值的方法 get(): 如果值存在就回傳這個值, 否則就丟出 NoSuchElementException.
+orElse(T other): 如果值存在就回傳這個值, 否則回傳 other.
+orElseGet(Supplier&amp;lt;? extends T&amp;gt; other): 如果值存在就回傳這個值, 否則就呼叫 other 並回傳它的結果.
+orElseThrow(Supplier&amp;lt;? extends X&amp;gt; exceptionSupplier): 如果值存在就回傳這個值, 否則就丟出由 exceptionSupplier 建立的例外.
+常用範例 在 Repository 可以直接用 Optional, 這樣就可以避免資料庫互動時回 null 造成錯誤:</description>
+    </item>
+    
+    <item>
+      <title>Java query 常用方法</title>
+      <link>/blog/blog_06/</link>
+      <pubDate>Thu, 13 Oct 2022 11:30:47 +0800</pubDate>
+      
+      <guid>/blog/blog_06/</guid>
+      <description>jdbcTemplate Repository 負責與數據庫溝通, 運用 SQL 語言來操作 CRUD:
+@Repository public class DemoDao { @Autowired private JdbcTemplate jdbcTemplate; public void addStaff (ExampleEntity exampleEntity) { String sql = &amp;#34;INSERT INTO members(id, name) VALUES (?,?);&amp;#34;; jdbcTemplate.update(sql, exampleEntity.getId(), exampleEntity.getName()); } } execute.
+操作資料表相關的 SQL (create, drop…). update / batchUpdate.
+資料的新增、修改、刪除. query / queryForXXX.
+查詢資料. call.
+Stored Procedure. JPA Repository extends JpaRepository:
+public interface DemoRepository extends JpaRepository&amp;lt;DemoEntity, String&amp;gt; { DemoEntity findByGuid(String guid); List&amp;lt;DemoEntity&amp;gt; findByGuid(String guid); } 可以直接使用 JPA 的語法進行查詢, findByGuid = SELLECT \* FROM Demo WHERE Guid = &#39;guid&#39;;, 也可以回傳該物件的 List, 但若需要更精細的查詢, 可以使用 JPQL.</description>
+    </item>
+    
+    <item>
+      <title>20220930 Weekly Report</title>
+      <link>/blog/blog_05/</link>
+      <pubDate>Fri, 30 Sep 2022 10:15:47 +0800</pubDate>
+      
+      <guid>/blog/blog_05/</guid>
+      <description>本週進度 這幾天來做個小總結, 大概一個星期總結一次好了.
+TODO.
+Md.
+前端過程. Sts.
+改寫 票交端操作紀錄查詢 10/12. Angular.
+完成 300 頁 ppt 教學.
+Youtube 影片 2 hrs.
+Cosera.
+- 把 Data 課程修完 10/17. 靈感爆炸 這禮拜經過 Cyberpunk: Edgerunners 的心靈轟炸後, 想要給 David &amp;amp; Lucy 一個好結局的我, 開始尋找有沒有畫家給他們一個好結局, 剛好在 Patreon 上有看到喜歡的畫作, 忍不住給他敗下去, 雖然平常喜歡當免費仔省錢, 但對於創作者的心血結晶, 用錢錢支持是必須的, 畢竟好的藝術家比日本壓縮機還要稀少.
+突然一個想法由然而生, 我想要一個私人畫廊擺放這些藝術品, 但總不可能真的租一個畫廊來放吧, 就這麼剛好, 我看到了角落的 Ocules, 看來阿毛又要開始點技能樹囉! Metaverse 裡面可以設計建築物並且開放參觀啊!!! 只是需要學會建模軟體 Blender, 遊戲引擎 Unity, 以及部署在 Metaverse 使用的 Mona, 於是決定開新坑, 若成功後可以再將其當作一個展示平台, 並串聯其他所學的技術.
+目前想到的點子.
+開放讓限定的使用者參觀.
+展示 NFT.</description>
+    </item>
+    
+    <item>
+      <title>highlight.min.js 目前支援</title>
+      <link>/blog/blog_04/</link>
+      <pubDate>Fri, 23 Sep 2022 13:38:07 +0800</pubDate>
+      
+      <guid>/blog/blog_04/</guid>
+      <description>目前支援 highlight 的程式語言 powershell
+bash
+shell
+zsh 待修改
+scss
+plaintext
+typescript
+swift
+gradle
+nginx
+xml
+php
+ruby
+javascript
+scala
+properties
+json
+cmake
+diff
+css
+aspectj
+markdown
+python
+python-repl
+objectivec
+dust
+r
+dart
+sql
+lua
+c
+ini
+makefile
+clean
+groovy
+less
+vbnet
+graphql
+perl
+csharp
+yaml
+dockerfile
+rust
+go
+kotlin
+cpp
+basic
+wasm
+java
+http</description>
+    </item>
+    
+    <item>
+      <title>.md 常用方法</title>
+      <link>/blog/blog_03/</link>
+      <pubDate>Thu, 22 Sep 2022 10:21:37 +0800</pubDate>
+      
+      <guid>/blog/blog_03/</guid>
+      <description># 標題大小與 &amp;lt;h1&amp;gt; ~ &amp;lt;h6&amp;gt; 對應 # = &amp;lt;h1&amp;gt;.
+## = &amp;lt;h2&amp;gt;.
+### = &amp;lt;h3&amp;gt;.
+#### = &amp;lt;h4&amp;gt;.
+##### = &amp;lt;h5&amp;gt;.
+###### = &amp;lt;h6&amp;gt;.
+Highlight 我是一般字型.
+我是強調字型.
+Code &amp;lt;body&amp;gt;&amp;lt;/body&amp;gt;.
+&amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html lang=&amp;#34;en&amp;#34;&amp;gt; &amp;lt;head&amp;gt; &amp;lt;meta charset=&amp;#34;utf-8&amp;#34; /&amp;gt; &amp;lt;title&amp;gt;Example HTML5 Document&amp;lt;/title&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;p&amp;gt;Test&amp;lt;/p&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt; Blockquote 小白每天起床都會說: 今天天氣好好.
+Table AAA BBB CCC ABC EDF GHI 123 456 789 List fruit.
+apple.
+banana.
+meat.
+beef.
+chicken.
+Write the press release.</description>
+    </item>
+    
+    <item>
+      <title>Mac 刪除 Symantec Endpoint Protection</title>
+      <link>/articles/articale_03/</link>
+      <pubDate>Thu, 15 Sep 2022 10:23:27 +0800</pubDate>
+      
+      <guid>/articles/articale_03/</guid>
+      <description>尊重友善包起來! 先申明, 很感謝公司成為我的衣食父母, 但是 私人 電腦不讓我刪除試用期裝的公司防毒就太過分囉.
+Google Chrome 是病毒! 對, 你沒看錯, 阿毛遇到的情況是裝了防毒軟體後連 Chrome 都開不起來, 身為一個軟體工程師, 隨身攜帶 Ctrl + C / Ctrl + V 也是非常合情合理的, 但你這樣搞不是要斷我生路嗎?
+嘗試刪除 Symantec Endpoint Protection 當你移除 Symantec Endpoint Protection, 他會自動跑出 Uninstall 畫面:
+在你滿心歡喜的按下 Uninstall 則會出現:
+需要公司提供的 密碼 才能解鎖卸載!
+繞過公司密碼刪除 Symantec Endpoint Protection 前往 Broadcom =====&amp;gt; https://knowledge.broadcom.com/external/article/151387
+下載 RemoveSymantecMacFiles.zip 並解壓縮, 執行 RemoveSymantecMacFiles.command, 此時會需要輸入電腦的使用者密碼:
+********* RemoveSymantecMacFiles.command 8.0.3 ********* You must be an admin user to run this script.</description>
+    </item>
+    
+    <item>
+      <title>HUGO(2) 修改 HUGO</title>
+      <link>/articles/articale_02/</link>
+      <pubDate>Wed, 14 Sep 2022 13:29:28 +0800</pubDate>
+      
+      <guid>/articles/articale_02/</guid>
+      <description>變成喜歡的樣子! 通常 Hugo Theme 的開發者們都會設計很多可以變更的部分, 以主題 onelou 為範例, 該作者設計了 logo 區塊 &amp;amp; SVG 區塊等, 所以可以換上自己網站的 logo 以及自己設計的 SVG 圖片.
+Logo Design 我們先從網頁的 logo 開始吧.
+製作網站 logo 前往 DesignEvo =====&amp;gt; https://www.designevo.com/tw/
+中文介面, 適合剛接觸設計的新手, 有許多板模可以直接套用並且可以自行修改, 可以 免費 匯出 300px X 300px 的圖檔.
+進入頁面後點選 免費製作 LOGO:
+選擇想要的主題:
+就可以開始修改成自己的 logo 了:
+可以善加利用 搜尋圖標 加入不同的圖, 但要記得用英文搜尋.
+設計完成後, 可以 免費 輸出 300px X 300px 的檔, 就算超過網站也會自動幫你轉成 300px X 300px.
+點選 免費下載一個低質量的 logo:
+但如果只想要保留圖形本體, 不要背景的話, DesignEvo 就要付費了, 身為一個優秀的免費仔, 要錢跟要命一樣, 所以這邊會用到這款去背軟體.</description>
+    </item>
+    
+    <item>
+      <title>刪除 .DS_Store</title>
+      <link>/blog/blog_02/</link>
+      <pubDate>Wed, 14 Sep 2022 10:20:47 +0800</pubDate>
+      
+      <guid>/blog/blog_02/</guid>
+      <description> 顯示 關閉顯示 隱藏檔案 ⌘(command) + ⇧(shift) + .
+刪除 .DS_Store ~ % sudo find / -name &amp;#34;.DS_Store&amp;#34; -depth -exec rm {} \; 永久關閉 .DS_Store 檔案指令 ~ % defaults write com.apple.desktopservices DSDontWriteNetworkStores true 開啟 .DS_Store 檔案指令 ~ % defaults write com.apple.desktopservices DSDontWriteNetworkStores false </description>
+    </item>
+    
+    <item>
+      <title>HUGO(1) 來建 HUGO 吧</title>
+      <link>/articles/articale_01/</link>
+      <pubDate>Wed, 14 Sep 2022 03:42:40 +0800</pubDate>
+      
+      <guid>/articles/articale_01/</guid>
+      <description>HUGO 前往 Hugo =====&amp;gt; https://gohugo.io
+簡單來說, Hugo 可以選擇不同的主題樣板讓你套用, 再自行修改裡面的內容, 能夠產生 靜態網站, 並且可以直接架在 GitHub, Netlify&amp;hellip; 上.
+為了成為軟體工程師, 懶惰 &amp;amp; cost down 是不可或缺的特質, Hugo 宣稱他們是 The world&amp;rsquo;s fastest framework for building websites, 最重要的是 Hugo &amp;amp; GitHub Pages 都 不用錢!!!
+阿毛本身是用 mac 作為主要開發環境, 使用 windows 的建置方法可以參照 Hugo 的官網.
+安裝 Homebrew 先確認電腦有沒有安裝過 Homebrew:
+~ % brew --version 如果沒有安裝過 Homebrew:
+~ % /bin/bash -c &amp;#34;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)&amp;#34; 安裝的時候會需要等一陣子, 裝完後再去查看, 最後應該會是這樣子:
+==&amp;gt; Installation successful! ==&amp;gt; Homebrew has enabled anonymous aggregate formulae and cask analytics.</description>
+    </item>
+    
+    <item>
+      <title>開張大吉</title>
+      <link>/blog/blog_01/</link>
+      <pubDate>Tue, 13 Sep 2022 10:21:27 +0800</pubDate>
+      
+      <guid>/blog/blog_01/</guid>
+      <description> 慶祝阿毛的 Blog 誕生 轉職之路遙遙無期,
+從 {一日科科, 終生顆顆} 跳脫可怕的輪回,
+當然很辛苦,
+但畢竟要對以前自己做的決定負責,
+就努力把自己的不足補滿吧,
+希望我的肝可以再撐一下.
+Blog 規劃放一些要完成的目標.
+TODO.
+WorkFlow.
+蹦出來的想法.
+可能還有一些拉哩拉匝的心情.
+Articals 主要放一些技術心得文章.
+建立的過程.
+仔細的教學.
+相關知識.
+遇到的 Bug &amp;amp; Solution.
+Projects 一些專案的詳細介紹.
+簡短的介紹會在 Github. </description>
+    </item>
+    
+  </channel>
+</rss>

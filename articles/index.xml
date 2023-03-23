@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Articles on Hihi</title>
+    <link>/articles/</link>
+    <description>Recent content in Articles on Hihi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 18 Mar 2023 12:16:50 +0800</lastBuildDate><atom:link href="/articles/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Angular(10) Service</title>
+      <link>/articles/articale_13/</link>
+      <pubDate>Sat, 18 Mar 2023 12:16:50 +0800</pubDate>
+      
+      <guid>/articles/articale_13/</guid>
+      <description>Service 用途 Service 是可以 injectable 的一種 class,
+可以將 Angular Web App 的 業務邏輯 &amp;amp; 數據操作 Component 進行簡化.
+改由 Service 負責提供 Component 所需的邏輯 &amp;amp; 數據,
+讓 Component 可以必較容易進行數據間的溝通,
+而不需要直接進行數據操作.
+也可以將 Service 注入 Service,
+也就是所謂的 injectable.
+Service 的注入 Service 可以通過注入方式在 Component 之間進行共享.
+可以使用 Dependency Injection 來實現注入.
+當一個 Component 需要使用某個 Service 的時候,
+可以在該 Component 的 constructor 中聲明一個對應的參數,
+當該 Component 被創建時,
+就可以在 Component 中呼叫該 Service 中的物件 or 方法.
+import { Component } from &amp;#34;@angular/core&amp;#34;; // 這裡引用要使用的 Service import { MyService } from &amp;#34;.</description>
+    </item>
+    
+    <item>
+      <title>Angular(9) Router</title>
+      <link>/articles/articale_12/</link>
+      <pubDate>Sat, 18 Mar 2023 10:16:50 +0800</pubDate>
+      
+      <guid>/articles/articale_12/</guid>
+      <description> Router 用途 Angular Router 負責管理 Angular Web App 中的不同頁面之間的 路由.
+透過 Router 模組提供了路由的機制, 讓 Angular Web App 進行 類似傳統網頁應 的導航, 但 不需要重新加載 整個應用程式.
+可以通過 RouterModule 進行自訂 &amp;amp; 訪問.
+通過設定路由規則可以讓 Angular 在特定的 URL 下載入特定 Component.
+// path 為路徑, component 決定要載入的 Component const routes: Routes = [{ path: &amp;#34;users/:id&amp;#34;, component: UserComponent }]; 整理 參考 </description>
+    </item>
+    
+    <item>
+      <title>Angular(8) LifeCycle</title>
+      <link>/articles/articale_11/</link>
+      <pubDate>Fri, 17 Mar 2023 23:32:30 +0800</pubDate>
+      
+      <guid>/articles/articale_11/</guid>
+      <description>LifeCycle Hook Function 在 Angular 中,
+每個 Component &amp;amp; Directive 都有生命週期,
+其由一系列的生命週期 Hook 所組成.
+LifeCycle Hook Function 讓開發者在 Component &amp;amp; Directive 的 不同階段 做操作.
+Angular LifeCycle Hook：
+constructor =&amp;gt; ES6 提供給 class 的建構子, 並不屬於 Angular.
+ngOnChanges =&amp;gt; 當 Component 的一個 輸入屬性發生變化 時調用.
+ngOnInit =&amp;gt; 當 Component 初始化完成 時調用, 此時 Component 的輸入屬性和輸出屬性都已經確定.
+ngDoCheck =&amp;gt; 當 Angular 檢查 Component 的變化 時調用, 通常是由於輸入屬性發生變化或因為事件觸發引起的.
+ngAfterContentInit =&amp;gt; 當 Component 的 Content 完成初始化 之後調用, 通常用於對 Component 的 Content 執行操作.</description>
+    </item>
+    
+    <item>
+      <title>Angular(7) Pipe</title>
+      <link>/articles/articale_10/</link>
+      <pubDate>Fri, 17 Mar 2023 23:30:30 +0800</pubDate>
+      
+      <guid>/articles/articale_10/</guid>
+      <description>Pipe 用途 Angular 的 Pipe 是一種 轉換資料 的方式,
+它可以用在 Template 中對資料進行格式化或轉換等操作,
+並可以在程式碼中進行重複利用.
+Pipe 可以分為兩種類型:
+Angular 內建 Pipe, Angular 提供如 DatePipe, UpperCasePipe&amp;hellip;
+自訂 Pipe.
+內建 Pipe 只需要在模板中使用管道符號 | 來調用 Pipe 即可.
+以下是一些常用的內建 Pipe:
+DatePipe =&amp;gt; 格式化日期, {{ date | date:&#39;yyyy-MM-dd&#39; }}
+UpperCasePipe =&amp;gt; 將文字轉為大寫, {{ name | uppercase }}
+LowerCasePipe =&amp;gt; 將文字轉為小寫, {{ name | lowercase }}
+CurrencyPipe =&amp;gt; 格式化金額, {{ price | currency:&#39;USD&#39; }}
+PercentPipe =&amp;gt; 格式化百分比, {{ rate | percent }}</description>
+    </item>
+    
+    <item>
+      <title>Angular(6) Directive</title>
+      <link>/articles/articale_09/</link>
+      <pubDate>Fri, 17 Mar 2023 22:30:30 +0800</pubDate>
+      
+      <guid>/articles/articale_09/</guid>
+      <description>Directive 用途 Angular Directive 是用來擴充 HTML 的元素 &amp;amp; 屬性 &amp;amp; class &amp;amp; 樣式,
+可以透過 Directive 自定義 HTML 元素的行為 &amp;amp; 樣式.
+Angular 有三種 Directive:
+Component Directive, 用來構建可重複使用的 Component.
+Attribute Directive, 用來更改元素的外觀 &amp;amp; 行為.
+Structural Directive, 用來改變 HTML 的 布局 和 結構.
+Component Directive 可以把 Component Directive 當作是一個帶有 模板 的指令,
+用來構建 可重複使用的 &amp;amp; 有模板的元件,
+它可以與其它 Directive &amp;amp; 元素 &amp;amp; 屬性一起使用.
+Attribute Directive Attribute Directive 可以修改 HTML 元素的 外觀 &amp;amp; 行為,
+在 Angular 中,</description>
+    </item>
+    
+    <item>
+      <title>Angular(5) Data Binding</title>
+      <link>/articles/articale_08/</link>
+      <pubDate>Fri, 17 Mar 2023 21:30:30 +0800</pubDate>
+      
+      <guid>/articles/articale_08/</guid>
+      <description>Data Binding 用途 Angular 的 Data Binding 可以幫助我們將應用程式的資料和 DOM 建立關聯,
+實現動態資料更新 DOM 的效果.
+Angular Data Binding 主要有四種形式:
+插值綁定(Interpolation)
+屬性綁定(Property Binding)
+事件綁定(Event Binding)
+雙向綁定(Two-way Binding)
+Data Binding 優點 更加輕鬆地將 Component 與 Template 建立關聯.
+提高開發效率 &amp;amp; 可維護性.
+Angular 變更偵測機制 可以實現高效的資料更新, 避免不必要的 DOM 操作.
+Interpolation 使用 {{ }} 語法將資料綁定到 Template,
+通常用於將資料顯示在標題 &amp;amp; 段落或表格等元素中.
+&amp;lt;h1&amp;gt;{{ title }}&amp;lt;/h1&amp;gt; &amp;lt;p&amp;gt;{{ content }}&amp;lt;/p&amp;gt; Property Binding 使用 [ ] 語法將資料綁定到元素的 屬性 上,
+通常用於修改元素的屬性值,
+例如修改按鈕的文字 &amp;amp;　圖片的 URL 等&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Angular(4) Component</title>
+      <link>/articles/articale_07/</link>
+      <pubDate>Fri, 17 Mar 2023 18:30:30 +0800</pubDate>
+      
+      <guid>/articles/articale_07/</guid>
+      <description>Component 用途 Component 用於控制網頁視圖中的 一塊區域.
+渲染, 透過 HTML &amp;amp; CSS.
+資料該怎麼顯示, DOM 如何被操作, 透過 TS.
+資料改怎麼傳遞, 透過 Data Binding or TS 中的 Service.
+在 Component 中可以包含其他的 Component.
+因此好的 Component 必須可以 重複使用.
+建立新 Component 於 terminal 輸入 ng g c board 生成一個 board Component.
+PS C:\Users\Jess\Test&amp;gt; ng g c board CREATE src/app/board/board.component.html (20 bytes) CREATE src/app/board/board.component.spec.ts (592 bytes) CREATE src/app/board/board.component.ts (198 bytes) CREATE src/app/board/board.component.css (0 bytes) UPDATE src/app/app.module.ts (447 bytes) 在這裡 Angular CLI 幫我們建立了一個資料夾 board.</description>
+    </item>
+    
+    <item>
+      <title>Angular(3) 基礎結構</title>
+      <link>/articles/articale_06/</link>
+      <pubDate>Thu, 16 Mar 2023 18:30:30 +0800</pubDate>
+      
+      <guid>/articles/articale_06/</guid>
+      <description>What is NgModule? Angular 的特點之一就是 模組化開發的框架, 它有著自己特有的模組系統 NgModule.
+每個 Angular App 至少會有一個 NgModule 的 Root Module, 通常取名為 AppModule, 且這個根模組會放在 app.module.ts.
+解析 app.module.ts:
+// import 的程式碼都放在這個區塊 import { NgModule } from &amp;#34;@angular/core&amp;#34;; import { BrowserModule } from &amp;#34;@angular/platform-browser&amp;#34;; import { AppRoutingModule } from &amp;#34;./app-routing.module&amp;#34;; import { AppComponent } from &amp;#34;./app.component&amp;#34;; // Decorator 裝飾器 @NgModule({ declarations: [AppComponent], imports: [BrowserModule, AppRoutingModule], providers: [], bootstrap: [AppComponent], }) export class AppModule {} @NgModule:
+declarations =&amp;gt; 可以放入 Component, Directive, Pipe.</description>
+    </item>
+    
+    <item>
+      <title>Angular(2) 環境安裝</title>
+      <link>/articles/articale_05/</link>
+      <pubDate>Thu, 16 Mar 2023 12:30:30 +0800</pubDate>
+      
+      <guid>/articles/articale_05/</guid>
+      <description>Visual Studio Code IDE 推薦使用 Visual Studio Code.
+Vs code Extensions 安裝 Angular Extension Pack.
+前往 Visual Studio Code 官網 =====&amp;gt; https://code.visualstudio.com/
+安裝 NodeJS 安裝 NodeJS LTS 版本.
+於環境變數中的 Path, 新增 nodejs 的安裝路徑.
+前往 NodeJS 官網 =====&amp;gt; https://nodejs.org/en/
+在 terminal 輸入 node -v, 測試 nodejs 確認安裝是否成功.
+C:\Users\Jess&amp;gt;node -v v16.13.1 安裝 Angular CLI 輸入 npm install -g @angular/cli,
+再輸入 ng version 測試 Angular CLI 確認安裝是否成功.
+C:\Users\Jess&amp;gt;ng version _ _ ____ _ ___ / \ _ __ __ _ _ _| | __ _ _ __ / ___| | |_ _| / △ \ | &amp;#39;_ \ / _` | | | | |/ _` | &amp;#39;__| | | | | | | / ___ \| | | | (_| | |_| | | (_| | | | |___| |___ | | /_/ \_\_| |_|\__, |\__,_|_|\__,_|_| \____|_____|___| |___/ Angular CLI: 15.</description>
+    </item>
+    
+    <item>
+      <title>Angular(1) 簡介</title>
+      <link>/articles/articale_04/</link>
+      <pubDate>Thu, 16 Mar 2023 09:30:30 +0800</pubDate>
+      
+      <guid>/articles/articale_04/</guid>
+      <description>What is Angular? Angular 是一個開源的前端框架, 由 Google 團隊開發和維護, 用於構建 動態 Web App.
+有完整的開發工具包, 讓開發者可以更加快速 &amp;amp; 高效地開發 Web App.
+Why Angular? Data Binding Component(TypeScript) &amp;amp; Template(HTML) 互相傳遞資料的方式, 減少了手動處理 DOM 的繁雜工作, 提高了開發效率.
+模組化架構 將 Web App 拆分為多個模塊, 每個模塊專注於一個特定的功能, 提高程式的 可維護性 和 可擴展性.
+Dependency injection Angular 提供了依賴注入的機制, 可以創建可 重用 &amp;amp; 可 測試 的 Component, 減少程式的重工.
+Directives Directives 可以幫助開發者更輕鬆地實現各種常見 DOM 操作.
+*ngFor
+*ngIf
+[ngSwitch]
+Typescript Angular 使用 TypeScript 作為開發語言.
+擁有 型別 與 介面</description>
+    </item>
+    
+    <item>
+      <title>Mac 刪除 Symantec Endpoint Protection</title>
+      <link>/articles/articale_03/</link>
+      <pubDate>Thu, 15 Sep 2022 10:23:27 +0800</pubDate>
+      
+      <guid>/articles/articale_03/</guid>
+      <description>尊重友善包起來! 先申明, 很感謝公司成為我的衣食父母, 但是 私人 電腦不讓我刪除試用期裝的公司防毒就太過分囉.
+Google Chrome 是病毒! 對, 你沒看錯, 阿毛遇到的情況是裝了防毒軟體後連 Chrome 都開不起來, 身為一個軟體工程師, 隨身攜帶 Ctrl + C / Ctrl + V 也是非常合情合理的, 但你這樣搞不是要斷我生路嗎?
+嘗試刪除 Symantec Endpoint Protection 當你移除 Symantec Endpoint Protection, 他會自動跑出 Uninstall 畫面:
+在你滿心歡喜的按下 Uninstall 則會出現:
+需要公司提供的 密碼 才能解鎖卸載!
+繞過公司密碼刪除 Symantec Endpoint Protection 前往 Broadcom =====&amp;gt; https://knowledge.broadcom.com/external/article/151387
+下載 RemoveSymantecMacFiles.zip 並解壓縮, 執行 RemoveSymantecMacFiles.command, 此時會需要輸入電腦的使用者密碼:
+********* RemoveSymantecMacFiles.command 8.0.3 ********* You must be an admin user to run this script.</description>
+    </item>
+    
+    <item>
+      <title>HUGO(2) 修改 HUGO</title>
+      <link>/articles/articale_02/</link>
+      <pubDate>Wed, 14 Sep 2022 13:29:28 +0800</pubDate>
+      
+      <guid>/articles/articale_02/</guid>
+      <description>變成喜歡的樣子! 通常 Hugo Theme 的開發者們都會設計很多可以變更的部分, 以主題 onelou 為範例, 該作者設計了 logo 區塊 &amp;amp; SVG 區塊等, 所以可以換上自己網站的 logo 以及自己設計的 SVG 圖片.
+Logo Design 我們先從網頁的 logo 開始吧.
+製作網站 logo 前往 DesignEvo =====&amp;gt; https://www.designevo.com/tw/
+中文介面, 適合剛接觸設計的新手, 有許多板模可以直接套用並且可以自行修改, 可以 免費 匯出 300px X 300px 的圖檔.
+進入頁面後點選 免費製作 LOGO:
+選擇想要的主題:
+就可以開始修改成自己的 logo 了:
+可以善加利用 搜尋圖標 加入不同的圖, 但要記得用英文搜尋.
+設計完成後, 可以 免費 輸出 300px X 300px 的檔, 就算超過網站也會自動幫你轉成 300px X 300px.
+點選 免費下載一個低質量的 logo:
+但如果只想要保留圖形本體, 不要背景的話, DesignEvo 就要付費了, 身為一個優秀的免費仔, 要錢跟要命一樣, 所以這邊會用到這款去背軟體.</description>
+    </item>
+    
+    <item>
+      <title>HUGO(1) 來建 HUGO 吧</title>
+      <link>/articles/articale_01/</link>
+      <pubDate>Wed, 14 Sep 2022 03:42:40 +0800</pubDate>
+      
+      <guid>/articles/articale_01/</guid>
+      <description>HUGO 前往 Hugo =====&amp;gt; https://gohugo.io
+簡單來說, Hugo 可以選擇不同的主題樣板讓你套用, 再自行修改裡面的內容, 能夠產生 靜態網站, 並且可以直接架在 GitHub, Netlify&amp;hellip; 上.
+為了成為軟體工程師, 懶惰 &amp;amp; cost down 是不可或缺的特質, Hugo 宣稱他們是 The world&amp;rsquo;s fastest framework for building websites, 最重要的是 Hugo &amp;amp; GitHub Pages 都 不用錢!!!
+阿毛本身是用 mac 作為主要開發環境, 使用 windows 的建置方法可以參照 Hugo 的官網.
+安裝 Homebrew 先確認電腦有沒有安裝過 Homebrew:
+~ % brew --version 如果沒有安裝過 Homebrew:
+~ % /bin/bash -c &amp;#34;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)&amp;#34; 安裝的時候會需要等一陣子, 裝完後再去查看, 最後應該會是這樣子:
+==&amp;gt; Installation successful! ==&amp;gt; Homebrew has enabled anonymous aggregate formulae and cask analytics.</description>
+    </item>
+    
+  </channel>
+</rss>
