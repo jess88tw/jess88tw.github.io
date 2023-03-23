@@ -309,14 +309,5 @@ Projects 一些專案的詳細介紹.
 簡短的介紹會在 Github. </description>
     </item>
     
-    <item>
-      <title>HA</title>
-      <link>/blog/test/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/blog/test/</guid>
-      <description> HA </description>
-    </item>
-    
   </channel>
 </rss>
