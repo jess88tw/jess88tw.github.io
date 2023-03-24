@@ -5,14 +5,45 @@
     <link>/articles/</link>
     <description>Recent content in Articles on Hihi</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 24 Mar 2023 10:50:50 +0800</lastBuildDate><atom:link href="/articles/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 24 Mar 2023 15:00:29 +0800</lastBuildDate><atom:link href="/articles/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>HUGO(3) 部屬 Github Pages</title>
+      <title>HUGO(4) GitHub Action</title>
+      <link>/articles/articale_15/</link>
+      <pubDate>Fri, 24 Mar 2023 15:00:29 +0800</pubDate>
+      
+      <guid>/articles/articale_15/</guid>
+      <description>CI &amp;amp; CD CI &amp;amp; CD 都是軟體開發中 流程自動化 的概念.
+CI/CD 可以 加速軟體開發 與 部署流程,
+提高程式碼品質,
+降低維護成本.
+許多工具與平台如 GitHub、GitLab 等&amp;hellip;
+都提供了完整的 CI/CD 功能支援.
+CI(Continuous Integration) CI 是指在開發過程中,
+將程式碼的 修改 &amp;amp; 整合 自動化,
+讓開發者能夠頻繁地將 改變 與其他開發者所做的改變整合在一起,
+以避免後續整合時發生問題.
+可以執行如:
+程式碼自動編譯
+測試
+部署到測試環境中
+這樣可以確保程式碼的品質.
+CD(Continuous Delivery/Deployment) CD 則是指程式的 交付自動化,
+讓開發者能夠快速地將程式碼部署到正式環境中.
+CD 可以分成兩種形式:
+Continuous Delivery
+在程式碼確定能夠被部署到正式環境前, 將其部署到與正式環境相同的環境中, 並進行手動測試. Continuous Deployment
+將程式碼直接 自動部署 到正式環境中, 並不需要進行手動測試. GitHub Action GitHub Actions 是 GitHub 提供的功能,
+可以建立自動化 Workflows,
+Workflows 存放在 Repository 中,</description>
+    </item>
+    
+    <item>
+      <title>HUGO(3) GitHub Pages</title>
       <link>/articles/articale_14/</link>
       <pubDate>Fri, 24 Mar 2023 10:50:50 +0800</pubDate>
       
       <guid>/articles/articale_14/</guid>
-      <description>Repository for HUGO 第一步先把本地 HUGO 靜態網站發佈到個人的 Github 上的 Repository,
+      <description>Repository for HUGO 第一步先把本地 HUGO 靜態網站發佈到個人的 GitHub 上的 Repository,
 阿毛的習慣會設成私人,
 畢竟可能會有些草稿還沒有寫完不想發布,
 也就是 draft = true 的文件.
@@ -93,7 +124,7 @@ ngAfterContentInit =&amp;gt; 當 Component 的 Content 完成初始化 之後調
 它可以用在 Template 中對資料進行格式化或轉換等操作,
 並可以在程式碼中進行重複利用.
 Pipe 可以分為兩種類型:
-Angular 內建 Pipe, Angular 提供如 DatePipe, UpperCasePipe&amp;hellip;
+Angular 內建 Pipe, Angular 提供如 DatePipe 、 UpperCasePipe&amp;hellip;
 自訂 Pipe.
 內建 Pipe 只需要在模板中使用管道符號 | 來調用 Pipe 即可.
 以下是一些常用的內建 Pipe:
@@ -110,15 +141,15 @@ PercentPipe =&amp;gt; 格式化百分比, {{ rate | percent }}</description>
       <pubDate>Fri, 17 Mar 2023 22:30:30 +0800</pubDate>
       
       <guid>/articles/articale_09/</guid>
-      <description>Directive 用途 Angular Directive 是用來擴充 HTML 的元素 &amp;amp; 屬性 &amp;amp; class &amp;amp; 樣式,
+      <description>Directive 用途 Angular Directive 是用來擴充 HTML 的元素 、 屬性 、 class 、 樣式,
 可以透過 Directive 自定義 HTML 元素的行為 &amp;amp; 樣式.
 Angular 有三種 Directive:
 Component Directive, 用來構建可重複使用的 Component.
 Attribute Directive, 用來更改元素的外觀 &amp;amp; 行為.
-Structural Directive, 用來改變 HTML 的 布局 和 結構.
+Structural Directive, 用來改變 HTML 的 布局 、 結構.
 Component Directive 可以把 Component Directive 當作是一個帶有 模板 的指令,
 用來構建 可重複使用的 &amp;amp; 有模板的元件,
-它可以與其它 Directive &amp;amp; 元素 &amp;amp; 屬性一起使用.
+它可以與其它 Directive 、 元素 、 屬性一起使用.
 Attribute Directive Attribute Directive 可以修改 HTML 元素的 外觀 &amp;amp; 行為,
 在 Angular 中,</description>
     </item>
@@ -229,12 +260,12 @@ Google Chrome 是病毒! 對, 你沒看錯, 阿毛遇到的情況是裝了防毒
     </item>
     
     <item>
-      <title>HUGO(2) 修改 HUGO</title>
+      <title>HUGO(2) HUGO Setting</title>
       <link>/articles/articale_02/</link>
       <pubDate>Wed, 14 Sep 2022 13:29:28 +0800</pubDate>
       
       <guid>/articles/articale_02/</guid>
-      <description>變成喜歡的樣子! 通常 Hugo Theme 的開發者們都會設計很多可以變更的部分, 以主題 onelou 為範例, 該作者設計了 logo 區塊 &amp;amp; SVG 區塊等, 所以可以換上自己網站的 logo 以及自己設計的 SVG 圖片.
+      <description>變成喜歡的樣子! 通常 HUGO Theme 的開發者們都會設計很多可以變更的部分, 以主題 onelou 為範例, 該作者設計了 logo 區塊 &amp;amp; SVG 區塊等, 所以可以換上自己網站的 logo 以及自己設計的 SVG 圖片.
 Logo Design 我們先從網頁的 logo 開始吧.
 製作網站 logo 前往 DesignEvo =====&amp;gt; https://www.designevo.com/tw/
 中文介面, 適合剛接觸設計的新手, 有許多板模可以直接套用並且可以自行修改, 可以 免費 匯出 300px X 300px 的圖檔.
@@ -248,15 +279,15 @@ Logo Design 我們先從網頁的 logo 開始吧.
     </item>
     
     <item>
-      <title>HUGO(1) 來建 HUGO 吧</title>
+      <title>HUGO(1) Building a Personal Blog</title>
       <link>/articles/articale_01/</link>
       <pubDate>Wed, 14 Sep 2022 03:42:40 +0800</pubDate>
       
       <guid>/articles/articale_01/</guid>
-      <description>HUGO 前往 Hugo =====&amp;gt; https://gohugo.io
-簡單來說, Hugo 可以選擇不同的主題樣板讓你套用, 再自行修改裡面的內容, 能夠產生 靜態網站, 並且可以直接架在 GitHub.io, Netlify&amp;hellip; 上.
-為了成為軟體工程師, 懶惰 &amp;amp; cost down 是不可或缺的特質, Hugo 宣稱他們是 The world&amp;rsquo;s fastest framework for building websites, 最重要的是 Hugo &amp;amp; GitHub Pages 都 不用錢!!!
-阿毛本身是用 mac 作為主要開發環境, 使用 windows 的建置方法可以參照 Hugo 的官網.
+      <description>HUGO 前往 HUGO =====&amp;gt; https://gohugo.io
+簡單來說, HUGO 可以選擇不同的主題樣板讓你套用, 再自行修改裡面的內容, 能夠產生 靜態網站, 並且可以直接架在 GitHub.io 、 Netlify 等&amp;hellip;
+為了成為軟體工程師, 懶惰 &amp;amp; cost down 是不可或缺的特質, Hugo 宣稱他們是 The world&amp;rsquo;s fastest framework for building websites, 最重要的是 HUGO &amp;amp; GitHub Pages 都 不用錢!!!
+阿毛本身是用 mac 作為主要開發環境, 使用 windows 的建置方法可以參照 HUGO 的官網.
 安裝 Homebrew 先確認電腦有沒有安裝過 Homebrew:
 ~ % brew --version 如果沒有安裝過 Homebrew:
 ~ % /bin/bash -c &amp;#34;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)&amp;#34; 安裝的時候會需要等一陣子, 裝完後再去查看, 最後應該會是這樣子:
