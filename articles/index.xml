@@ -5,7 +5,31 @@
     <link>/articles/</link>
     <description>Recent content in Articles on Hihi</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 18 Mar 2023 12:16:50 +0800</lastBuildDate><atom:link href="/articles/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 24 Mar 2023 10:50:50 +0800</lastBuildDate><atom:link href="/articles/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>HUGO(3) 部屬 Github Pages</title>
+      <link>/articles/articale_14/</link>
+      <pubDate>Fri, 24 Mar 2023 10:50:50 +0800</pubDate>
+      
+      <guid>/articles/articale_14/</guid>
+      <description>Repository for HUGO 第一步先把本地 HUGO 靜態網站發佈到個人的 Github 上的 Repository,
+阿毛的習慣會設成私人,
+畢竟可能會有些草稿還沒有寫完不想發布,
+也就是 draft = true 的文件.
+建立存放 HUGO 的遠端 Repository 點選 New Repository 並填寫以下欄位:
+點選創建之後會出現:
+照著步驟在 terminal 輸入使用者相關的指令即可.
+GitHub Pages GitHub Pages 是 GitHub 提供的靜態網站托管服務,
+可以在上面部署 靜態網站,
+並且可以 自定義域名.
+Repository for Static Web Site 在 GitHub 上創建一個新 Repository,
+倉庫名必須是 username.github.io,
+其中 username 是你的 GitHub 用戶名,
+而且必須設為 Public:
+建好之後下一步就是讓 HUGO 幫我們生成靜態網站.
+HUGO Build Static Web Site 讓 HUGO 幫我們生成靜態 HTML 文件,</description>
+    </item>
+    
     <item>
       <title>Angular(10) Service</title>
       <link>/articles/articale_13/</link>
@@ -230,7 +254,7 @@ Logo Design 我們先從網頁的 logo 開始吧.
       
       <guid>/articles/articale_01/</guid>
       <description>HUGO 前往 Hugo =====&amp;gt; https://gohugo.io
-簡單來說, Hugo 可以選擇不同的主題樣板讓你套用, 再自行修改裡面的內容, 能夠產生 靜態網站, 並且可以直接架在 GitHub, Netlify&amp;hellip; 上.
+簡單來說, Hugo 可以選擇不同的主題樣板讓你套用, 再自行修改裡面的內容, 能夠產生 靜態網站, 並且可以直接架在 GitHub.io, Netlify&amp;hellip; 上.
 為了成為軟體工程師, 懶惰 &amp;amp; cost down 是不可或缺的特質, Hugo 宣稱他們是 The world&amp;rsquo;s fastest framework for building websites, 最重要的是 Hugo &amp;amp; GitHub Pages 都 不用錢!!!
 阿毛本身是用 mac 作為主要開發環境, 使用 windows 的建置方法可以參照 Hugo 的官網.
 安裝 Homebrew 先確認電腦有沒有安裝過 Homebrew:
