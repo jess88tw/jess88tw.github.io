@@ -5,7 +5,20 @@
     <link>/blog/</link>
     <description>Recent content in Blog on Hihi</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 14 Mar 2023 11:24:47 +0800</lastBuildDate><atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 25 Mar 2023 11:22:47 +0800</lastBuildDate><atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>VsCode 右鍵開啟檔案</title>
+      <link>/blog/blog_15/</link>
+      <pubDate>Sat, 25 Mar 2023 11:22:47 +0800</pubDate>
+      
+      <guid>/blog/blog_15/</guid>
+      <description>VsCode 右鍵開啟檔案或資料夾 至於想要在資料夾右鍵開啟的功能,
+則需要再安裝的時候就選擇:
+錯過的話則需要使用 Windows 註冊檔,
+先創建一個 .txt 在裡面貼上:
+Windows Registry Editor Version 5.00 [HKEY_CLASSES_ROOT\*\shell\Open with VS Code] @=&amp;#34;Edit with VS Code&amp;#34; &amp;#34;Icon&amp;#34;=&amp;#34;C:\\Program Files\\Microsoft VS Code\\Code.exe,0&amp;#34; [HKEY_CLASSES_ROOT\*\shell\Open with VS Code\command] @=&amp;#34;\&amp;#34;C:\\Program Files\\Microsoft VS Code\\Code.exe\&amp;#34; \&amp;#34;%1\&amp;#34;&amp;#34; [HKEY_CLASSES_ROOT\Directory\shell\vscode] @=&amp;#34;Open Folder as VS Code Project&amp;#34; &amp;#34;Icon&amp;#34;=&amp;#34;\&amp;#34;C:\\Program Files\\Microsoft VS Code\\Code.exe\&amp;#34;,0&amp;#34; [HKEY_CLASSES_ROOT\Directory\shell\vscode\command] @=&amp;#34;\&amp;#34;C:\\Program Files\\Microsoft VS Code\\Code.exe\&amp;#34; \&amp;#34;%1\&amp;#34;&amp;#34; [HKEY_CLASSES_ROOT\Directory\Background\shell\vscode] @=&amp;#34;Open Folder as VS Code Project&amp;#34; &amp;#34;Icon&amp;#34;=&amp;#34;\&amp;#34;C:\\Program Files\\Microsoft VS Code\\Code.exe\&amp;#34;,0&amp;#34; [HKEY_CLASSES_ROOT\Directory\Background\shell\vscode\command] @=&amp;#34;\&amp;#34;C:\\Program Files\\Microsoft VS Code\\Code.exe\&amp;#34; \&amp;#34;%V\&amp;#34;&amp;#34; 並且將檔名改為 VSCodeRightClick.</description>
+    </item>
+    
     <item>
       <title>JavaScript Spread Operator 用法</title>
       <link>/blog/blog_14/</link>
