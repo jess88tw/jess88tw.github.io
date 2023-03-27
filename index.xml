@@ -12,11 +12,13 @@
       <pubDate>Sat, 25 Mar 2023 11:22:47 +0800</pubDate>
       
       <guid>/blog/blog_15/</guid>
-      <description>VsCode 右鍵開啟檔案或資料夾 至於想要在資料夾右鍵開啟的功能,
-則需要再安裝的時候就選擇:
-錯過的話則需要使用 Windows 註冊檔,
-先創建一個 .txt 在裡面貼上:
-Windows Registry Editor Version 5.00 [HKEY_CLASSES_ROOT\*\shell\Open with VS Code] @=&amp;#34;Edit with VS Code&amp;#34; &amp;#34;Icon&amp;#34;=&amp;#34;C:\\Program Files\\Microsoft VS Code\\Code.exe,0&amp;#34; [HKEY_CLASSES_ROOT\*\shell\Open with VS Code\command] @=&amp;#34;\&amp;#34;C:\\Program Files\\Microsoft VS Code\\Code.exe\&amp;#34; \&amp;#34;%1\&amp;#34;&amp;#34; [HKEY_CLASSES_ROOT\Directory\shell\vscode] @=&amp;#34;Open Folder as VS Code Project&amp;#34; &amp;#34;Icon&amp;#34;=&amp;#34;\&amp;#34;C:\\Program Files\\Microsoft VS Code\\Code.exe\&amp;#34;,0&amp;#34; [HKEY_CLASSES_ROOT\Directory\shell\vscode\command] @=&amp;#34;\&amp;#34;C:\\Program Files\\Microsoft VS Code\\Code.exe\&amp;#34; \&amp;#34;%1\&amp;#34;&amp;#34; [HKEY_CLASSES_ROOT\Directory\Background\shell\vscode] @=&amp;#34;Open Folder as VS Code Project&amp;#34; &amp;#34;Icon&amp;#34;=&amp;#34;\&amp;#34;C:\\Program Files\\Microsoft VS Code\\Code.exe\&amp;#34;,0&amp;#34; [HKEY_CLASSES_ROOT\Directory\Background\shell\vscode\command] @=&amp;#34;\&amp;#34;C:\\Program Files\\Microsoft VS Code\\Code.exe\&amp;#34; \&amp;#34;%V\&amp;#34;&amp;#34; 並且將檔名改為 VSCodeRightClick.</description>
+      <description>VsCode 右鍵開啟檔案或資料夾 想要在資料夾 右鍵開啟 VsCode 的功能 的話,
+需要再 安裝 的時候就勾選:
+錯過的話也別擔心,
+可以使用 Windows 註冊檔,
+首先先創建一個任何名稱都可以的 .txt,
+接著在裡面貼上下面這一段內容:
+Windows Registry Editor Version 5.00 [HKEY_CLASSES_ROOT\*\shell\Open with VS Code] @=&amp;#34;Edit with VS Code&amp;#34; &amp;#34;Icon&amp;#34;=&amp;#34;C:\\Program Files\\Microsoft VS Code\\Code.exe,0&amp;#34; [HKEY_CLASSES_ROOT\*\shell\Open with VS Code\command] @=&amp;#34;\&amp;#34;C:\\Program Files\\Microsoft VS Code\\Code.exe\&amp;#34; \&amp;#34;%1\&amp;#34;&amp;#34; [HKEY_CLASSES_ROOT\Directory\shell\vscode] @=&amp;#34;Open Folder as VS Code Project&amp;#34; &amp;#34;Icon&amp;#34;=&amp;#34;\&amp;#34;C:\\Program Files\\Microsoft VS Code\\Code.exe\&amp;#34;,0&amp;#34; [HKEY_CLASSES_ROOT\Directory\shell\vscode\command] @=&amp;#34;\&amp;#34;C:\\Program Files\\Microsoft VS Code\\Code.exe\&amp;#34; \&amp;#34;%1\&amp;#34;&amp;#34; [HKEY_CLASSES_ROOT\Directory\Background\shell\vscode] @=&amp;#34;Open Folder as VS Code Project&amp;#34; &amp;#34;Icon&amp;#34;=&amp;#34;\&amp;#34;C:\\Program Files\\Microsoft VS Code\\Code.</description>
     </item>
     
     <item>
