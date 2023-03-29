@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>structure on Hihi</title>
+    <link>/tags/structure/</link>
+    <description>Recent content in structure on Hihi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 16 Mar 2023 18:30:30 +0800</lastBuildDate><atom:link href="/tags/structure/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Angular(3) 基礎結構</title>
+      <link>/articles/articale_06/</link>
+      <pubDate>Thu, 16 Mar 2023 18:30:30 +0800</pubDate>
+      
+      <guid>/articles/articale_06/</guid>
+      <description>了解 Angular 基礎架構.</description>
+    </item>
+    
+  </channel>
+</rss>

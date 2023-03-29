@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>highlight.js on Hihi</title>
+    <link>/tags/highlight.js/</link>
+    <description>Recent content in highlight.js on Hihi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 23 Sep 2022 13:38:07 +0800</lastBuildDate><atom:link href="/tags/highlight.js/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>highlight.min.js 目前支援</title>
+      <link>/blog/blog_04/</link>
+      <pubDate>Fri, 23 Sep 2022 13:38:07 +0800</pubDate>
+      
+      <guid>/blog/blog_04/</guid>
+      <description>highlight.min.js 修改.</description>
+    </item>
+    
+  </channel>
+</rss>

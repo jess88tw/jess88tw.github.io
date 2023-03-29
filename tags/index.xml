@@ -4,6 +4,295 @@
     <title>Tags on Hihi</title>
     <link>/tags/</link>
     <description>Recent content in Tags on Hihi</description>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 25 Mar 2023 11:22:47 +0800</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>shortcut</title>
+      <link>/tags/shortcut/</link>
+      <pubDate>Sat, 25 Mar 2023 11:22:47 +0800</pubDate>
+      
+      <guid>/tags/shortcut/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vsCode</title>
+      <link>/tags/vscode/</link>
+      <pubDate>Sat, 25 Mar 2023 11:22:47 +0800</pubDate>
+      
+      <guid>/tags/vscode/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>github action</title>
+      <link>/tags/github-action/</link>
+      <pubDate>Fri, 24 Mar 2023 15:00:29 +0800</pubDate>
+      
+      <guid>/tags/github-action/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hugo</title>
+      <link>/tags/hugo/</link>
+      <pubDate>Fri, 24 Mar 2023 15:00:29 +0800</pubDate>
+      
+      <guid>/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>github pages</title>
+      <link>/tags/github-pages/</link>
+      <pubDate>Fri, 24 Mar 2023 10:50:50 +0800</pubDate>
+      
+      <guid>/tags/github-pages/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>angular</title>
+      <link>/tags/angular/</link>
+      <pubDate>Sat, 18 Mar 2023 12:16:50 +0800</pubDate>
+      
+      <guid>/tags/angular/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>service</title>
+      <link>/tags/service/</link>
+      <pubDate>Sat, 18 Mar 2023 12:16:50 +0800</pubDate>
+      
+      <guid>/tags/service/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>router</title>
+      <link>/tags/router/</link>
+      <pubDate>Sat, 18 Mar 2023 10:16:50 +0800</pubDate>
+      
+      <guid>/tags/router/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>life cycle</title>
+      <link>/tags/life-cycle/</link>
+      <pubDate>Fri, 17 Mar 2023 23:32:30 +0800</pubDate>
+      
+      <guid>/tags/life-cycle/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pipe</title>
+      <link>/tags/pipe/</link>
+      <pubDate>Fri, 17 Mar 2023 23:30:30 +0800</pubDate>
+      
+      <guid>/tags/pipe/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>directive</title>
+      <link>/tags/directive/</link>
+      <pubDate>Fri, 17 Mar 2023 22:30:30 +0800</pubDate>
+      
+      <guid>/tags/directive/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>data binding</title>
+      <link>/tags/data-binding/</link>
+      <pubDate>Fri, 17 Mar 2023 21:30:30 +0800</pubDate>
+      
+      <guid>/tags/data-binding/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>component</title>
+      <link>/tags/component/</link>
+      <pubDate>Fri, 17 Mar 2023 18:30:30 +0800</pubDate>
+      
+      <guid>/tags/component/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>structure</title>
+      <link>/tags/structure/</link>
+      <pubDate>Thu, 16 Mar 2023 18:30:30 +0800</pubDate>
+      
+      <guid>/tags/structure/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>environment</title>
+      <link>/tags/environment/</link>
+      <pubDate>Thu, 16 Mar 2023 12:30:30 +0800</pubDate>
+      
+      <guid>/tags/environment/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>function</title>
+      <link>/tags/function/</link>
+      <pubDate>Tue, 14 Mar 2023 11:24:47 +0800</pubDate>
+      
+      <guid>/tags/function/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>javaScript</title>
+      <link>/tags/javascript/</link>
+      <pubDate>Tue, 14 Mar 2023 11:24:47 +0800</pubDate>
+      
+      <guid>/tags/javascript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tool</title>
+      <link>/tags/tool/</link>
+      <pubDate>Sun, 12 Mar 2023 18:20:30 +0800</pubDate>
+      
+      <guid>/tags/tool/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mood</title>
+      <link>/tags/mood/</link>
+      <pubDate>Fri, 13 Jan 2023 08:30:24 +0800</pubDate>
+      
+      <guid>/tags/mood/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>java</title>
+      <link>/tags/java/</link>
+      <pubDate>Sat, 15 Oct 2022 12:50:47 +0800</pubDate>
+      
+      <guid>/tags/java/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>optional</title>
+      <link>/tags/optional/</link>
+      <pubDate>Sat, 15 Oct 2022 12:50:47 +0800</pubDate>
+      
+      <guid>/tags/optional/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>jdbcTemplate</title>
+      <link>/tags/jdbctemplate/</link>
+      <pubDate>Thu, 13 Oct 2022 11:30:47 +0800</pubDate>
+      
+      <guid>/tags/jdbctemplate/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>jpa</title>
+      <link>/tags/jpa/</link>
+      <pubDate>Thu, 13 Oct 2022 11:30:47 +0800</pubDate>
+      
+      <guid>/tags/jpa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>jpql</title>
+      <link>/tags/jpql/</link>
+      <pubDate>Thu, 13 Oct 2022 11:30:47 +0800</pubDate>
+      
+      <guid>/tags/jpql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>query</title>
+      <link>/tags/query/</link>
+      <pubDate>Thu, 13 Oct 2022 11:30:47 +0800</pubDate>
+      
+      <guid>/tags/query/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>highlight.js</title>
+      <link>/tags/highlight.js/</link>
+      <pubDate>Fri, 23 Sep 2022 13:38:07 +0800</pubDate>
+      
+      <guid>/tags/highlight.js/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>md</title>
+      <link>/tags/md/</link>
+      <pubDate>Thu, 22 Sep 2022 10:21:37 +0800</pubDate>
+      
+      <guid>/tags/md/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>symantec</title>
+      <link>/tags/symantec/</link>
+      <pubDate>Thu, 15 Sep 2022 10:23:27 +0800</pubDate>
+      
+      <guid>/tags/symantec/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>blog</title>
+      <link>/tags/blog/</link>
+      <pubDate>Wed, 14 Sep 2022 13:29:28 +0800</pubDate>
+      
+      <guid>/tags/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>static web site</title>
+      <link>/tags/static-web-site/</link>
+      <pubDate>Wed, 14 Sep 2022 13:29:28 +0800</pubDate>
+      
+      <guid>/tags/static-web-site/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>.DS_Store</title>
+      <link>/tags/.ds_store/</link>
+      <pubDate>Wed, 14 Sep 2022 10:20:47 +0800</pubDate>
+      
+      <guid>/tags/.ds_store/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CI/CD</title>
+      <link>/tags/ci/cd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/ci/cd/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
