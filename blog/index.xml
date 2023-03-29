@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Blog on Hihi</title>
     <link>/blog/</link>
@@ -12,13 +12,7 @@
       <pubDate>Sat, 25 Mar 2023 11:22:47 +0800</pubDate>
       
       <guid>/blog/blog_15/</guid>
-      <description>VsCode 右鍵開啟檔案或資料夾 想要在資料夾 右鍵開啟 VsCode 的功能 的話,
-需要再 安裝 的時候就勾選:
-錯過的話也別擔心,
-可以使用 Windows 註冊檔,
-首先先創建一個任何名稱都可以的 .txt,
-接著在裡面貼上下面這一段內容:
-Windows Registry Editor Version 5.00 [HKEY_CLASSES_ROOT\*\shell\Open with VS Code] @=&amp;#34;Edit with VS Code&amp;#34; &amp;#34;Icon&amp;#34;=&amp;#34;C:\\Program Files\\Microsoft VS Code\\Code.exe,0&amp;#34; [HKEY_CLASSES_ROOT\*\shell\Open with VS Code\command] @=&amp;#34;\&amp;#34;C:\\Program Files\\Microsoft VS Code\\Code.exe\&amp;#34; \&amp;#34;%1\&amp;#34;&amp;#34; [HKEY_CLASSES_ROOT\Directory\shell\vscode] @=&amp;#34;Open Folder as VS Code Project&amp;#34; &amp;#34;Icon&amp;#34;=&amp;#34;\&amp;#34;C:\\Program Files\\Microsoft VS Code\\Code.exe\&amp;#34;,0&amp;#34; [HKEY_CLASSES_ROOT\Directory\shell\vscode\command] @=&amp;#34;\&amp;#34;C:\\Program Files\\Microsoft VS Code\\Code.exe\&amp;#34; \&amp;#34;%1\&amp;#34;&amp;#34; [HKEY_CLASSES_ROOT\Directory\Background\shell\vscode] @=&amp;#34;Open Folder as VS Code Project&amp;#34; &amp;#34;Icon&amp;#34;=&amp;#34;\&amp;#34;C:\\Program Files\\Microsoft VS Code\\Code.</description>
+      <description>讓 VsCode 變得方便好用.</description>
     </item>
     
     <item>
@@ -27,9 +21,7 @@ Windows Registry Editor Version 5.00 [HKEY_CLASSES_ROOT\*\shell\Open with VS Cod
       <pubDate>Tue, 14 Mar 2023 11:24:47 +0800</pubDate>
       
       <guid>/blog/blog_14/</guid>
-      <description>Spread Operator 在 JavaScript, Spread operator 是一個用來展開 array or object 的運算符號, 可以分解成單獨的元素,可以分解成單獨的元素, 讓它們可以被傳遞到函式或者陣列中, 好處是可以簡化程式碼, 使其簡潔易讀.
-Spread operator 使用三個點 ... 來表示.
-展開陣列 const arr1 = [1, 2, 3]; const arr2 = [...arr1, 4, 5, 6]; console.log(arr2); // [1, 2, 3, 4, 5, 6] 將兩個陣列合併 const arr1 = [1, 2, 3]; const arr2 = [4, 5, 6]; const arr3 = [...arr1, ...arr2]; console.log(arr3); // [1, 2, 3, 4, 5, 6] 在函式中傳遞陣列 function myFunction(x, y, z) { console.</description>
+      <description>強大的 Spread Operator.</description>
     </item>
     
     <item>
@@ -38,17 +30,7 @@ Spread operator 使用三個點 ... 來表示.
       <pubDate>Mon, 13 Mar 2023 18:00:30 +0800</pubDate>
       
       <guid>/blog/blog_13/</guid>
-      <description>find() 方法 用法: array.find(callback[, thisArg])
-功能: 尋找符合指定條件的 第一個元素, 如果找到則返回該元素, 否則返回 undefined.
-callback:
-接受 3 個參數:
-element: 當前遍歷到的陣列元素.
-index(可選): 當前遍歷到的陣列元素的索引.
-array(可選): 被遍歷的陣列.
-返回值: 如果符合指定條件, 則返回 true, 否則返回 false.
-find() 範例 const arr = [1, 2, 3, 4, 5]; const result = arr.find((num) =&amp;gt; num &amp;gt; 3); console.log(result); // 4 (num) =&amp;gt; num &amp;gt; 3 是回調函數, 用來判斷陣列中的每個元素是否大於 3, 當 第一個 符合條件的元素被找到時, 該元素就會成為 find() 方法的返回值.
-num 是當前遍歷到的陣列元素.
-num &amp;gt; 3 表示判斷當前的元素是否大於 3.</description>
+      <description>find() &amp;amp; reduce() 不在搞混.</description>
     </item>
     
     <item>
@@ -57,20 +39,7 @@ num &amp;gt; 3 表示判斷當前的元素是否大於 3.</description>
       <pubDate>Sun, 12 Mar 2023 18:20:30 +0800</pubDate>
       
       <guid>/blog/blog_11/</guid>
-      <description> html https://www.editorx.com/
-可以直接參考上面的設計樣式, 或直接在上自行設計之後再刻畫面.
-可以配合 RWD 設計不同版面.
-css https://caniuse.com/
-查詢各種 css 屬性, 那些瀏覽器版本支援. https://coolors.co/e67e22
-可以在上面直接找顏色列表.
-可以比較顏色對比度.
-https://www.zhangxinxu.com/sp/filter.html
-顏色轉換成 css filter svg, png, webp https://heroicons.com/
-查找 svg 用. https://ionic.io/ionicons
-查找 svg 用. https://squoosh.app/
-可以壓縮圖片. 製圖 https://excalidraw.com/
-可以畫示意圖. https://tinysnap.app/
-用來美化截圖, 可以用在 chrome 插件. </description>
+      <description>ChatGPT好用喔, 其他的網站再慢慢收集.</description>
     </item>
     
     <item>
@@ -79,17 +48,7 @@ https://www.zhangxinxu.com/sp/filter.html
       <pubDate>Fri, 13 Jan 2023 08:30:24 +0800</pubDate>
       
       <guid>/blog/blog_12/</guid>
-      <description>本週進度 投履歷囉!
-TODO.
-更新履歷.
-作品集整理.
-去比薪水留下 鼎盛 的評語.
-普天同慶 在跟 前 主管提完離職後, 無債一身, 把 104 履歷再次打開, 也開始遞履歷給自己心儀的公司, 在經過一系列奮鬥, 終於被錄取拉～～～
-新的公司主要在做資料相關的治理, 也有前後端分離, 但基本都要會, 也與我的職涯發展志同道合, 錄取後直接報到, 完全沒有猶豫, 面試那天看看環境的時候, 我看到每個人標配兩個螢幕, 寬敞的桌面, 乾淨的廁所, 衛生的茶水間, 著實讓我大開眼界, 感覺是把員工當人看的公司, 外面的世界還真大, 好險我跳出那潭泥沼了.
-新公司目前想給我的任務是做前端的部分, 也就是公司在使用的 Angular, 試用期也是以這做為評分標準, 接下來就是全力衝刺把前端的部分學好學滿.
-接下來該做什麼?
-加深 html &amp;amp; css 基礎.
-學習 Angular.</description>
+      <description>Weekly Report.</description>
     </item>
     
     <item>
@@ -98,21 +57,7 @@ TODO.
       <pubDate>Fri, 30 Dec 2022 08:30:22 +0800</pubDate>
       
       <guid>/blog/blog_10/</guid>
-      <description>本週進度 本週主要在工作上的交接, 但說實在的交接的東習其實學長都看過了.
-TODO.
-公司.
-完成公司交代的功能.
-交接負責的部份.
-好好休息.
-不幹最大 終於有空更新了!
-前陣子被公司壓榨, 太忙根本沒有精力去做自己的事情, 終於受不了跟主管提離職後, 哇嗚, 整個態度都不一樣, 說話完全客客氣氣, 還想要加薪留人, 難道沒有意識到其實根本不是錢的問題嗎? 至少我現在相信員工會離職有一大部分都是因為 人, 反正這邊就是把違約金付一付, 高歌離席! 雖然繳完違約金後, 生活可能會過得有點苦, 也有點捨不得一起奮鬥的戰友, 但只有脫離這個險惡的環境, 我的身心才能得以休息.
-現在該做什麼?
-把公司原本指派的功能寫好.
-與學長交接之前負責的部分.
-存錢(違約金很貴).
-未來該做什麼?
-找工作.
-持續學習新技能(如前端框架等&amp;hellip;).</description>
+      <description>Weekly Report.</description>
     </item>
     
     <item>
@@ -121,23 +66,7 @@ TODO.
       <pubDate>Wed, 23 Nov 2022 10:22:50 +0800</pubDate>
       
       <guid>/blog/blog_09/</guid>
-      <description>本週進度 這些日子許久沒更新了, 原本想說哪一間公司會這麼佛心, 培訓還給錢又幫忙分配工作, 但水很深啊&amp;hellip;
-TODO.
-Md.
-總結目前為止學到的特別技術. 公司.
-前台 Apis.
-後台 Apis.
-電文 Apis.
-Cosera.
-獲得 Google Data Analytics 證書 11/30. 心力交瘁 這個月簡直疲勞轟炸, 好不容易通過考核期, 開心沒多久終於露出真面目了&amp;hellip;
-分發到的主管好像不怎麼會管理, 無償加班就算了(但也是很糟糕), 比較不解的是就只有新人沒有加班費, 除了我們之外其他人都有&amp;hellip; 也沒有前輩有空帶我們, 他們自身難保, 感覺在工作的分配上很有問題, 12 月初要交案的東西, 10 月中丟給我們做也沒有解釋, 就要我們自己生出來, 11 月開始要趕案子加班我能理解, 但不給加班費的理由竟然是&amp;quot;覺得這是你們該準時交的!&amp;quot;, 哇, 當初再從同事間選人的時候, 為什麼要選兩個要當兵教召三個禮拜的人呢? 等於原本 3 個人的工作量變成 2 人做, 再來怪新人沒有按時做出來, 優秀, 太優秀了, 平日加班到 9 點也不給吃飯, 禮拜六一早到晚上也不支薪.
-原本以為大公司不敢亂來, 看來是我太天真, 原來當初網友說的都是真的, 狗在這公司都比我們像人.
-為什麼不離職.
-培訓完後應工作一年, 不然要賠償金(不確定金額).
-工作未滿一年, 履歷不好看.
-青年就業補助應該到 01/06.
-為什麼該離職.
-不認可主管價值觀(想當年 blablabla).</description>
+      <description>Weekly Report.</description>
     </item>
     
     <item>
@@ -146,13 +75,7 @@ Cosera.
       <pubDate>Tue, 18 Oct 2022 18:32:50 +0800</pubDate>
       
       <guid>/blog/blog_08/</guid>
-      <description> VsCode 主要常用在 Python, 前端開發, 有自動排版功能.
-自動排版.
-⌘(command) + ⇧(shift) + P 選擇通樣多項.
-⌘(command) + D Intellij 主要用在 Java, 後端開發.
-選擇通樣多項.
-control + G Windows Screen Shot.
-Win + Shift + S </description>
+      <description>不管是 IDE 或是 作業系統常用的快捷鍵都在這.</description>
     </item>
     
     <item>
@@ -161,15 +84,7 @@ Win + Shift + S </description>
       <pubDate>Sat, 15 Oct 2022 12:50:47 +0800</pubDate>
       
       <guid>/blog/blog_07/</guid>
-      <description>Optional 是什麼? Optional 是值的容器, 只有兩種狀態, 不是有值就是沒值.
-將輸入的值產生為 Optional 物件, 這時 Optional 物件即為該值的容器, 若要取回該值, 必須使用 get() 方法.
-將值轉為 Optional 的方法 of(): 接受 非 null 的值 並回傳 Optional 物件.
-ofNullable(): 可以接受 null 的值, 回傳 Optional 物件.
-取得放在 Optional 物件內的值的方法 get(): 如果值存在就回傳這個值, 否則就丟出 NoSuchElementException.
-orElse(T other): 如果值存在就回傳這個值, 否則回傳 other.
-orElseGet(Supplier&amp;lt;? extends T&amp;gt; other): 如果值存在就回傳這個值, 否則就呼叫 other 並回傳它的結果.
-orElseThrow(Supplier&amp;lt;? extends X&amp;gt; exceptionSupplier): 如果值存在就回傳這個值, 否則就丟出由 exceptionSupplier 建立的例外.
-常用範例 在 Repository 可以直接用 Optional, 這樣就可以避免資料庫互動時回 null 造成錯誤:</description>
+      <description>學好 Java Optional 告別菜鳥.</description>
     </item>
     
     <item>
@@ -178,13 +93,7 @@ orElseThrow(Supplier&amp;lt;? extends X&amp;gt; exceptionSupplier): 如果值存
       <pubDate>Thu, 13 Oct 2022 11:30:47 +0800</pubDate>
       
       <guid>/blog/blog_06/</guid>
-      <description>jdbcTemplate Repository 負責與數據庫溝通, 運用 SQL 語言來操作 CRUD:
-@Repository public class DemoDao { @Autowired private JdbcTemplate jdbcTemplate; public void addStaff (ExampleEntity exampleEntity) { String sql = &amp;#34;INSERT INTO members(id, name) VALUES (?,?);&amp;#34;; jdbcTemplate.update(sql, exampleEntity.getId(), exampleEntity.getName()); } } execute.
-操作資料表相關的 SQL (create, drop…). update / batchUpdate.
-資料的新增、修改、刪除. query / queryForXXX.
-查詢資料. call.
-Stored Procedure. JPA Repository extends JpaRepository:
-public interface DemoRepository extends JpaRepository&amp;lt;DemoEntity, String&amp;gt; { DemoEntity findByGuid(String guid); List&amp;lt;DemoEntity&amp;gt; findByGuid(String guid); } 可以直接使用 JPA 的語法進行查詢, findByGuid = SELLECT \* FROM Demo WHERE Guid = &#39;guid&#39;;, 也可以回傳該物件的 List, 但若需要更精細的查詢, 可以使用 JPQL.</description>
+      <description>OEM query 很方便喔!</description>
     </item>
     
     <item>
@@ -193,19 +102,7 @@ public interface DemoRepository extends JpaRepository&amp;lt;DemoEntity, String&
       <pubDate>Fri, 30 Sep 2022 10:15:47 +0800</pubDate>
       
       <guid>/blog/blog_05/</guid>
-      <description>本週進度 這幾天來做個小總結, 大概一個星期總結一次好了.
-TODO.
-Md.
-前端過程. Sts.
-改寫 票交端操作紀錄查詢 10/12. Angular.
-完成 300 頁 ppt 教學.
-Youtube 影片 2 hrs.
-Cosera.
-- 把 Data 課程修完 10/17. 靈感爆炸 這禮拜經過 Cyberpunk: Edgerunners 的心靈轟炸後, 想要給 David &amp;amp; Lucy 一個好結局的我, 開始尋找有沒有畫家給他們一個好結局, 剛好在 Patreon 上有看到喜歡的畫作, 忍不住給他敗下去, 雖然平常喜歡當免費仔省錢, 但對於創作者的心血結晶, 用錢錢支持是必須的, 畢竟好的藝術家比日本壓縮機還要稀少.
-突然一個想法由然而生, 我想要一個私人畫廊擺放這些藝術品, 但總不可能真的租一個畫廊來放吧, 就這麼剛好, 我看到了角落的 Ocules, 看來阿毛又要開始點技能樹囉! Metaverse 裡面可以設計建築物並且開放參觀啊!!! 只是需要學會建模軟體 Blender, 遊戲引擎 Unity, 以及部署在 Metaverse 使用的 Mona, 於是決定開新坑, 若成功後可以再將其當作一個展示平台, 並串聯其他所學的技術.
-目前想到的點子.
-開放讓限定的使用者參觀.
-展示 NFT.</description>
+      <description>Weekly Report.</description>
     </item>
     
     <item>
@@ -214,56 +111,7 @@ Cosera.
       <pubDate>Fri, 23 Sep 2022 13:38:07 +0800</pubDate>
       
       <guid>/blog/blog_04/</guid>
-      <description>目前支援 highlight 的程式語言 powershell
-bash
-shell
-zsh 待修改
-scss
-plaintext
-typescript
-swift
-gradle
-nginx
-xml
-php
-ruby
-javascript
-scala
-properties
-json
-cmake
-diff
-css
-aspectj
-markdown
-python
-python-repl
-objectivec
-dust
-r
-dart
-sql
-lua
-c
-ini
-makefile
-clean
-groovy
-less
-vbnet
-graphql
-perl
-csharp
-yaml
-dockerfile
-rust
-go
-kotlin
-cpp
-basic
-wasm
-java
-http</description>
+      <description>highlight.min.js 修改.</description>
     </item>
     
     <item>
@@ -272,23 +120,7 @@ http</description>
       <pubDate>Thu, 22 Sep 2022 10:21:37 +0800</pubDate>
       
       <guid>/blog/blog_03/</guid>
-      <description># 標題大小與 &amp;lt;h1&amp;gt; ~ &amp;lt;h6&amp;gt; 對應 # = &amp;lt;h1&amp;gt;.
-## = &amp;lt;h2&amp;gt;.
-### = &amp;lt;h3&amp;gt;.
-#### = &amp;lt;h4&amp;gt;.
-##### = &amp;lt;h5&amp;gt;.
-###### = &amp;lt;h6&amp;gt;.
-Highlight 我是一般字型.
-我是強調字型.
-Code &amp;lt;body&amp;gt;&amp;lt;/body&amp;gt;.
-&amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html lang=&amp;#34;en&amp;#34;&amp;gt; &amp;lt;head&amp;gt; &amp;lt;meta charset=&amp;#34;utf-8&amp;#34; /&amp;gt; &amp;lt;title&amp;gt;Example HTML5 Document&amp;lt;/title&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;p&amp;gt;Test&amp;lt;/p&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt; Blockquote 小白每天起床都會說: 今天天氣好好.
-Table AAA BBB CCC ABC EDF GHI 123 456 789 List fruit.
-apple.
-banana.
-meat.
-beef.
-chicken.
-Write the press release.</description>
+      <description>.md 之道就在其中.</description>
     </item>
     
     <item>
@@ -297,8 +129,7 @@ Write the press release.</description>
       <pubDate>Wed, 14 Sep 2022 10:20:47 +0800</pubDate>
       
       <guid>/blog/blog_02/</guid>
-      <description> 顯示 關閉顯示 隱藏檔案 ⌘(command) + ⇧(shift) + .
-刪除 .DS_Store ~ % sudo find / -name &amp;#34;.DS_Store&amp;#34; -depth -exec rm {} \; 永久關閉 .DS_Store 檔案指令 ~ % defaults write com.apple.desktopservices DSDontWriteNetworkStores true 開啟 .DS_Store 檔案指令 ~ % defaults write com.apple.desktopservices DSDontWriteNetworkStores false </description>
+      <description>解決煩人的 .DS_Store.</description>
     </item>
     
     <item>
@@ -307,24 +138,7 @@ Write the press release.</description>
       <pubDate>Tue, 13 Sep 2022 10:21:27 +0800</pubDate>
       
       <guid>/blog/blog_01/</guid>
-      <description> 慶祝阿毛的 Blog 誕生 轉職之路遙遙無期,
-從 {一日科科, 終生顆顆} 跳脫可怕的輪回,
-當然很辛苦,
-但畢竟要對以前自己做的決定負責,
-就努力把自己的不足補滿吧,
-希望我的肝可以再撐一下.
-Blog 規劃放一些要完成的目標.
-TODO.
-WorkFlow.
-蹦出來的想法.
-可能還有一些拉哩拉匝的心情.
-Articals 主要放一些技術心得文章.
-建立的過程.
-仔細的教學.
-相關知識.
-遇到的 Bug &amp;amp; Solution.
-Projects 一些專案的詳細介紹.
-簡短的介紹會在 Github. </description>
+      <description>慶祝阿毛的 Blog 誕生.</description>
     </item>
     
   </channel>
