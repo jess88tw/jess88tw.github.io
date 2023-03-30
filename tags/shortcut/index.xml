@@ -2,34 +2,34 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>shortcut on Hihi</title>
-    <link>/tags/shortcut/</link>
+    <link>www.jesseedgerunner.com/tags/shortcut/</link>
     <description>Recent content in shortcut on Hihi</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 25 Mar 2023 11:22:47 +0800</lastBuildDate><atom:link href="/tags/shortcut/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 25 Mar 2023 11:22:47 +0800</lastBuildDate><atom:link href="www.jesseedgerunner.com/tags/shortcut/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>VsCode 右鍵開啟檔案</title>
-      <link>/blog/blog_15/</link>
+      <link>www.jesseedgerunner.com/blog/blog_15/</link>
       <pubDate>Sat, 25 Mar 2023 11:22:47 +0800</pubDate>
       
-      <guid>/blog/blog_15/</guid>
+      <guid>www.jesseedgerunner.com/blog/blog_15/</guid>
       <description>讓 VsCode 變得方便好用.</description>
     </item>
     
     <item>
       <title>常用網頁工具</title>
-      <link>/blog/blog_11/</link>
+      <link>www.jesseedgerunner.com/blog/blog_11/</link>
       <pubDate>Sun, 12 Mar 2023 18:20:30 +0800</pubDate>
       
-      <guid>/blog/blog_11/</guid>
+      <guid>www.jesseedgerunner.com/blog/blog_11/</guid>
       <description>ChatGPT好用喔, 其他的網站再慢慢收集.</description>
     </item>
     
     <item>
       <title>常用快捷</title>
-      <link>/blog/blog_08/</link>
+      <link>www.jesseedgerunner.com/blog/blog_08/</link>
       <pubDate>Tue, 18 Oct 2022 18:32:50 +0800</pubDate>
       
-      <guid>/blog/blog_08/</guid>
+      <guid>www.jesseedgerunner.com/blog/blog_08/</guid>
       <description>不管是 IDE 或是 作業系統常用的快捷鍵都在這.</description>
     </item>
     
