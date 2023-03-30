@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>vsCode on Hihi</title>
-    <link>www.jesseedgerunner.com/tags/vscode/</link>
+    <link>jesseedgerunner.com/tags/vscode/</link>
     <description>Recent content in vsCode on Hihi</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 25 Mar 2023 11:22:47 +0800</lastBuildDate><atom:link href="www.jesseedgerunner.com/tags/vscode/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 25 Mar 2023 11:22:47 +0800</lastBuildDate><atom:link href="jesseedgerunner.com/tags/vscode/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>VsCode 右鍵開啟檔案</title>
-      <link>www.jesseedgerunner.com/blog/blog_15/</link>
+      <link>jesseedgerunner.com/blog/blog_15/</link>
       <pubDate>Sat, 25 Mar 2023 11:22:47 +0800</pubDate>
       
-      <guid>www.jesseedgerunner.com/blog/blog_15/</guid>
+      <guid>jesseedgerunner.com/blog/blog_15/</guid>
       <description>讓 VsCode 變得方便好用.</description>
     </item>
     
