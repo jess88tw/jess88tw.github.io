@@ -2,97 +2,97 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>angular on Hihi</title>
-    <link>jesseedgerunner.com/tags/angular/</link>
+    <link>https://www.jesseedgerunner.com/tags/angular/</link>
     <description>Recent content in angular on Hihi</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 18 Mar 2023 12:16:50 +0800</lastBuildDate><atom:link href="jesseedgerunner.com/tags/angular/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 18 Mar 2023 12:16:50 +0800</lastBuildDate><atom:link href="https://www.jesseedgerunner.com/tags/angular/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Angular(10) Service</title>
-      <link>jesseedgerunner.com/articles/articale_13/</link>
+      <link>https://www.jesseedgerunner.com/articles/articale_13/</link>
       <pubDate>Sat, 18 Mar 2023 12:16:50 +0800</pubDate>
       
-      <guid>jesseedgerunner.com/articles/articale_13/</guid>
+      <guid>https://www.jesseedgerunner.com/articles/articale_13/</guid>
       <description>了解 Angular Service.</description>
     </item>
     
     <item>
       <title>Angular(9) Router</title>
-      <link>jesseedgerunner.com/articles/articale_12/</link>
+      <link>https://www.jesseedgerunner.com/articles/articale_12/</link>
       <pubDate>Sat, 18 Mar 2023 10:16:50 +0800</pubDate>
       
-      <guid>jesseedgerunner.com/articles/articale_12/</guid>
+      <guid>https://www.jesseedgerunner.com/articles/articale_12/</guid>
       <description>了解 Angular Router.</description>
     </item>
     
     <item>
       <title>Angular(8) LifeCycle</title>
-      <link>jesseedgerunner.com/articles/articale_11/</link>
+      <link>https://www.jesseedgerunner.com/articles/articale_11/</link>
       <pubDate>Fri, 17 Mar 2023 23:32:30 +0800</pubDate>
       
-      <guid>jesseedgerunner.com/articles/articale_11/</guid>
+      <guid>https://www.jesseedgerunner.com/articles/articale_11/</guid>
       <description>了解 Angular LifeCycle.</description>
     </item>
     
     <item>
       <title>Angular(7) Pipe</title>
-      <link>jesseedgerunner.com/articles/articale_10/</link>
+      <link>https://www.jesseedgerunner.com/articles/articale_10/</link>
       <pubDate>Fri, 17 Mar 2023 23:30:30 +0800</pubDate>
       
-      <guid>jesseedgerunner.com/articles/articale_10/</guid>
+      <guid>https://www.jesseedgerunner.com/articles/articale_10/</guid>
       <description>了解 Angular Pipe.</description>
     </item>
     
     <item>
       <title>Angular(6) Directive</title>
-      <link>jesseedgerunner.com/articles/articale_09/</link>
+      <link>https://www.jesseedgerunner.com/articles/articale_09/</link>
       <pubDate>Fri, 17 Mar 2023 22:30:30 +0800</pubDate>
       
-      <guid>jesseedgerunner.com/articles/articale_09/</guid>
+      <guid>https://www.jesseedgerunner.com/articles/articale_09/</guid>
       <description>了解 Angular Directive.</description>
     </item>
     
     <item>
       <title>Angular(5) Data Binding</title>
-      <link>jesseedgerunner.com/articles/articale_08/</link>
+      <link>https://www.jesseedgerunner.com/articles/articale_08/</link>
       <pubDate>Fri, 17 Mar 2023 21:30:30 +0800</pubDate>
       
-      <guid>jesseedgerunner.com/articles/articale_08/</guid>
+      <guid>https://www.jesseedgerunner.com/articles/articale_08/</guid>
       <description>了解 Angular Data Bindings.</description>
     </item>
     
     <item>
       <title>Angular(4) Component</title>
-      <link>jesseedgerunner.com/articles/articale_07/</link>
+      <link>https://www.jesseedgerunner.com/articles/articale_07/</link>
       <pubDate>Fri, 17 Mar 2023 18:30:30 +0800</pubDate>
       
-      <guid>jesseedgerunner.com/articles/articale_07/</guid>
+      <guid>https://www.jesseedgerunner.com/articles/articale_07/</guid>
       <description>了解 Angular Component.</description>
     </item>
     
     <item>
       <title>Angular(3) 基礎結構</title>
-      <link>jesseedgerunner.com/articles/articale_06/</link>
+      <link>https://www.jesseedgerunner.com/articles/articale_06/</link>
       <pubDate>Thu, 16 Mar 2023 18:30:30 +0800</pubDate>
       
-      <guid>jesseedgerunner.com/articles/articale_06/</guid>
+      <guid>https://www.jesseedgerunner.com/articles/articale_06/</guid>
       <description>了解 Angular 基礎架構.</description>
     </item>
     
     <item>
       <title>Angular(2) 環境安裝</title>
-      <link>jesseedgerunner.com/articles/articale_05/</link>
+      <link>https://www.jesseedgerunner.com/articles/articale_05/</link>
       <pubDate>Thu, 16 Mar 2023 12:30:30 +0800</pubDate>
       
-      <guid>jesseedgerunner.com/articles/articale_05/</guid>
+      <guid>https://www.jesseedgerunner.com/articles/articale_05/</guid>
       <description>環境安裝與啟動專案.</description>
     </item>
     
     <item>
       <title>Angular(1) 簡介</title>
-      <link>jesseedgerunner.com/articles/articale_04/</link>
+      <link>https://www.jesseedgerunner.com/articles/articale_04/</link>
       <pubDate>Thu, 16 Mar 2023 09:30:30 +0800</pubDate>
       
-      <guid>jesseedgerunner.com/articles/articale_04/</guid>
+      <guid>https://www.jesseedgerunner.com/articles/articale_04/</guid>
       <description>為什麼要用 Angular.</description>
     </item>
     
