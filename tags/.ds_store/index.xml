@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>.DS_Store on Hihi</title>
-    <link>https://www.jesseedgerunner.com/tags/.ds_store/</link>
+    <link>www.jesseedgerunner.com/tags/.ds_store/</link>
     <description>Recent content in .DS_Store on Hihi</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 14 Sep 2022 10:20:47 +0800</lastBuildDate><atom:link href="https://www.jesseedgerunner.com/tags/.ds_store/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 14 Sep 2022 10:20:47 +0800</lastBuildDate><atom:link href="www.jesseedgerunner.com/tags/.ds_store/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>刪除 .DS_Store</title>
-      <link>https://www.jesseedgerunner.com/blog/blog_02/</link>
+      <link>www.jesseedgerunner.com/blog/blog_02/</link>
       <pubDate>Wed, 14 Sep 2022 10:20:47 +0800</pubDate>
       
-      <guid>https://www.jesseedgerunner.com/blog/blog_02/</guid>
+      <guid>www.jesseedgerunner.com/blog/blog_02/</guid>
       <description>解決煩人的 .DS_Store.</description>
     </item>
     

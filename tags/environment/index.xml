@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>environment on Hihi</title>
-    <link>https://www.jesseedgerunner.com/tags/environment/</link>
+    <link>www.jesseedgerunner.com/tags/environment/</link>
     <description>Recent content in environment on Hihi</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 16 Mar 2023 12:30:30 +0800</lastBuildDate><atom:link href="https://www.jesseedgerunner.com/tags/environment/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 16 Mar 2023 12:30:30 +0800</lastBuildDate><atom:link href="www.jesseedgerunner.com/tags/environment/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Angular(2) 環境安裝</title>
-      <link>https://www.jesseedgerunner.com/articles/articale_05/</link>
+      <link>www.jesseedgerunner.com/articles/articale_05/</link>
       <pubDate>Thu, 16 Mar 2023 12:30:30 +0800</pubDate>
       
-      <guid>https://www.jesseedgerunner.com/articles/articale_05/</guid>
+      <guid>www.jesseedgerunner.com/articles/articale_05/</guid>
       <description>環境安裝與啟動專案.</description>
     </item>
     

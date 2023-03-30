@@ -2,277 +2,277 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Hihi</title>
-    <link>https://www.jesseedgerunner.com/</link>
+    <link>www.jesseedgerunner.com/</link>
     <description>Recent content on Hihi</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 25 Mar 2023 11:22:47 +0800</lastBuildDate><atom:link href="https://www.jesseedgerunner.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 25 Mar 2023 11:22:47 +0800</lastBuildDate><atom:link href="www.jesseedgerunner.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>VsCode 右鍵開啟檔案</title>
-      <link>https://www.jesseedgerunner.com/blog/blog_15/</link>
+      <link>www.jesseedgerunner.com/blog/blog_15/</link>
       <pubDate>Sat, 25 Mar 2023 11:22:47 +0800</pubDate>
       
-      <guid>https://www.jesseedgerunner.com/blog/blog_15/</guid>
+      <guid>www.jesseedgerunner.com/blog/blog_15/</guid>
       <description>讓 VsCode 變得方便好用.</description>
     </item>
     
     <item>
       <title>HUGO(4) GitHub Action</title>
-      <link>https://www.jesseedgerunner.com/articles/articale_15/</link>
+      <link>www.jesseedgerunner.com/articles/articale_15/</link>
       <pubDate>Fri, 24 Mar 2023 15:00:29 +0800</pubDate>
       
-      <guid>https://www.jesseedgerunner.com/articles/articale_15/</guid>
+      <guid>www.jesseedgerunner.com/articles/articale_15/</guid>
       <description>Simple CI/CD.</description>
     </item>
     
     <item>
       <title>HUGO(3) GitHub Pages</title>
-      <link>https://www.jesseedgerunner.com/articles/articale_14/</link>
+      <link>www.jesseedgerunner.com/articles/articale_14/</link>
       <pubDate>Fri, 24 Mar 2023 10:50:50 +0800</pubDate>
       
-      <guid>https://www.jesseedgerunner.com/articles/articale_14/</guid>
+      <guid>www.jesseedgerunner.com/articles/articale_14/</guid>
       <description>Hello World.</description>
     </item>
     
     <item>
       <title>Angular(10) Service</title>
-      <link>https://www.jesseedgerunner.com/articles/articale_13/</link>
+      <link>www.jesseedgerunner.com/articles/articale_13/</link>
       <pubDate>Sat, 18 Mar 2023 12:16:50 +0800</pubDate>
       
-      <guid>https://www.jesseedgerunner.com/articles/articale_13/</guid>
+      <guid>www.jesseedgerunner.com/articles/articale_13/</guid>
       <description>了解 Angular Service.</description>
     </item>
     
     <item>
       <title>Angular(9) Router</title>
-      <link>https://www.jesseedgerunner.com/articles/articale_12/</link>
+      <link>www.jesseedgerunner.com/articles/articale_12/</link>
       <pubDate>Sat, 18 Mar 2023 10:16:50 +0800</pubDate>
       
-      <guid>https://www.jesseedgerunner.com/articles/articale_12/</guid>
+      <guid>www.jesseedgerunner.com/articles/articale_12/</guid>
       <description>了解 Angular Router.</description>
     </item>
     
     <item>
       <title>Angular(8) LifeCycle</title>
-      <link>https://www.jesseedgerunner.com/articles/articale_11/</link>
+      <link>www.jesseedgerunner.com/articles/articale_11/</link>
       <pubDate>Fri, 17 Mar 2023 23:32:30 +0800</pubDate>
       
-      <guid>https://www.jesseedgerunner.com/articles/articale_11/</guid>
+      <guid>www.jesseedgerunner.com/articles/articale_11/</guid>
       <description>了解 Angular LifeCycle.</description>
     </item>
     
     <item>
       <title>Angular(7) Pipe</title>
-      <link>https://www.jesseedgerunner.com/articles/articale_10/</link>
+      <link>www.jesseedgerunner.com/articles/articale_10/</link>
       <pubDate>Fri, 17 Mar 2023 23:30:30 +0800</pubDate>
       
-      <guid>https://www.jesseedgerunner.com/articles/articale_10/</guid>
+      <guid>www.jesseedgerunner.com/articles/articale_10/</guid>
       <description>了解 Angular Pipe.</description>
     </item>
     
     <item>
       <title>Angular(6) Directive</title>
-      <link>https://www.jesseedgerunner.com/articles/articale_09/</link>
+      <link>www.jesseedgerunner.com/articles/articale_09/</link>
       <pubDate>Fri, 17 Mar 2023 22:30:30 +0800</pubDate>
       
-      <guid>https://www.jesseedgerunner.com/articles/articale_09/</guid>
+      <guid>www.jesseedgerunner.com/articles/articale_09/</guid>
       <description>了解 Angular Directive.</description>
     </item>
     
     <item>
       <title>Angular(5) Data Binding</title>
-      <link>https://www.jesseedgerunner.com/articles/articale_08/</link>
+      <link>www.jesseedgerunner.com/articles/articale_08/</link>
       <pubDate>Fri, 17 Mar 2023 21:30:30 +0800</pubDate>
       
-      <guid>https://www.jesseedgerunner.com/articles/articale_08/</guid>
+      <guid>www.jesseedgerunner.com/articles/articale_08/</guid>
       <description>了解 Angular Data Bindings.</description>
     </item>
     
     <item>
       <title>Angular(4) Component</title>
-      <link>https://www.jesseedgerunner.com/articles/articale_07/</link>
+      <link>www.jesseedgerunner.com/articles/articale_07/</link>
       <pubDate>Fri, 17 Mar 2023 18:30:30 +0800</pubDate>
       
-      <guid>https://www.jesseedgerunner.com/articles/articale_07/</guid>
+      <guid>www.jesseedgerunner.com/articles/articale_07/</guid>
       <description>了解 Angular Component.</description>
     </item>
     
     <item>
       <title>Angular(3) 基礎結構</title>
-      <link>https://www.jesseedgerunner.com/articles/articale_06/</link>
+      <link>www.jesseedgerunner.com/articles/articale_06/</link>
       <pubDate>Thu, 16 Mar 2023 18:30:30 +0800</pubDate>
       
-      <guid>https://www.jesseedgerunner.com/articles/articale_06/</guid>
+      <guid>www.jesseedgerunner.com/articles/articale_06/</guid>
       <description>了解 Angular 基礎架構.</description>
     </item>
     
     <item>
       <title>Angular(2) 環境安裝</title>
-      <link>https://www.jesseedgerunner.com/articles/articale_05/</link>
+      <link>www.jesseedgerunner.com/articles/articale_05/</link>
       <pubDate>Thu, 16 Mar 2023 12:30:30 +0800</pubDate>
       
-      <guid>https://www.jesseedgerunner.com/articles/articale_05/</guid>
+      <guid>www.jesseedgerunner.com/articles/articale_05/</guid>
       <description>環境安裝與啟動專案.</description>
     </item>
     
     <item>
       <title>Angular(1) 簡介</title>
-      <link>https://www.jesseedgerunner.com/articles/articale_04/</link>
+      <link>www.jesseedgerunner.com/articles/articale_04/</link>
       <pubDate>Thu, 16 Mar 2023 09:30:30 +0800</pubDate>
       
-      <guid>https://www.jesseedgerunner.com/articles/articale_04/</guid>
+      <guid>www.jesseedgerunner.com/articles/articale_04/</guid>
       <description>為什麼要用 Angular.</description>
     </item>
     
     <item>
       <title>JavaScript Spread Operator 用法</title>
-      <link>https://www.jesseedgerunner.com/blog/blog_14/</link>
+      <link>www.jesseedgerunner.com/blog/blog_14/</link>
       <pubDate>Tue, 14 Mar 2023 11:24:47 +0800</pubDate>
       
-      <guid>https://www.jesseedgerunner.com/blog/blog_14/</guid>
+      <guid>www.jesseedgerunner.com/blog/blog_14/</guid>
       <description>強大的 Spread Operator.</description>
     </item>
     
     <item>
       <title>JavaScript find() &amp; reduce() 用法和差異</title>
-      <link>https://www.jesseedgerunner.com/blog/blog_13/</link>
+      <link>www.jesseedgerunner.com/blog/blog_13/</link>
       <pubDate>Mon, 13 Mar 2023 18:00:30 +0800</pubDate>
       
-      <guid>https://www.jesseedgerunner.com/blog/blog_13/</guid>
+      <guid>www.jesseedgerunner.com/blog/blog_13/</guid>
       <description>find() &amp;amp; reduce() 不在搞混.</description>
     </item>
     
     <item>
       <title>常用網頁工具</title>
-      <link>https://www.jesseedgerunner.com/blog/blog_11/</link>
+      <link>www.jesseedgerunner.com/blog/blog_11/</link>
       <pubDate>Sun, 12 Mar 2023 18:20:30 +0800</pubDate>
       
-      <guid>https://www.jesseedgerunner.com/blog/blog_11/</guid>
+      <guid>www.jesseedgerunner.com/blog/blog_11/</guid>
       <description>ChatGPT好用喔, 其他的網站再慢慢收集.</description>
     </item>
     
     <item>
       <title>20230113 Weekly Report</title>
-      <link>https://www.jesseedgerunner.com/blog/blog_12/</link>
+      <link>www.jesseedgerunner.com/blog/blog_12/</link>
       <pubDate>Fri, 13 Jan 2023 08:30:24 +0800</pubDate>
       
-      <guid>https://www.jesseedgerunner.com/blog/blog_12/</guid>
+      <guid>www.jesseedgerunner.com/blog/blog_12/</guid>
       <description>Weekly Report.</description>
     </item>
     
     <item>
       <title>20221230 Weekly Report</title>
-      <link>https://www.jesseedgerunner.com/blog/blog_10/</link>
+      <link>www.jesseedgerunner.com/blog/blog_10/</link>
       <pubDate>Fri, 30 Dec 2022 08:30:22 +0800</pubDate>
       
-      <guid>https://www.jesseedgerunner.com/blog/blog_10/</guid>
+      <guid>www.jesseedgerunner.com/blog/blog_10/</guid>
       <description>Weekly Report.</description>
     </item>
     
     <item>
       <title>20221123 Weekly Report</title>
-      <link>https://www.jesseedgerunner.com/blog/blog_09/</link>
+      <link>www.jesseedgerunner.com/blog/blog_09/</link>
       <pubDate>Wed, 23 Nov 2022 10:22:50 +0800</pubDate>
       
-      <guid>https://www.jesseedgerunner.com/blog/blog_09/</guid>
+      <guid>www.jesseedgerunner.com/blog/blog_09/</guid>
       <description>Weekly Report.</description>
     </item>
     
     <item>
       <title>常用快捷</title>
-      <link>https://www.jesseedgerunner.com/blog/blog_08/</link>
+      <link>www.jesseedgerunner.com/blog/blog_08/</link>
       <pubDate>Tue, 18 Oct 2022 18:32:50 +0800</pubDate>
       
-      <guid>https://www.jesseedgerunner.com/blog/blog_08/</guid>
+      <guid>www.jesseedgerunner.com/blog/blog_08/</guid>
       <description>不管是 IDE 或是 作業系統常用的快捷鍵都在這.</description>
     </item>
     
     <item>
       <title>Java Optional 常用方法</title>
-      <link>https://www.jesseedgerunner.com/blog/blog_07/</link>
+      <link>www.jesseedgerunner.com/blog/blog_07/</link>
       <pubDate>Sat, 15 Oct 2022 12:50:47 +0800</pubDate>
       
-      <guid>https://www.jesseedgerunner.com/blog/blog_07/</guid>
+      <guid>www.jesseedgerunner.com/blog/blog_07/</guid>
       <description>學好 Java Optional 告別菜鳥.</description>
     </item>
     
     <item>
       <title>Java query 常用方法</title>
-      <link>https://www.jesseedgerunner.com/blog/blog_06/</link>
+      <link>www.jesseedgerunner.com/blog/blog_06/</link>
       <pubDate>Thu, 13 Oct 2022 11:30:47 +0800</pubDate>
       
-      <guid>https://www.jesseedgerunner.com/blog/blog_06/</guid>
+      <guid>www.jesseedgerunner.com/blog/blog_06/</guid>
       <description>OEM query 很方便喔!</description>
     </item>
     
     <item>
       <title>20220930 Weekly Report</title>
-      <link>https://www.jesseedgerunner.com/blog/blog_05/</link>
+      <link>www.jesseedgerunner.com/blog/blog_05/</link>
       <pubDate>Fri, 30 Sep 2022 10:15:47 +0800</pubDate>
       
-      <guid>https://www.jesseedgerunner.com/blog/blog_05/</guid>
+      <guid>www.jesseedgerunner.com/blog/blog_05/</guid>
       <description>Weekly Report.</description>
     </item>
     
     <item>
       <title>highlight.min.js 目前支援</title>
-      <link>https://www.jesseedgerunner.com/blog/blog_04/</link>
+      <link>www.jesseedgerunner.com/blog/blog_04/</link>
       <pubDate>Fri, 23 Sep 2022 13:38:07 +0800</pubDate>
       
-      <guid>https://www.jesseedgerunner.com/blog/blog_04/</guid>
+      <guid>www.jesseedgerunner.com/blog/blog_04/</guid>
       <description>highlight.min.js 修改.</description>
     </item>
     
     <item>
       <title>.md 常用方法</title>
-      <link>https://www.jesseedgerunner.com/blog/blog_03/</link>
+      <link>www.jesseedgerunner.com/blog/blog_03/</link>
       <pubDate>Thu, 22 Sep 2022 10:21:37 +0800</pubDate>
       
-      <guid>https://www.jesseedgerunner.com/blog/blog_03/</guid>
+      <guid>www.jesseedgerunner.com/blog/blog_03/</guid>
       <description>.md 之道就在其中.</description>
     </item>
     
     <item>
       <title>Mac 刪除 Symantec Endpoint Protection</title>
-      <link>https://www.jesseedgerunner.com/articles/articale_03/</link>
+      <link>www.jesseedgerunner.com/articles/articale_03/</link>
       <pubDate>Thu, 15 Sep 2022 10:23:27 +0800</pubDate>
       
-      <guid>https://www.jesseedgerunner.com/articles/articale_03/</guid>
+      <guid>www.jesseedgerunner.com/articles/articale_03/</guid>
       <description>刪除連 Chrome 都擋的瘋防毒.</description>
     </item>
     
     <item>
       <title>HUGO(2) HUGO Setting</title>
-      <link>https://www.jesseedgerunner.com/articles/articale_02/</link>
+      <link>www.jesseedgerunner.com/articles/articale_02/</link>
       <pubDate>Wed, 14 Sep 2022 13:29:28 +0800</pubDate>
       
-      <guid>https://www.jesseedgerunner.com/articles/articale_02/</guid>
+      <guid>www.jesseedgerunner.com/articles/articale_02/</guid>
       <description>來修改 HUGO 的細節吧.</description>
     </item>
     
     <item>
       <title>刪除 .DS_Store</title>
-      <link>https://www.jesseedgerunner.com/blog/blog_02/</link>
+      <link>www.jesseedgerunner.com/blog/blog_02/</link>
       <pubDate>Wed, 14 Sep 2022 10:20:47 +0800</pubDate>
       
-      <guid>https://www.jesseedgerunner.com/blog/blog_02/</guid>
+      <guid>www.jesseedgerunner.com/blog/blog_02/</guid>
       <description>解決煩人的 .DS_Store.</description>
     </item>
     
     <item>
       <title>HUGO(1) Building a Personal Blog</title>
-      <link>https://www.jesseedgerunner.com/articles/articale_01/</link>
+      <link>www.jesseedgerunner.com/articles/articale_01/</link>
       <pubDate>Wed, 14 Sep 2022 03:42:40 +0800</pubDate>
       
-      <guid>https://www.jesseedgerunner.com/articles/articale_01/</guid>
+      <guid>www.jesseedgerunner.com/articles/articale_01/</guid>
       <description>製作靜態 Blog.</description>
     </item>
     
     <item>
       <title>開張大吉</title>
-      <link>https://www.jesseedgerunner.com/blog/blog_01/</link>
+      <link>www.jesseedgerunner.com/blog/blog_01/</link>
       <pubDate>Tue, 13 Sep 2022 10:21:27 +0800</pubDate>
       
-      <guid>https://www.jesseedgerunner.com/blog/blog_01/</guid>
+      <guid>www.jesseedgerunner.com/blog/blog_01/</guid>
       <description>慶祝阿毛的 Blog 誕生.</description>
     </item>
     

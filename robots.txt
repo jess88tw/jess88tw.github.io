@@ -1,3 +1,3 @@
 User-agent: *
 Disallow:
-Sitemap: https://www.jesseedgerunner.com/sitemap.xml
+Sitemap: www.jesseedgerunner.com/sitemap.xml

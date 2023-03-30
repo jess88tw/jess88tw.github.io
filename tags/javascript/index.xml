@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>javaScript on Hihi</title>
-    <link>https://www.jesseedgerunner.com/tags/javascript/</link>
+    <link>www.jesseedgerunner.com/tags/javascript/</link>
     <description>Recent content in javaScript on Hihi</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 14 Mar 2023 11:24:47 +0800</lastBuildDate><atom:link href="https://www.jesseedgerunner.com/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 14 Mar 2023 11:24:47 +0800</lastBuildDate><atom:link href="www.jesseedgerunner.com/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>JavaScript Spread Operator 用法</title>
-      <link>https://www.jesseedgerunner.com/blog/blog_14/</link>
+      <link>www.jesseedgerunner.com/blog/blog_14/</link>
       <pubDate>Tue, 14 Mar 2023 11:24:47 +0800</pubDate>
       
-      <guid>https://www.jesseedgerunner.com/blog/blog_14/</guid>
+      <guid>www.jesseedgerunner.com/blog/blog_14/</guid>
       <description>強大的 Spread Operator.</description>
     </item>
     
     <item>
       <title>JavaScript find() &amp; reduce() 用法和差異</title>
-      <link>https://www.jesseedgerunner.com/blog/blog_13/</link>
+      <link>www.jesseedgerunner.com/blog/blog_13/</link>
       <pubDate>Mon, 13 Mar 2023 18:00:30 +0800</pubDate>
       
-      <guid>https://www.jesseedgerunner.com/blog/blog_13/</guid>
+      <guid>www.jesseedgerunner.com/blog/blog_13/</guid>
       <description>find() &amp;amp; reduce() 不在搞混.</description>
     </item>
     
