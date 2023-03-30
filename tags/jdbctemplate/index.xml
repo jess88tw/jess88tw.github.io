@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>jdbcTemplate on Hihi</title>
-    <link>www.jesseedgerunner.com/tags/jdbctemplate/</link>
+    <link>jesseedgerunner.com/tags/jdbctemplate/</link>
     <description>Recent content in jdbcTemplate on Hihi</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 13 Oct 2022 11:30:47 +0800</lastBuildDate><atom:link href="www.jesseedgerunner.com/tags/jdbctemplate/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 13 Oct 2022 11:30:47 +0800</lastBuildDate><atom:link href="jesseedgerunner.com/tags/jdbctemplate/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Java query 常用方法</title>
-      <link>www.jesseedgerunner.com/blog/blog_06/</link>
+      <link>jesseedgerunner.com/blog/blog_06/</link>
       <pubDate>Thu, 13 Oct 2022 11:30:47 +0800</pubDate>
       
-      <guid>www.jesseedgerunner.com/blog/blog_06/</guid>
+      <guid>jesseedgerunner.com/blog/blog_06/</guid>
       <description>OEM query 很方便喔!</description>
     </item>
     

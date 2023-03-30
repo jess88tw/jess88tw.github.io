@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>router on Hihi</title>
-    <link>www.jesseedgerunner.com/tags/router/</link>
+    <link>jesseedgerunner.com/tags/router/</link>
     <description>Recent content in router on Hihi</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 18 Mar 2023 10:16:50 +0800</lastBuildDate><atom:link href="www.jesseedgerunner.com/tags/router/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 18 Mar 2023 10:16:50 +0800</lastBuildDate><atom:link href="jesseedgerunner.com/tags/router/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Angular(9) Router</title>
-      <link>www.jesseedgerunner.com/articles/articale_12/</link>
+      <link>jesseedgerunner.com/articles/articale_12/</link>
       <pubDate>Sat, 18 Mar 2023 10:16:50 +0800</pubDate>
       
-      <guid>www.jesseedgerunner.com/articles/articale_12/</guid>
+      <guid>jesseedgerunner.com/articles/articale_12/</guid>
       <description>了解 Angular Router.</description>
     </item>
     

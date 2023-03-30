@@ -2,8 +2,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Categories on Hihi</title>
-    <link>www.jesseedgerunner.com/categories/</link>
+    <link>jesseedgerunner.com/categories/</link>
     <description>Recent content in Categories on Hihi</description>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="www.jesseedgerunner.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator><atom:link href="jesseedgerunner.com/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

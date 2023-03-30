@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>symantec on Hihi</title>
-    <link>www.jesseedgerunner.com/tags/symantec/</link>
+    <link>jesseedgerunner.com/tags/symantec/</link>
     <description>Recent content in symantec on Hihi</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 15 Sep 2022 10:23:27 +0800</lastBuildDate><atom:link href="www.jesseedgerunner.com/tags/symantec/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 15 Sep 2022 10:23:27 +0800</lastBuildDate><atom:link href="jesseedgerunner.com/tags/symantec/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mac 刪除 Symantec Endpoint Protection</title>
-      <link>www.jesseedgerunner.com/articles/articale_03/</link>
+      <link>jesseedgerunner.com/articles/articale_03/</link>
       <pubDate>Thu, 15 Sep 2022 10:23:27 +0800</pubDate>
       
-      <guid>www.jesseedgerunner.com/articles/articale_03/</guid>
+      <guid>jesseedgerunner.com/articles/articale_03/</guid>
       <description>刪除連 Chrome 都擋的瘋防毒.</description>
     </item>
     
