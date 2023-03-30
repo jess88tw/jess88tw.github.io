@@ -23,6 +23,9 @@
     <loc>/articles/</loc>
     <lastmod>2023-03-24T15:00:29+08:00</lastmod>
   </url><url>
+    <loc>/tags/blog/</loc>
+    <lastmod>2023-03-24T15:00:29+08:00</lastmod>
+  </url><url>
     <loc>/tags/github-action/</loc>
     <lastmod>2023-03-24T15:00:29+08:00</lastmod>
   </url><url>
@@ -30,6 +33,9 @@
     <lastmod>2023-03-24T15:00:29+08:00</lastmod>
   </url><url>
     <loc>/articles/articale_15/</loc>
+    <lastmod>2023-03-24T15:00:29+08:00</lastmod>
+  </url><url>
+    <loc>/tags/static-web-site/</loc>
     <lastmod>2023-03-24T15:00:29+08:00</lastmod>
   </url><url>
     <loc>/tags/github-pages/</loc>
@@ -176,13 +182,7 @@
     <loc>/tags/symantec/</loc>
     <lastmod>2022-09-15T10:23:27+08:00</lastmod>
   </url><url>
-    <loc>/tags/blog/</loc>
-    <lastmod>2022-09-14T13:29:28+08:00</lastmod>
-  </url><url>
     <loc>/articles/articale_02/</loc>
-    <lastmod>2022-09-14T13:29:28+08:00</lastmod>
-  </url><url>
-    <loc>/tags/static-web-site/</loc>
     <lastmod>2022-09-14T13:29:28+08:00</lastmod>
   </url><url>
     <loc>/tags/.ds_store/</loc>
