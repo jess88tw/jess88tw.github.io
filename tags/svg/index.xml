@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>svg on Hihi</title>
+    <link>https://www.jesseedgerunner.com/tags/svg/</link>
+    <description>Recent content in svg on Hihi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 06 Apr 2023 11:00:27 +0800</lastBuildDate><atom:link href="https://www.jesseedgerunner.com/tags/svg/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SVG Animations</title>
+      <link>https://www.jesseedgerunner.com/blog/blog_16/</link>
+      <pubDate>Thu, 06 Apr 2023 11:00:27 +0800</pubDate>
+      
+      <guid>https://www.jesseedgerunner.com/blog/blog_16/</guid>
+      <description>設計完成的 SVG 動畫朋朋們</description>
+    </item>
+    
+  </channel>
+</rss>
