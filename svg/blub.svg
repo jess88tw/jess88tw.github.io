@@ -56,8 +56,34 @@
       }
     }
     #glow {
-      stroke-dasharray: 12.8;
+      stroke-dasharray: 12.8 12.8 0 0;
+      -webkit-animation: glow_animation 2000ms linear infinite normal forwards;
       animation: glow_animation 2000ms linear infinite normal forwards;
+    }
+    @-webkit-keyframes glow_animation {
+      0% {
+        opacity: 0;
+      }
+      5% {
+        opacity: 1;
+        stroke-dashoffset: -12.8;
+      }
+      10% {
+        stroke-dashoffset: 0;
+      }
+      25% {
+        stroke-dashoffset: 0;
+      }
+      50% {
+        opacity: 1;
+        stroke-dashoffset: 12.8;
+      }
+      55% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 0;
+      }
     }
     @keyframes glow_animation {
       0% {
@@ -85,8 +111,34 @@
       }
     }
     #glow_color {
-      stroke-dasharray: 12.8;
+      stroke-dasharray: 12.8 12.8 0 0;
+      -webkit-animation: glow_color_animation 2000ms linear infinite normal forwards;
       animation: glow_color_animation 2000ms linear infinite normal forwards;
+    }
+    @-webkit-keyframes glow_color_animation {
+      0% {
+        opacity: 0;
+      }
+      25% {
+        opacity: 0;
+      }
+      30% {
+        opacity: 1;
+        stroke-dashoffset: -12.8;
+      }
+      40% {
+        stroke-dashoffset: 0;
+      }
+      50% {
+        opacity: 1;
+        stroke-dashoffset: 12.8;
+      }
+      55% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 0;
+      }
     }
     @keyframes glow_color_animation {
       0% {
