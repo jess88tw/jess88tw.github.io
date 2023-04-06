@@ -1,0 +1,252 @@
+<svg
+  id="light_bulb"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  viewBox="0 0 250 250"
+  shape-rendering="geometricPrecision"
+  text-rendering="geometricPrecision"
+>
+  <style>
+    <![CDATA[
+    #bulb {
+      animation: bulb_animation 2000ms linear infinite normal forwards;
+    }
+    @keyframes bulb_animation {
+      0% {
+        transform: translate(124.987001px, 124.5px);
+      }
+      10% {
+        transform: translate(124.987001px, 134.5px);
+      }
+      20% {
+        transform: translate(124.987001px, 124.5px);
+      }
+      25% {
+        transform: translate(124.987001px, 124.5px);
+      }
+      35% {
+        transform: translate(124.987001px, 134.5px);
+      }
+      45% {
+        transform: translate(124.987001px, 124.5px);
+      }
+      100% {
+        transform: translate(124.987001px, 124.5px);
+      }
+    }
+    #filament_color path {
+      stroke-dasharray: 50.2;
+      animation: filament_color_animation 2000ms linear infinite normal forwards;
+    }
+    @keyframes filament_color_animation {
+      0% {
+        stroke-dashoffset: 50.2;
+      }
+      5% {
+        stroke-dashoffset: 50.2;
+      }
+      25% {
+        stroke-dashoffset: 100.4;
+      }
+      85% {
+        stroke-dashoffset: 100.4;
+      }
+      100% {
+        stroke-dashoffset: 50.2;
+      }
+    }
+    #glow {
+      stroke-dasharray: 12.8;
+      animation: glow_animation 2000ms linear infinite normal forwards;
+    }
+    @keyframes glow_animation {
+      0% {
+        opacity: 0;
+      }
+      5% {
+        opacity: 1;
+        stroke-dashoffset: -12.8;
+      }
+      10% {
+        stroke-dashoffset: 0;
+      }
+      25% {
+        stroke-dashoffset: 0;
+      }
+      50% {
+        opacity: 1;
+        stroke-dashoffset: 12.8;
+      }
+      55% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 0;
+      }
+    }
+    #glow_color {
+      stroke-dasharray: 12.8;
+      animation: glow_color_animation 2000ms linear infinite normal forwards;
+    }
+    @keyframes glow_color_animation {
+      0% {
+        opacity: 0;
+      }
+      25% {
+        opacity: 0;
+      }
+      30% {
+        opacity: 1;
+        stroke-dashoffset: -12.8;
+      }
+      40% {
+        stroke-dashoffset: 0;
+      }
+      50% {
+        opacity: 1;
+        stroke-dashoffset: 12.8;
+      }
+      55% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 0;
+      }
+    }
+    ]]>
+  </style>
+  <g id="bulb" transform="translate(124.987001,124.5)">
+    <g transform="translate(-124.987001,-124.5)">
+      <g transform="translate(0 0.000001)">
+        <g transform="translate(0 0.000001)">
+          <path
+            d="M152.141,110l-13.384,13.383c-1.125,1.125-1.757,2.652-1.757,4.243v26.533"
+            fill="none"
+            stroke="#000"
+            stroke-width="6"
+            stroke-linecap="round"
+          />
+          <path
+            d="M98,110l13.383,13.383c1.125,1.125,1.758,2.652,1.758,4.243v26.533"
+            fill="none"
+            stroke="#000"
+            stroke-width="6"
+            stroke-linecap="round"
+          />
+        </g>
+        <g id="filament_color" transform="translate(0 0.000001)">
+          <path
+            d="M152.141,110l-13.384,13.383c-1.125,1.125-1.757,2.652-1.757,4.243v26.533"
+            fill="none"
+            stroke="#39dde8"
+            stroke-width="6"
+            stroke-linecap="round"
+          />
+          <path
+            d="M98,110l13.383,13.383c1.125,1.125,1.758,2.652,1.758,4.243v26.533"
+            fill="none"
+            stroke="#39dde8"
+            stroke-width="6"
+            stroke-linecap="round"
+          />
+        </g>
+      </g>
+      <path
+        d="M91.6709,155.894v-7.989c0-3.488-1.8541-6.677-4.6627-8.746C71.2313,127.538,61,108.864,61,87.8063C61,52.567,89.6538,24,125,24c35.346,0,64,28.567,64,63.8063c0,21.0577-10.231,39.7317-26.008,51.3527-2.809,2.069-4.663,5.258-4.663,8.746v7.989m-66.6581,0h66.6581m-66.6581,0c-3.4705,2.52-5.7252,6.604-5.7252,11.212s2.2552,8.691,5.7252,11.211m66.6581-22.423c3.47,2.52,5.725,6.604,5.725,11.211c0,4.609-2.254,8.692-5.725,11.212m-.409.204c3.47,2.521,5.725,6.604,5.725,11.212c0,3.442-1.258,6.592-3.341,9.016-1.376,1.601-3.521,2.196-5.632,2.196h-9.838M92.0799,178.521c-3.7185,2.521-6.1342,6.604-6.1342,11.213c0,3.548,1.4328,6.785,3.7896,9.237c1.3864,1.443,3.4141,1.974,5.4148,1.974h9.6069M91.4664,178.317h67.0676m-12.473,25.482c0,11.709-9.521,21.201-21.265,21.201-11.745,0-21.266-9.492-21.266-21.201v-2.854h42.531v2.854Z"
+        fill="none"
+        stroke="#000"
+        stroke-width="6"
+      />
+    </g>
+  </g>
+  <g transform="translate(0 0.000001)">
+    <g id="glow" transform="translate(.000001 0.000001)" opacity="0">
+      <path
+        d="M30.7253,58.2617l11.4504,5.7079"
+        fill="none"
+        stroke="#000"
+        stroke-width="6"
+        stroke-linecap="round"
+      />
+      <path
+        d="M30.7253,122.063l11.42-5.768"
+        fill="none"
+        stroke="#000"
+        stroke-width="6"
+        stroke-linecap="round"
+      />
+      <path
+        d="M25,90.2036l12.8017.0899"
+        fill="none"
+        stroke="#000"
+        stroke-width="6"
+        stroke-linecap="round"
+      />
+      <path
+        d="M219.249,122.202l-11.45-5.708"
+        fill="none"
+        stroke="#000"
+        stroke-width="6"
+        stroke-linecap="round"
+      />
+      <path
+        d="M219.249,58.4006l-11.42,5.7681"
+        fill="none"
+        stroke="#000"
+        stroke-width="6"
+        stroke-linecap="round"
+      />
+      <path
+        d="M224.974,90.2602l-12.801-.0899"
+        fill="none"
+        stroke="#000"
+        stroke-width="6"
+        stroke-linecap="round"
+      />
+    </g>
+    <g id="glow_color" transform="translate(.000001 0.000001)" opacity="0">
+      <path
+        d="M30.7253,58.2617l11.4504,5.7079"
+        fill="none"
+        stroke="#39dde8"
+        stroke-width="6"
+        stroke-linecap="round"
+      />
+      <path
+        d="M30.7253,122.063l11.42-5.768"
+        fill="none"
+        stroke="#39dde8"
+        stroke-width="6"
+        stroke-linecap="round"
+      />
+      <path
+        d="M25,90.2036l12.8017.0899"
+        fill="none"
+        stroke="#39dde8"
+        stroke-width="6"
+        stroke-linecap="round"
+      />
+      <path
+        d="M219.249,122.202l-11.45-5.708"
+        fill="none"
+        stroke="#39dde8"
+        stroke-width="6"
+        stroke-linecap="round"
+      />
+      <path
+        d="M219.249,58.4006l-11.42,5.7681"
+        fill="none"
+        stroke="#39dde8"
+        stroke-width="6"
+        stroke-linecap="round"
+      />
+      <path
+        d="M224.974,90.2602l-12.801-.0899"
+        fill="none"
+        stroke="#39dde8"
+        stroke-width="6"
+        stroke-linecap="round"
+      />
+    </g>
+  </g>
+</svg>
