@@ -103,6 +103,9 @@
     }
     @keyframes ring_opacity_animation {
       0% {
+        opacity: 0;
+      }
+      5% {
         opacity: 1;
       }
       25% {
