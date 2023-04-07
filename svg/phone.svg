@@ -1,0 +1,272 @@
+<svg
+  id="phone_ringing"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  viewBox="0 0 250 250"
+  shape-rendering="geometricPrecision"
+  text-rendering="geometricPrecision"
+>
+  <style>
+    <![CDATA[
+    #phone_vibe {
+      animation: phone_vibe_animation 2000ms linear infinite normal forwards;
+    }
+    @keyframes phone_vibe_animation {
+      0% {
+        transform: translate(120.998657px, 128.999939px);
+      }
+      5% {
+        transform: translate(124.998657px, 124.999939px);
+      }
+      10% {
+        transform: translate(120.998657px, 128.999939px);
+      }
+      15% {
+        transform: translate(124.998657px, 124.999939px);
+      }
+      20% {
+        transform: translate(120.998657px, 128.999939px);
+      }
+      25% {
+        transform: translate(124.998657px, 124.999939px);
+      }
+      50% {
+        transform: translate(124.998657px, 124.999939px);
+      }
+      55% {
+        transform: translate(128.998657px, 128.999939px);
+      }
+      60% {
+        transform: translate(124.998657px, 124.999939px);
+      }
+      65% {
+        transform: translate(128.998657px, 128.999939px);
+      }
+      70% {
+        transform: translate(124.998657px, 124.999939px);
+      }
+      75% {
+        transform: translate(128.998657px, 128.999939px);
+      }
+      80% {
+        transform: translate(124.998657px, 124.999939px);
+      }
+      100% {
+        transform: translate(124.998657px, 124.999939px);
+      }
+    }
+    #phone_rotate {
+      animation: phone_rotate_animation 2000ms linear infinite normal forwards;
+    }
+    @keyframes phone_rotate_animation {
+      0% {
+        transform: rotate(0deg);
+      }
+      25% {
+        transform: rotate(0deg);
+        animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      }
+      50% {
+        transform: rotate(270deg);
+        animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      }
+      75% {
+        transform: rotate(270deg);
+        animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      }
+      100% {
+        transform: rotate(0deg);
+      }
+    }
+    #ring_move {
+      animation: ring_move_animation 2000ms linear infinite normal forwards;
+    }
+    @keyframes ring_move_animation {
+      0% {
+        transform: translate(124.999979px, 124.999992px);
+      }
+      25% {
+        transform: translate(184.999979px, 64.999992px);
+      }
+      50% {
+        transform: translate(124.998575px, 125.001274px);
+      }
+      75% {
+        transform: translate(184.998575px, 65.001274px);
+      }
+      100% {
+        transform: translate(184.998575px, 65.001274px);
+      }
+    }
+    #ring_opacity {
+      animation: ring_opacity_animation 2000ms linear infinite normal forwards;
+    }
+    @keyframes ring_opacity_animation {
+      0% {
+        opacity: 1;
+      }
+      25% {
+        opacity: 1;
+      }
+      30% {
+        opacity: 0;
+      }
+      50% {
+        opacity: 0;
+      }
+      55% {
+        opacity: 1;
+      }
+      75% {
+        opacity: 1;
+      }
+      80% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 0;
+      }
+    }
+    #ring_part_1 {
+      stroke-dasharray: 61.091718;
+      animation: ring_part_1_animation 2000ms linear infinite normal forwards;
+    }
+    @keyframes ring_part_1_animation {
+      0% {
+        stroke-dashoffset: -59.09;
+      }
+      25% {
+        stroke-dashoffset: 0;
+      }
+      50% {
+        stroke-dashoffset: -59.09;
+      }
+      75% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: -59.09;
+      }
+    }
+    #ring_part_2 {
+      stroke-dasharray: 61.097234;
+      animation: ring_part_2_animation 2000ms linear infinite normal forwards;
+    }
+    @keyframes ring_part_2_animation {
+      0% {
+        stroke-dashoffset: -59.1;
+      }
+      25% {
+        stroke-dashoffset: 0;
+      }
+      50% {
+        stroke-dashoffset: -59.1;
+      }
+      75% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: -59.1;
+      }
+    }
+    #ring_part_3 {
+      stroke-dasharray: 30.299042;
+      animation: ring_part_3_animation 2000ms linear infinite normal forwards;
+    }
+    @keyframes ring_part_3_animation {
+      0% {
+        stroke-dashoffset: -28.3;
+      }
+      25% {
+        stroke-dashoffset: 0;
+      }
+      50% {
+        stroke-dashoffset: -28.3;
+      }
+      75% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: -28.3;
+      }
+    }
+    #ring_part_4 {
+      stroke-dasharray: 29.73165;
+      animation: ring_part_4_animation 2000ms linear infinite normal forwards;
+    }
+    @keyframes ring_part_4_animation {
+      0% {
+        stroke-dashoffset: -27.73;
+      }
+      25% {
+        stroke-dashoffset: 0;
+      }
+      50% {
+        stroke-dashoffset: -27.73;
+      }
+      75% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: -27.73;
+      }
+    }
+    ]]>
+  </style>
+  <g id="phone_vibe" transform="translate(120.998657,128.999939)">
+    <g id="phone_rotate" transform="rotate(0)">
+      <g transform="translate(-124.998636,-124.999931)">
+        <g id="ring_move" transform="translate(124.999979,124.999992)">
+          <g id="ring_opacity" transform="translate(-175,-75)">
+            <path
+              id="ring_part_1"
+              d="M215,115c-2.362-21.0426-11.842-39.866-25.984-54.0162"
+              fill="none"
+              stroke="#39dde8"
+              stroke-width="6"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              id="ring_part_2"
+              d="M135,35c21.035,2.339,39.861,11.8205,54.016,25.9838"
+              fill="none"
+              stroke="#39dde8"
+              stroke-width="6"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              id="ring_part_3"
+              d="M180.355,110.048c-1.99-10.2164-7.006-19.3086-14.088-26.3143"
+              fill="none"
+              stroke="#39dde8"
+              stroke-width="6"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              id="ring_part_4"
+              d="M140.355,70.0477c10.024,1.9471,18.963,6.8122,25.912,13.686"
+              fill="none"
+              stroke="#39dde8"
+              stroke-width="6"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </g>
+        </g>
+        <path
+          d="M70.2518,179.742C40.6336,150.12,28.8389,122.62,23.3826,102.047c-8.1916-30.8855.4791-48.7331,5.1666-55.2952c1.0032-1.7671,29.0076-42.0603,55.5149-20.3422c45.0019,37.0625,11.7932,49.9567,6.3247,72.0866-2.5266,10.2248,2.483,23.7158,19.9432,41.1788c17.464,17.46,30.954,22.469,41.178,19.942c22.125-5.469,35.014-38.677,72.077,6.315c21.719,26.518-18.573,54.519-20.329,55.511-6.563,4.694-24.415,13.367-55.305,5.174-20.575-5.457-48.0786-17.253-77.7012-46.875Z"
+          clip-rule="evenodd"
+          fill="none"
+          fill-rule="evenodd"
+          stroke="#000"
+          stroke-width="6"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </g>
+    </g>
+  </g>
+</svg>
