@@ -2,19 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://www.jesseedgerunner.com/tags/angular/</loc>
+    <lastmod>2023-04-11T13:57:27+08:00</lastmod>
+  </url><url>
     <loc>https://www.jesseedgerunner.com/blog/</loc>
-    <lastmod>2023-04-06T11:00:27+08:00</lastmod>
+    <lastmod>2023-04-11T13:57:27+08:00</lastmod>
   </url><url>
     <loc>https://www.jesseedgerunner.com/</loc>
-    <lastmod>2023-04-06T11:00:27+08:00</lastmod>
+    <lastmod>2023-04-11T13:57:27+08:00</lastmod>
+  </url><url>
+    <loc>https://www.jesseedgerunner.com/tags/html/</loc>
+    <lastmod>2023-04-11T13:57:27+08:00</lastmod>
+  </url><url>
+    <loc>https://www.jesseedgerunner.com/tags/javascript/</loc>
+    <lastmod>2023-04-11T13:57:27+08:00</lastmod>
+  </url><url>
+    <loc>https://www.jesseedgerunner.com/tags/</loc>
+    <lastmod>2023-04-11T13:57:27+08:00</lastmod>
+  </url><url>
+    <loc>https://www.jesseedgerunner.com/blog/blog_17/</loc>
+    <lastmod>2023-04-11T13:57:27+08:00</lastmod>
   </url><url>
     <loc>https://www.jesseedgerunner.com/tags/svg/</loc>
     <lastmod>2023-04-06T11:00:27+08:00</lastmod>
   </url><url>
     <loc>https://www.jesseedgerunner.com/blog/blog_16/</loc>
-    <lastmod>2023-04-06T11:00:27+08:00</lastmod>
-  </url><url>
-    <loc>https://www.jesseedgerunner.com/tags/</loc>
     <lastmod>2023-04-06T11:00:27+08:00</lastmod>
   </url><url>
     <loc>https://www.jesseedgerunner.com/tags/shortcut/</loc>
@@ -49,9 +61,6 @@
   </url><url>
     <loc>https://www.jesseedgerunner.com/articles/articale_14/</loc>
     <lastmod>2023-03-24T10:50:50+08:00</lastmod>
-  </url><url>
-    <loc>https://www.jesseedgerunner.com/tags/angular/</loc>
-    <lastmod>2023-03-18T12:16:50+08:00</lastmod>
   </url><url>
     <loc>https://www.jesseedgerunner.com/articles/articale_13/</loc>
     <lastmod>2023-03-18T12:16:50+08:00</lastmod>
@@ -111,9 +120,6 @@
     <lastmod>2023-03-16T09:30:30+08:00</lastmod>
   </url><url>
     <loc>https://www.jesseedgerunner.com/tags/function/</loc>
-    <lastmod>2023-03-14T11:24:47+08:00</lastmod>
-  </url><url>
-    <loc>https://www.jesseedgerunner.com/tags/javascript/</loc>
     <lastmod>2023-03-14T11:24:47+08:00</lastmod>
   </url><url>
     <loc>https://www.jesseedgerunner.com/blog/blog_14/</loc>
