@@ -185,7 +185,7 @@
         id="leg_color_r"
         d="M166,122v62h26"
         fill="none"
-        stroke="#9966CC"
+        stroke="#0FFFFF"
         stroke-width="6"
         stroke-linecap="round"
         stroke-linejoin="round"
@@ -194,7 +194,7 @@
         id="leg_color_c"
         d="M125,122v78"
         fill="none"
-        stroke="#9966CC"
+        stroke="#0FFFFF"
         stroke-width="6"
         stroke-linecap="round"
       />
@@ -202,7 +202,7 @@
         id="leg_color_l"
         d="M84,122v62h-26"
         fill="none"
-        stroke="#9966CC"
+        stroke="#0FFFFF"
         stroke-width="6"
         stroke-linecap="round"
         stroke-linejoin="round"
@@ -243,7 +243,7 @@
       <path
         d="M125,65v31"
         fill="none"
-        stroke="#9966CC"
+        stroke="#0FFFFF"
         stroke-width="6"
         stroke-linecap="round"
       />
@@ -253,7 +253,7 @@
         x2="124.504"
         y2="95.7864"
         fill="none"
-        stroke="#9966CC"
+        stroke="#0FFFFF"
         stroke-width="6"
         stroke-linecap="round"
       />
@@ -264,7 +264,7 @@
         y2="-3"
         transform="matrix(-.784883 0.619644 0.619644 0.784883 144 85)"
         fill="none"
-        stroke="#9966CC"
+        stroke="#0FFFFF"
         stroke-width="6"
         stroke-linecap="round"
       />

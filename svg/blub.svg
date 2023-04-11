@@ -138,14 +138,14 @@
           <path
             d="M152.141,110l-13.384,13.383c-1.125,1.125-1.757,2.652-1.757,4.243v26.533"
             fill="none"
-            stroke="#9966CC"
+            stroke="#0FFFFF"
             stroke-width="6"
             stroke-linecap="round"
           />
           <path
             d="M98,110l13.383,13.383c1.125,1.125,1.758,2.652,1.758,4.243v26.533"
             fill="none"
-            stroke="#9966CC"
+            stroke="#0FFFFF"
             stroke-width="6"
             stroke-linecap="round"
           />
@@ -208,42 +208,42 @@
       <path
         d="M30.7253,58.2617l11.4504,5.7079"
         fill="none"
-        stroke="#9966CC"
+        stroke="#0FFFFF"
         stroke-width="6"
         stroke-linecap="round"
       />
       <path
         d="M30.7253,122.063l11.42-5.768"
         fill="none"
-        stroke="#9966CC"
+        stroke="#0FFFFF"
         stroke-width="6"
         stroke-linecap="round"
       />
       <path
         d="M25,90.2036l12.8017.0899"
         fill="none"
-        stroke="#9966CC"
+        stroke="#0FFFFF"
         stroke-width="6"
         stroke-linecap="round"
       />
       <path
         d="M219.249,122.202l-11.45-5.708"
         fill="none"
-        stroke="#9966CC"
+        stroke="#0FFFFF"
         stroke-width="6"
         stroke-linecap="round"
       />
       <path
         d="M219.249,58.4006l-11.42,5.7681"
         fill="none"
-        stroke="#9966CC"
+        stroke="#0FFFFF"
         stroke-width="6"
         stroke-linecap="round"
       />
       <path
         d="M224.974,90.2602l-12.801-.0899"
         fill="none"
-        stroke="#9966CC"
+        stroke="#0FFFFF"
         stroke-width="6"
         stroke-linecap="round"
       />
