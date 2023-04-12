@@ -105,6 +105,9 @@
       0% {
         opacity: 0;
       }
+      1% {
+        opacity: 0;
+      }
       5% {
         opacity: 1;
       }
@@ -115,6 +118,9 @@
         opacity: 0;
       }
       50% {
+        opacity: 0;
+      }
+      51% {
         opacity: 0;
       }
       55% {
@@ -131,102 +137,99 @@
       }
     }
     #ring_part_1 {
-      stroke-dasharray: 61.091718;
+      stroke-dasharray: 58.18385696;
       animation: ring_part_1_animation 2000ms linear infinite normal forwards;
     }
     @keyframes ring_part_1_animation {
       0% {
-        stroke-dashoffset: 59.09;
-
+        stroke-dashoffset: 56.18385696;
       }
       25% {
-        stroke-dashoffset: 118.18;
+        stroke-dashoffset: 116.3677139;
       }
       50% {
-        stroke-dashoffset: 59.09;
-
+        stroke-dashoffset: 56.18385696;
       }
       75% {
-        stroke-dashoffset: 118.18;
+        stroke-dashoffset: 116.3677139;
       }
       100% {
-        stroke-dashoffset: 59.09;
-
+        stroke-dashoffset: 56.18385696;
       }
     }
     #ring_part_2 {
-      stroke-dasharray: 61.097234;
+      stroke-dasharray: 58.18915557;
       animation: ring_part_2_animation 2000ms linear infinite normal forwards;
     }
     @keyframes ring_part_2_animation {
       0% {
-        stroke-dashoffset: 59.1;
+        stroke-dashoffset: 56.18915557;
       }
       25% {
-        stroke-dashoffset: 118.2;
+        stroke-dashoffset: 116.3783111;
       }
       50% {
-        stroke-dashoffset: 59.1;
+        stroke-dashoffset: 56.18915557;
       }
       75% {
-        stroke-dashoffset: 118.2;
+        stroke-dashoffset: 116.3783111;
       }
       100% {
-        stroke-dashoffset: 59.1;
+        stroke-dashoffset: 56.18915557;
       }
     }
     #ring_part_3 {
-      stroke-dasharray: 30.299042;
+      stroke-dasharray: 28.85630035;
       animation: ring_part_3_animation 2000ms linear infinite normal forwards;
     }
     @keyframes ring_part_3_animation {
       0% {
-        stroke-dashoffset: 28.3;
+        stroke-dashoffset: 26.85630035;
       }
       25% {
-        stroke-dashoffset: 56.6;
+        stroke-dashoffset: 57.7126007;
       }
       50% {
-        stroke-dashoffset: 28.3;
+        stroke-dashoffset: 26.85630035;
       }
       75% {
-        stroke-dashoffset: 56.6;
+        stroke-dashoffset: 57.7126007;
       }
       100% {
-        stroke-dashoffset: 28.3;
+        stroke-dashoffset: 26.85630035;
       }
     }
     #ring_part_4 {
-      stroke-dasharray: 29.73165;
+      stroke-dasharray: 28.31673431;
       animation: ring_part_4_animation 2000ms linear infinite normal forwards;
     }
     @keyframes ring_part_4_animation {
       0% {
-        stroke-dashoffset: 27.73;
+        stroke-dashoffset: 26.31673431;
       }
       25% {
-        stroke-dashoffset: 55.46;
+        stroke-dashoffset: 56.63346862;
       }
       50% {
-        stroke-dashoffset: 27.73;
+        stroke-dashoffset: 26.31673431;
       }
       75% {
-        stroke-dashoffset: 55.46;
+        stroke-dashoffset: 56.63346862;
       }
       100% {
-        stroke-dashoffset: 27.73;
+        stroke-dashoffset: 26.31673431;
       }
     }
     ]]>
   </style>
-  <g id="phone_vibe" transform="translate(120.998657,128.999939)">
+    <g id="phone_vibe" transform="translate(120.998657,128.999939)">
     <g id="phone_rotate" transform="rotate(0)">
       <g transform="translate(-124.998636,-124.999931)">
         <g id="ring_move" transform="translate(124.999979,124.999992)">
           <g id="ring_opacity" transform="translate(-175,-75)">
             <path
               id="ring_part_1"
-              d="M215,115c-2.362-21.0426-11.842-39.866-25.984-54.0162"
+              d="M220.241 105.954C217.991 85.9127 208.963 67.9854 195.494 54.5088"
               fill="none"
               stroke="#0FFFFF"
               stroke-width="6"
@@ -235,7 +238,7 @@
             />
             <path
               id="ring_part_2"
-              d="M135,35c21.035,2.339,39.861,11.8205,54.016,25.9838"
+              d="M144.049 29.762C164.083 31.9896 182.013 41.0197 195.494 54.5088"
               fill="none"
               stroke="#0FFFFF"
               stroke-width="6"
@@ -244,7 +247,7 @@
             />
             <path
               id="ring_part_3"
-              d="M180.355,110.048c-1.99-10.2164-7.006-19.3086-14.088-26.3143"
+              d="M187.245 101.237C185.35 91.5072 180.573 82.8478 173.828 76.1757"
               fill="none"
               stroke="#0FFFFF"
               stroke-width="6"
@@ -253,7 +256,7 @@
             />
             <path
               id="ring_part_4"
-              d="M140.355,70.0477c10.024,1.9471,18.963,6.8122,25.912,13.686"
+              d="M149.149 63.1412C158.696 64.9956 167.209 69.6291 173.828 76.1757"
               fill="none"
               stroke="#0FFFFF"
               stroke-width="6"
@@ -263,7 +266,7 @@
           </g>
         </g>
         <path
-          d="M70.2518,179.742C40.6336,150.12,28.8389,122.62,23.3826,102.047c-8.1916-30.8855.4791-48.7331,5.1666-55.2952c1.0032-1.7671,29.0076-42.0603,55.5149-20.3422c45.0019,37.0625,11.7932,49.9567,6.3247,72.0866-2.5266,10.2248,2.483,23.7158,19.9432,41.1788c17.464,17.46,30.954,22.469,41.178,19.942c22.125-5.469,35.014-38.677,72.077,6.315c21.719,26.518-18.573,54.519-20.329,55.511-6.563,4.694-24.415,13.367-55.305,5.174-20.575-5.457-48.0786-17.253-77.7012-46.875Z"
+          d="M72.8596 177.137C44.6513 148.926 33.4182 122.734 28.2216 103.141C20.42 73.726 28.6779 56.728 33.1422 50.4783C34.0977 48.7953 60.7689 10.4203 86.0143 31.1045C128.874 66.4026 97.2461 78.683 92.0379 99.7593C89.6316 109.497 94.4027 122.346 111.032 138.978C127.664 155.607 140.512 160.377 150.249 157.97C171.321 152.762 183.596 121.135 218.895 163.985C239.58 189.24 201.206 215.908 199.534 216.853C193.284 221.324 176.281 229.584 146.862 221.781C127.266 216.584 101.072 205.349 72.8596 177.137Z"
           clip-rule="evenodd"
           fill="none"
           fill-rule="evenodd"
