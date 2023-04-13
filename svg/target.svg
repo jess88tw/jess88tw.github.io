@@ -1,0 +1,279 @@
+<svg
+  id="target"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  viewBox="0 0 250 250"
+  shape-rendering="geometricPrecision"
+  text-rendering="geometricPrecision"
+>
+  <style>
+    <![CDATA[
+    #arrow_path {
+        animation: arrow_path_animintion 2500ms linear infinite normal forwards;
+      }
+    @keyframes arrow_path_animintion {
+      0% {
+        offset-distance: 0%;
+      }
+      20% {
+        offset-distance: 58.987903%;
+      }
+      84% {
+        offset-distance: 58.987903%;
+      }
+      96% {
+        offset-distance: 100%;
+      }
+      100% {
+        offset-distance: 100%;
+      }
+    }
+    #arrow_rotate {
+      animation: arrow_rotate_animintion 2500ms linear infinite normal forwards;
+    }
+    @keyframes arrow_rotate_animintion {
+      0% {
+        transform: rotate(60deg);
+      }
+      20% {
+        transform: rotate(0deg);
+      }
+      24% {
+        transform: rotate(12.073799deg);
+      }
+      60% {
+        transform: rotate(12.073799deg);
+      }
+      64% {
+        transform: rotate(16.111028deg);
+      }
+      68% {
+        transform: rotate(12.073799deg);
+      }
+      72% {
+        transform: rotate(16.111028deg);
+      }
+      76% {
+        transform: rotate(12.073799deg);
+      }
+      80% {
+        transform: rotate(16.111028deg);
+      }
+      84% {
+        transform: rotate(12.073799deg);
+      }
+      100% {
+        transform: rotate(12.073799deg);
+      }
+    }
+    #arrow_scale {
+      animation: arrow_scale_animation 2500ms linear infinite normal forwards;
+    }
+    @keyframes arrow_scale_animation {
+      0% {
+        transform: scale(1, 1);
+      }
+      4% {
+        transform: scale(8, 8);
+      }
+      20% {
+        transform: scale(1, 1);
+      }
+      100% {
+        transform: scale(1, 1);
+      }
+    }
+    #circle_1 {
+      stroke-dasharray: 91.11;
+      animation: circle_1_animintion 2500ms linear infinite normal forwards;
+    }
+    @keyframes circle_1_animintion {
+      0% {
+        stroke-dashoffset: 91.11;
+      }
+      20% {
+        stroke-dashoffset: 91.11;
+      }
+      32% {
+        stroke-dashoffset: 0;
+      }
+      96% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 91.11;
+      }
+    }
+    #circle_2 {
+      stroke-dasharray: 270.18;
+      animation: circle_2_animintion 2500ms linear infinite normal forwards;
+    }
+    @keyframes circle_2_animintion {
+      0% {
+        stroke-dashoffset: 270.18;
+      }
+      32% {
+        stroke-dashoffset: 270.18;
+      }
+      44% {
+        stroke-dashoffset: 0;
+      }
+      92% {
+        stroke-dashoffset: 0;
+      }
+      96% {
+        stroke-dashoffset: 270.18;
+      }
+      100% {
+        stroke-dashoffset: 270.18;
+      }
+
+    }
+    #circle_3 {
+      stroke-dasharray: 446.11;
+      animation: circle_3_animintion 2500ms linear infinite normal forwards;
+    }
+    @keyframes circle_3_animintion {
+      0% {
+        stroke-dashoffset: 446.11;
+      }
+      44% {
+        stroke-dashoffset: 446.11;
+      }
+      52% {
+        stroke-dashoffset: 0;
+      }
+      88% {
+        stroke-dashoffset: 0;
+      }
+      92% {
+        stroke-dashoffset: 446.11;
+      }
+      100% {
+        stroke-dashoffset: 446.11;
+      }
+    }
+    #circle_4 {
+      stroke-dasharray: 628.32;
+      animation: circle_4_animintion 2500ms linear infinite normal forwards;
+    }
+    @keyframes circle_4_animintion {
+      0% {
+        stroke-dashoffset: 628.32;
+      }
+      52% {
+        stroke-dashoffset: 628.32;
+      }
+      60% {
+        stroke-dashoffset: 0;
+      }
+      84% {
+        stroke-dashoffset: 0;
+      }
+      88% {
+        stroke-dashoffset: 628.32;
+      }
+      100% {
+        stroke-dashoffset: 628.32;
+      }
+    }
+    ]]>
+  </style>
+  <g>
+    <g>
+      <circle
+        r="14.5"
+        transform="translate(124.5 124.5)"
+        fill="none"
+        stroke="#000"
+        stroke-width="6"
+        stroke-linecap="round"
+      />
+      <circle
+        r="43"
+        transform="translate(125 125)"
+        fill="none"
+        stroke="#000"
+        stroke-width="6"
+        stroke-linecap="round"
+      />
+      <circle
+        r="71"
+        transform="translate(125 125)"
+        fill="none"
+        stroke="#000"
+        stroke-width="6"
+        stroke-linecap="round"
+      />
+      <circle
+        r="100"
+        transform="translate(125 125)"
+        fill="none"
+        stroke="#000"
+        stroke-width="6"
+        stroke-linecap="round"
+      />
+    </g>
+    <g>
+      <circle
+        id="circle_1"
+        r="14.5"
+        transform="matrix(0 1-1 0 124.5 124.5)"
+        fill="none"
+        stroke="#0fffff"
+        stroke-width="6"
+        stroke-linecap="round"
+      />
+      <circle
+        id="circle_2"
+        r="43"
+        transform="matrix(0 1-1 0 125 125)"
+        fill="none"
+        stroke="#0fffff"
+        stroke-width="6"
+        stroke-linecap="round"
+      />
+      <circle
+        id="circle_3"
+        r="71"
+        transform="matrix(0 1-1 0 125 125)"
+        fill="none"
+        stroke="#0fffff"
+        stroke-width="6"
+        stroke-linecap="round"
+      />
+      <circle
+        id="circle_4"
+        r="100"
+        transform="matrix(0 1-1 0 125 125)"
+        fill="none"
+        stroke="#0fffff"
+        stroke-width="6"
+        stroke-linecap="round"
+      />
+    </g>
+  </g>
+  <g
+    id="arrow_path"
+    style="
+      offset-path: path(
+        'M313.66816,182.81806C284.55553,139.1491,177.07252,115.56925,125,124.248Q125,124.248,125,124.248C132.142799,193.380748,106.094946,222.008952,113.238777,265.156527'
+      );
+      offset-rotate: 0deg;
+    "
+  >
+    <g id="arrow_rotate" transform="rotate(60)">
+      <g id="arrow_scale" transform="scale(1,1)">
+        <path
+          d="M125,124.5h58.5m53.5,0h-13.5m-40,0L197,98h40l-13.5,26.5m-40,0h13.5h26.5m-40,0L197,151h40l-13.5-26.5"
+          transform="translate(-125,-124.5)"
+          fill="#0fffff"
+          stroke="#000"
+          stroke-width="6"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </g>
+    </g>
+  </g>
+</svg>
