@@ -14,15 +14,19 @@
     @keyframes blob_color_animation {
       0% {
         stroke-dashoffset: 30;
+        opacity: 0;
       }
       10% {
         stroke-dashoffset: 30;
+        opacity: 1;
       }
       90% {
         stroke-dashoffset: -410;
+        opacity: 1;
       }
       100% {
         stroke-dashoffset: -410;
+        opacity: 0;
       }
     }
     ]]>
