@@ -1,0 +1,328 @@
+<svg
+  id="money_bag"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  viewBox="0 0 250 250"
+  shape-rendering="geometricPrecision"
+  text-rendering="geometricPrecision"
+>
+  <style>
+    <![CDATA[
+    #money_bag_body {
+      animation: money_bag_body_ainmation 3000ms linear infinite normal forwards;
+    }
+    @keyframes money_bag_body_ainmation {
+      0% {
+        transform: translate(96.133356px, 123.999916px) rotate(0deg);
+      }
+      40% {
+        transform: translate(96.133356px, 123.999916px) rotate(0deg);
+      }
+      46.666667% {
+        transform: translate(96.133356px, 123.999916px) rotate(-7deg);
+      }
+      56.666667% {
+        transform: translate(96.133356px, 123.999916px) rotate(4deg);
+      }
+      63.333333% {
+        transform: translate(96.133356px, 123.999916px) rotate(0deg);
+      }
+      100% {
+        transform: translate(96.133356px, 123.999916px) rotate(0deg);
+      }
+    }
+    #money_top{
+      animation: money_top_animation 3000ms linear infinite normal forwards;
+    }
+    @Keyframes money_top_animation {
+      0% {
+        stroke-dashoffset: 67.1;
+        stroke-dasharray: 67.1;
+      }
+      40% {
+        stroke-dashoffset: 67.1;
+        stroke-dasharray: 67.1;
+      }
+      50% {
+        stroke-dashoffset: 67.1;
+        stroke-dasharray: 134.2;
+      }
+      95.666667% {
+        stroke-dashoffset: 67.1;
+        stroke-dasharray: 134.2;     
+      }
+      100% {
+        stroke-dashoffset: 67.1;
+        stroke-dasharray: 67.1;     
+      }
+    }
+    #money_bottom{
+      animation: money_bottom_animation 3000ms linear infinite normal forwards;
+    }
+    @Keyframes money_bottom_animation {
+      0% {
+        stroke-dashoffset: 67.553875;
+        stroke-dasharray: 67.553875;
+      }
+      50% {
+        stroke-dashoffset: 67.553875;
+        stroke-dasharray: 67.553875;
+      }
+      63.333333% {
+        stroke-dashoffset: 67.553875;
+        stroke-dasharray: 135.10775;
+      }
+      83.666667% {
+        stroke-dashoffset: 67.553875;
+        stroke-dasharray: 135.10775;     
+      }
+      95.666667% {
+        stroke-dashoffset: 67.553875;
+        stroke-dasharray: 67.553875;    
+      }
+      100% {
+        stroke-dashoffset: 67.553875;
+        stroke-dasharray: 67.553875;   
+      }
+    }
+    #money_leg_top{
+      stroke-dasharray: 8;
+      animation: money_leg_top_animation 3000ms linear infinite normal forwards;
+    }
+    @Keyframes money_leg_top_animation {
+      0% {
+        stroke-dashoffset: 8;
+      }
+      40.333333% {
+        stroke-dashoffset: 8;
+      }
+      63.666667% {
+        stroke-dashoffset: 16;
+      }
+      83.666667% {
+        stroke-dashoffset: 16;     
+      }
+      95.666667% {
+        stroke-dashoffset: 8; 
+      }
+      100% {
+        stroke-dashoffset: 8;
+      }
+    }
+    #money_leg_bottom{
+      stroke-dasharray: 8;
+      animation: money_leg_bottom_animation 3000ms linear infinite normal forwards;
+    }
+    @Keyframes money_leg_bottom_animation {
+      0% {
+        stroke-dashoffset: 8;
+      }
+      40.333333% {
+        stroke-dashoffset: 8;
+      }
+      63.666667% {
+        stroke-dashoffset: 16;
+      }
+      83.666667% {
+        stroke-dashoffset: 16;     
+      }
+      95.666667% {
+        stroke-dashoffset: 8; 
+      }
+      100% {
+        stroke-dashoffset: 8;
+      }
+    }
+    #coin_4 {
+      animation: coin_4_animation 3000ms linear infinite normal forwards;
+    }
+    @keyframes coin_4_animation {
+      0% {
+        transform: translate(192.161003px, 219.698502px);
+      }
+      10% {
+        transform: translate(192.161003px, 219.698502px);
+      }
+      20% {
+        transform: translate(192.161003px, 209.698502px);
+      }
+      30% {
+        transform: translate(192.161003px, 219.698502px);
+      }
+      100% {
+        transform: translate(192.161003px, 219.698502px);
+      }
+    }
+    #coin_3 {
+      animation: coin_3_animation 3000ms linear infinite normal forwards;
+    }
+    @keyframes coin_3_animation {
+      0% {
+        transform: translate(192.161003px, 191.557503px);
+      }
+      13.333333% {
+        transform: translate(192.161003px, 191.557503px);
+      }
+      23.333333% {
+        transform: translate(192.161003px, 179.890836px);
+      }
+      33.333333% {
+        transform: translate(192.161003px, 191.557503px);
+      }
+      100% {
+        transform: translate(192.161003px, 191.557503px);
+      }
+    }
+    #coin_2 {
+      animation: coin_2_animation 3000ms linear infinite normal forwards;
+    }
+    @keyframes coin_2_animation {
+      0% {
+        transform: translate(192.161003px, 163.416px);
+      }
+      20% {
+        transform: translate(192.161003px, 163.416px);
+      }
+      30% {
+        transform: translate(192.161003px, 149.749333px);
+      }
+      40% {
+        transform: translate(192.161003px, 163.416px);
+      }
+      100% {
+        transform: translate(192.161003px, 163.416px);
+      }
+    }
+    #coin_1 {
+      animation: coin_1_animation 3000ms linear infinite normal forwards;
+    }
+    @keyframes coin_1_animation {
+      0% {
+        transform: translate(192.161003px, 135.274502px);
+      }
+      26.666667% {
+        transform: translate(192.161003px, 135.274502px);
+      }
+      36.666667% {
+        transform: translate(192.161003px, 119.274502px);
+      }
+      46.666667% {
+        transform: translate(192.161003px, 135.274502px);
+      }
+      100% {
+        transform: translate(192.161003px, 135.274502px);
+      }
+    }
+    #coin_1_roatate {
+      animation: coin_1_roatate_animation 3000ms linear infinite normal forwards;
+    }
+    @keyframes coin_1_roatate_animation {
+      0% {
+        transform: rotate(0deg);
+      }
+      33.333333% {
+        transform: rotate(0deg);
+        animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+      }
+      43.333333% {
+        transform: rotate(-180.07822deg);
+      }
+      100% {
+        transform: rotate(-180.07822deg);
+      }
+    }
+    ]]>
+  </style>
+  <g transform="matrix(.934126 0 0 0.934126 9.135771 9.168495)">
+    <g id="money_bag_body" transform="translate(96.133356,123.999916) rotate(0)">
+      <g transform="translate(-96.133356,-123.999916)">
+        <g transform="translate(0 0.000001)">
+          <g transform="translate(0 0.000001)">
+            <path
+              id="money_top"
+              d="M110.484,148.675c0-7.894-6.4-14.293-14.294-14.293-7.8943,0-14.2939,6.399-14.2939,14.293c0,7.895,6.346107,13.944161,14.240408,13.944161"
+              fill="none"
+              stroke="#39dde8"
+              stroke-width="6"
+              stroke-linecap="round"
+            />
+            <path
+              id="money_bottom"
+              d="M96.136508,162.619161c7.894-.069,14.277492,6.624839,14.346492,14.519839.069,7.894-6.274,14.349-14.1683,14.418-7.8941.068-14.3493-6.275-14.4181-14.169"
+              fill="none"
+              stroke="#39dde8"
+              stroke-width="6"
+              stroke-linecap="round"
+            />
+          </g>
+          <path
+            id="money_leg_top"
+            d="M96.19,126.118v7.817"
+            transform="matrix(1 0 0-1 0 260.052994)"
+            fill="none"
+            stroke="#39dde8"
+            stroke-width="6"
+            stroke-linecap="round"
+          />
+          <path
+            id="money_leg_bottom"
+            d="M96.19,192.674v7.817"
+            transform="matrix(1 0 0-1 0 393.164994)"
+            fill="none"
+            stroke="#39dde8"
+            stroke-width="6"
+            stroke-linecap="round"
+          />
+        </g>
+        <path
+          d="M68.905,97.0834c-7.7593,0-14.0494-6.2997-14.0494-14.0706c0-7.771,6.2901-14.0706,14.0494-14.0706m0,28.1412h55.975m-55.975,0C5.57584,125.037,-15.0025,226.201,72.7534,233.546c6.5778.55,16.2221.446,24.2503.446l21.1853-.446c87.756-7.345,70.02-108.509,6.691-136.4626M68.905,68.9422h55.975m-55.975,0L55.5246,28.0706h26.9837C82.5083,20.2996,88.7985,14,96.5577,14c7.7593,0,14.0493,6.2996,14.0493,14.0706M124.88,97.0834c7.759,0,14.049-6.2997,14.049-14.0706c0-7.771-6.29-14.0706-14.049-14.0706m0,0l13.157-40.8716h-27.43m0,0v12.7305"
+          fill="none"
+          stroke="#000"
+          stroke-width="6"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </g>
+    </g>
+    <g transform="translate(.000001 0.000001)">
+      <g id="coin_4" transform="translate(192.161003,219.698502)">
+        <path
+          d="M150.061,219.698c0,7.771,6.3,14.071,14.071,14.071h56.058c7.771,0,14.071-6.3,14.071-14.071s-6.3-14.07-14.071-14.07h-56.058c-7.771,0-14.071,6.299-14.071,14.07Z"
+          transform="translate(-192.161003,-219.698502)"
+          fill="#39dde8"
+          stroke="#000"
+          stroke-width="6"
+        />
+      </g>
+      <g id="coin_3" transform="translate(192.161003,191.557503)">
+        <path
+          d="M150.061,191.557c0,7.771,6.3,14.071,14.071,14.071h56.058c7.771,0,14.071-6.3,14.071-14.071s-6.3-14.07-14.071-14.07h-56.058c-7.771,0-14.071,6.299-14.071,14.07Z"
+          transform="translate(-192.161003,-191.557503)"
+          fill="#39dde8"
+          stroke="#000"
+          stroke-width="6"
+        />
+      </g>
+      <g id="coin_2" transform="translate(192.161003,163.416)">
+        <path
+          d="M150.061,163.416c0,7.771,6.3,14.071,14.071,14.071h56.058c7.771,0,14.071-6.3,14.071-14.071s-6.3-14.071-14.071-14.071h-56.058c-7.771,0-14.071,6.3-14.071,14.071Z"
+          transform="translate(-192.161003,-163.416)"
+          fill="#39dde8"
+          stroke="#000"
+          stroke-width="6"
+        />
+      </g>
+      <g id="coin_1" transform="translate(192.161003,135.274502)">
+        <g id="coin_1_roatate" transform="rotate(0)">
+          <path
+            d="M150.061,135.275c0,7.771,6.3,14.07,14.071,14.07h56.058c7.771,0,14.071-6.299,14.071-14.07s-6.3-14.071-14.071-14.071h-56.058c-7.771,0-14.071,6.3-14.071,14.071Z"
+            transform="translate(-192.161003,-135.274502)"
+            fill="#39dde8"
+            stroke="#000"
+            stroke-width="6"
+          />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
