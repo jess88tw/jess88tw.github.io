@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>jasmine on Hihi</title>
+    <link>https://www.jesseedgerunner.com/tags/jasmine/</link>
+    <description>Recent content in jasmine on Hihi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 05 May 2023 18:00:58 +0800</lastBuildDate><atom:link href="https://www.jesseedgerunner.com/tags/jasmine/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Jasmine 常用方法</title>
+      <link>https://www.jesseedgerunner.com/blog/blog_18/</link>
+      <pubDate>Fri, 05 May 2023 18:00:58 +0800</pubDate>
+      
+      <guid>https://www.jesseedgerunner.com/blog/blog_18/</guid>
+      <description>乖乖的寫單元測試拉</description>
+    </item>
+    
+  </channel>
+</rss>
