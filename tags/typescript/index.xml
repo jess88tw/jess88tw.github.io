@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>typeScript on Hihi</title>
+    <link>https://www.jesseedgerunner.com/tags/typescript/</link>
+    <description>Recent content in typeScript on Hihi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 05 Jun 2023 14:57:30 +0800</lastBuildDate><atom:link href="https://www.jesseedgerunner.com/tags/typescript/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Json to TypeScript Interface 快速轉換</title>
+      <link>https://www.jesseedgerunner.com/blog/blog_19/</link>
+      <pubDate>Mon, 05 Jun 2023 14:57:30 +0800</pubDate>
+      
+      <guid>https://www.jesseedgerunner.com/blog/blog_19/</guid>
+      <description>省時間的小工具</description>
+    </item>
+    
+  </channel>
+</rss>
