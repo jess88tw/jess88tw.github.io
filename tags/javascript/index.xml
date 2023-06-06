@@ -5,7 +5,16 @@
     <link>https://www.jesseedgerunner.com/tags/javascript/</link>
     <description>Recent content in javaScript on Hihi</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 11 Apr 2023 13:57:27 +0800</lastBuildDate><atom:link href="https://www.jesseedgerunner.com/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 06 Jun 2023 11:04:43 +0800</lastBuildDate><atom:link href="https://www.jesseedgerunner.com/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JavaScript Array 常用方法</title>
+      <link>https://www.jesseedgerunner.com/blog/blog_20/</link>
+      <pubDate>Tue, 06 Jun 2023 11:04:43 +0800</pubDate>
+      
+      <guid>https://www.jesseedgerunner.com/blog/blog_20/</guid>
+      <description>好用的 ES6.</description>
+    </item>
+    
     <item>
       <title>限定 Input Element 英文輸入法</title>
       <link>https://www.jesseedgerunner.com/blog/blog_17/</link>
