@@ -5,7 +5,16 @@
     <link>https://www.jesseedgerunner.com/blog/</link>
     <description>Recent content in Blog on Hihi</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 06 Jun 2023 11:04:43 +0800</lastBuildDate><atom:link href="https://www.jesseedgerunner.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 10 Jun 2023 11:12:34 +0800</lastBuildDate><atom:link href="https://www.jesseedgerunner.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JavaScript Destructuring 用法</title>
+      <link>https://www.jesseedgerunner.com/blog/blog_21/</link>
+      <pubDate>Sat, 10 Jun 2023 11:12:34 +0800</pubDate>
+      
+      <guid>https://www.jesseedgerunner.com/blog/blog_21/</guid>
+      <description>解構賦值</description>
+    </item>
+    
     <item>
       <title>JavaScript Array 常用方法</title>
       <link>https://www.jesseedgerunner.com/blog/blog_20/</link>
