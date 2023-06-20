@@ -1,5 +1,149 @@
-<svg id="elsLO2cYCu31" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 250 250" shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
-<style><![CDATA[
-#elsLO2cYCu37_to {animation: elsLO2cYCu37_to__to 2000ms linear infinite normal forwards}@keyframes elsLO2cYCu37_to__to { 0% {offset-distance: 0%} 20% {offset-distance: 37.187838%} 25% {offset-distance: 42.6306%} 35% {offset-distance: 54.310898%} 50% {offset-distance: 59.416945%} 60% {offset-distance: 64.784573%} 65% {offset-distance: 74.908102%} 75% {offset-distance: 100%} 100% {offset-distance: 100%}} #elsLO2cYCu37_tr {animation: elsLO2cYCu37_tr__tr 2000ms linear infinite normal forwards}@keyframes elsLO2cYCu37_tr__tr { 0% {transform: rotate(0deg)} 15% {transform: rotate(-151.15822deg)} 60% {transform: rotate(-151.15822deg)} 75% {transform: rotate(0deg)} 100% {transform: rotate(0deg)}}
-]]></style>
-<path d="M50.4463,36v25.4359M75.4821,36v25.4359M100.518,36v25.4359M125.554,36v25.4359M25,47.8974h126L151,212h-126v-164.1026Z" fill="none" stroke="#000" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><path d="M50,94h76" fill="none" stroke="#39dde8" stroke-width="6" stroke-linecap="round"/><path d="M50,170h76" fill="none" stroke="#000" stroke-width="6" stroke-linecap="round" stroke-dashoffset="76" stroke-dasharray="76"/><path d="M50,119h52" fill="none" stroke="#000" stroke-width="6" stroke-linecap="round"/><path d="M49,144h70" fill="none" stroke="#39dde8" stroke-width="6" stroke-linecap="round"/><g id="elsLO2cYCu37_to" style="offset-path:path('M200.03881,100.339261C156.72668,100.339261,110.57576,79.502311,76.05227,107.121101C65.51215,115.553191,84.90208,109.533811,77.61434,120.465421C77.39546,120.793731,117.304307,120.468735,117.677017,120.468735C140,120.468735,121.152044,120.468735,134.583808,120.468735C140.721098,120.468735,141.677822,120.468735,153,120.468735C154.511631,120.468735,123.523522,143.843345,125.64688,140.589961C133.837983,128.03965,170.7098,104.753509,200.03881,100.339261');offset-rotate:0deg"><g id="elsLO2cYCu37_tr" transform="rotate(0)"><path d="M226,79.413L201.509,52L177,79.413m49,0l-24.491-.1023M226,79.413v95.127M177,79.413l24.509-.1023M177,79.413l.018,95.127m24.491-95.2293v95.2293m0,0h-24.491m24.491,0h24.491m-48.982,0v26.595v1.636c0,7.57,10.955,10.229,24.491,10.229s24.491-2.659,24.491-10.229v-1.636-26.595" transform="translate(-201.5,-108.245644)" fill="none" stroke="#000" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></g></g></svg>
+<svg
+  id="writing_text"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  viewBox="0 0 250 250"
+  shape-rendering="geometricPrecision"
+  text-rendering="geometricPrecision"
+>
+  <style>
+    <![CDATA[
+    #writing_pen_path {
+      animation: writing_pen_path_animation 2000ms linear infinite normal forwards;
+    }
+
+    @keyframes writing_pen_path_animation {
+      0% {
+        offset-distance: 0%;
+      }
+      20% {
+        offset-distance: 37.187838%;
+      }
+      25% {
+        offset-distance: 42.6306%;
+      }
+      35% {
+        offset-distance: 54.310898%;
+      }
+      50% {
+        offset-distance: 59.416945%;
+      }
+      60% {
+        offset-distance: 64.784573%;
+      }
+      65% {
+        offset-distance: 74.908102%;
+      }
+      75% {
+        offset-distance: 100%;
+      }
+      100% {
+        offset-distance: 100%;
+      }
+    }
+
+    #writing_pen {
+      animation: writing_pen_animation 2000ms linear infinite normal forwards;
+    }
+
+    @keyframes writing_pen_animation {
+      0% {
+        transform: rotate(0deg);
+      }
+      15% {
+        transform: rotate(-151.15822deg);
+      }
+      60% {
+        transform: rotate(-151.15822deg);
+      }
+      75% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(0deg);
+      }
+    }
+
+    #writing_line {
+      stroke-dasharray: 76;
+      animation: writing_line_animation 2000ms linear infinite normal forwards;
+    }
+
+    @keyframes writing_line_animation {
+      0% {
+        stroke-dashoffset: 76;
+      }
+      15% {
+        stroke-dashoffset: 76;
+      }
+      60% {
+        stroke-dashoffset: 0;
+      }
+      75% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: 76;
+      }
+    }
+    ]]>
+  </style>
+  <path
+    d="M50.4463,36v25.4359M75.4821,36v25.4359M100.518,36v25.4359M125.554,36v25.4359M25,47.8974h126L151,212h-126v-164.1026Z"
+    fill="none"
+    stroke="#000"
+    stroke-width="6"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <path
+    d="M50,94h76"
+    fill="none"
+    stroke="#39dde8"
+    stroke-width="6"
+    stroke-linecap="round"
+  />
+  <path
+    id="writing_line"
+    d="M50,170h76"
+    fill="none"
+    stroke="#000"
+    stroke-width="6"
+    stroke-linecap="round"
+  />
+  <path
+    d="M50,119h52"
+    fill="none"
+    stroke="#000"
+    stroke-width="6"
+    stroke-linecap="round"
+  />
+  <path
+    d="M49,144h70"
+    fill="none"
+    stroke="#39dde8"
+    stroke-width="6"
+    stroke-linecap="round"
+  />
+  <g
+    id="writing_pen_path"
+    style="
+      offset-path: path(
+        'M200.03881,100.339261C156.72668,100.339261,110.57576,79.502311,76.05227,107.121101C65.51215,115.553191,84.90208,109.533811,77.61434,120.465421C77.39546,120.793731,117.304307,120.468735,117.677017,120.468735C140,120.468735,121.152044,120.468735,134.583808,120.468735C140.721098,120.468735,141.677822,120.468735,153,120.468735C154.511631,120.468735,123.523522,143.843345,125.64688,140.589961C133.837983,128.03965,170.7098,104.753509,200.03881,100.339261'
+      );
+      offset-rotate: 0deg;
+    "
+  >
+    <g id="writing_pen" transform="rotate(0)">
+      <path
+        d="M226,79.413L201.509,52L177,79.413m49,0l-24.491-.1023M226,79.413v95.127M177,79.413l24.509-.1023M177,79.413l.018,95.127m24.491-95.2293v95.2293m0,0h-24.491m24.491,0h24.491m-48.982,0v26.595v1.636c0,7.57,10.955,10.229,24.491,10.229s24.491-2.659,24.491-10.229v-1.636-26.595"
+        transform="translate(-201.5,-108.245644)"
+        fill="none"
+        stroke="#000"
+        stroke-width="6"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+    </g>
+  </g>
+</svg>

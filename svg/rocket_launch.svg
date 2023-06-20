@@ -202,7 +202,7 @@
       <g transform="translate(-124.266777,-125.686531)">
         <path
           fill="none"
-          stroke="#39dde8"
+          stroke="#0FFFFF"
           stroke-width="6"
           stroke-linejoin="round"
         >
@@ -234,7 +234,7 @@
       id="speed_7"
       d="M159.682,85.7045L115.891,129.496"
       fill="none"
-      stroke="#39dde8"
+      stroke="#0FFFFF"
       stroke-width="6"
       stroke-linecap="round"
     />
@@ -242,7 +242,7 @@
       id="speed_6"
       d="M181.74,120.089l-43.791,43.792"
       fill="none"
-      stroke="#39dde8"
+      stroke="#0FFFFF"
       stroke-width="6"
       stroke-linecap="round"
     />
@@ -250,7 +250,7 @@
       id="speed_5"
       d="M203.474,53.915L159.682,97.7066"
       fill="none"
-      stroke="#39dde8"
+      stroke="#0FFFFF"
       stroke-width="6"
       stroke-linecap="round"
     />
@@ -258,7 +258,7 @@
       id="speed_4"
       d="M163.899,53.915L120.108,97.7066"
       fill="none"
-      stroke="#39dde8"
+      stroke="#0FFFFF"
       stroke-width="6"
       stroke-linecap="round"
     />
@@ -266,7 +266,7 @@
       id="speed_3"
       d="M170.387,107.438L126.595,151.23"
       fill="none"
-      stroke="#39dde8"
+      stroke="#0FFFFF"
       stroke-width="6"
       stroke-linecap="round"
     />
@@ -274,7 +274,7 @@
       id="speed_2"
       d="M120.108,83.4338L76.3161,127.225"
       fill="none"
-      stroke="#39dde8"
+      stroke="#0FFFFF"
       stroke-width="6"
       stroke-linecap="round"
     />
@@ -282,7 +282,7 @@
       id="speed_1"
       d="M124,127.225L80.2087,171.017"
       fill="none"
-      stroke="#39dde8"
+      stroke="#0FFFFF"
       stroke-width="6"
       stroke-linecap="round"
     />
