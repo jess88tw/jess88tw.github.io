@@ -5,7 +5,16 @@
     <link>https://www.jesseedgerunner.com/</link>
     <description>Recent content on Hihi</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 10 Jun 2023 11:12:34 +0800</lastBuildDate><atom:link href="https://www.jesseedgerunner.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 13 Jul 2023 08:30:30 +0800</lastBuildDate><atom:link href="https://www.jesseedgerunner.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>20230713 Weekly Report</title>
+      <link>https://www.jesseedgerunner.com/blog/blog_22/</link>
+      <pubDate>Thu, 13 Jul 2023 08:30:30 +0800</pubDate>
+      
+      <guid>https://www.jesseedgerunner.com/blog/blog_22/</guid>
+      <description>Weekly Report.</description>
+    </item>
+    
     <item>
       <title>JavaScript Destructuring 用法</title>
       <link>https://www.jesseedgerunner.com/blog/blog_21/</link>
