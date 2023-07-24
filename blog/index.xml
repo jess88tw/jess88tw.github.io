@@ -5,7 +5,16 @@
     <link>https://www.jesseedgerunner.com/blog/</link>
     <description>Recent content in Blog on Hihi</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 13 Jul 2023 08:30:30 +0800</lastBuildDate><atom:link href="https://www.jesseedgerunner.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 24 Jul 2023 16:51:54 +0800</lastBuildDate><atom:link href="https://www.jesseedgerunner.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Java AtomicInteger 用法</title>
+      <link>https://www.jesseedgerunner.com/blog/blog_23/</link>
+      <pubDate>Mon, 24 Jul 2023 16:51:54 +0800</pubDate>
+      
+      <guid>https://www.jesseedgerunner.com/blog/blog_23/</guid>
+      <description>原子操作!!!</description>
+    </item>
+    
     <item>
       <title>20230713 Weekly Report</title>
       <link>https://www.jesseedgerunner.com/blog/blog_22/</link>
