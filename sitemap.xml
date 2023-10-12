@@ -3,18 +3,24 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.jesseedgerunner.com/blog/</loc>
-    <lastmod>2023-07-24T16:51:54+08:00</lastmod>
+    <lastmod>2023-10-12T13:35:26+08:00</lastmod>
   </url><url>
     <loc>https://www.jesseedgerunner.com/</loc>
-    <lastmod>2023-07-24T16:51:54+08:00</lastmod>
+    <lastmod>2023-10-12T13:35:26+08:00</lastmod>
+  </url><url>
+    <loc>https://www.jesseedgerunner.com/tags/</loc>
+    <lastmod>2023-10-12T13:35:26+08:00</lastmod>
+  </url><url>
+    <loc>https://www.jesseedgerunner.com/tags/typescript/</loc>
+    <lastmod>2023-10-12T13:35:26+08:00</lastmod>
+  </url><url>
+    <loc>https://www.jesseedgerunner.com/blog/blog_24/</loc>
+    <lastmod>2023-10-12T13:35:26+08:00</lastmod>
   </url><url>
     <loc>https://www.jesseedgerunner.com/tags/java/</loc>
     <lastmod>2023-07-24T16:51:54+08:00</lastmod>
   </url><url>
     <loc>https://www.jesseedgerunner.com/blog/blog_23/</loc>
-    <lastmod>2023-07-24T16:51:54+08:00</lastmod>
-  </url><url>
-    <loc>https://www.jesseedgerunner.com/tags/</loc>
     <lastmod>2023-07-24T16:51:54+08:00</lastmod>
   </url><url>
     <loc>https://www.jesseedgerunner.com/blog/blog_22/</loc>
@@ -42,9 +48,6 @@
     <lastmod>2023-06-05T14:57:30+08:00</lastmod>
   </url><url>
     <loc>https://www.jesseedgerunner.com/blog/blog_19/</loc>
-    <lastmod>2023-06-05T14:57:30+08:00</lastmod>
-  </url><url>
-    <loc>https://www.jesseedgerunner.com/tags/typescript/</loc>
     <lastmod>2023-06-05T14:57:30+08:00</lastmod>
   </url><url>
     <loc>https://www.jesseedgerunner.com/tags/jasmine/</loc>
