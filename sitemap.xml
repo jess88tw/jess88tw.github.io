@@ -2,14 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://www.jesseedgerunner.com/blog/blog_25/</loc>
+    <lastmod>2023-11-07T13:40:59+08:00</lastmod>
+  </url><url>
     <loc>https://www.jesseedgerunner.com/blog/</loc>
-    <lastmod>2023-10-12T13:35:26+08:00</lastmod>
+    <lastmod>2023-11-07T13:40:59+08:00</lastmod>
   </url><url>
     <loc>https://www.jesseedgerunner.com/</loc>
-    <lastmod>2023-10-12T13:35:26+08:00</lastmod>
+    <lastmod>2023-11-07T13:40:59+08:00</lastmod>
+  </url><url>
+    <loc>https://www.jesseedgerunner.com/tags/mood/</loc>
+    <lastmod>2023-11-07T13:40:59+08:00</lastmod>
   </url><url>
     <loc>https://www.jesseedgerunner.com/tags/</loc>
-    <lastmod>2023-10-12T13:35:26+08:00</lastmod>
+    <lastmod>2023-11-07T13:40:59+08:00</lastmod>
   </url><url>
     <loc>https://www.jesseedgerunner.com/tags/typescript/</loc>
     <lastmod>2023-10-12T13:35:26+08:00</lastmod>
@@ -24,9 +30,6 @@
     <lastmod>2023-07-24T16:51:54+08:00</lastmod>
   </url><url>
     <loc>https://www.jesseedgerunner.com/blog/blog_22/</loc>
-    <lastmod>2023-07-13T08:30:30+08:00</lastmod>
-  </url><url>
-    <loc>https://www.jesseedgerunner.com/tags/mood/</loc>
     <lastmod>2023-07-13T08:30:30+08:00</lastmod>
   </url><url>
     <loc>https://www.jesseedgerunner.com/tags/javascript/</loc>
