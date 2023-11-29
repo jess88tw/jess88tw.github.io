@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>standalone on Hihi</title>
+    <link>https://www.jesseedgerunner.com/tags/standalone/</link>
+    <description>Recent content in standalone on Hihi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 16 Mar 2023 18:30:30 +0800</lastBuildDate><atom:link href="https://www.jesseedgerunner.com/tags/standalone/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>🚀Angular(3) 基礎結構</title>
+      <link>https://www.jesseedgerunner.com/articles/articale_06/</link>
+      <pubDate>Thu, 16 Mar 2023 18:30:30 +0800</pubDate>
+      
+      <guid>https://www.jesseedgerunner.com/articles/articale_06/</guid>
+      <description>了解 Angular 基礎架構.</description>
+    </item>
+    
+    <item>
+      <title>🚀Angular(2) 環境安裝</title>
+      <link>https://www.jesseedgerunner.com/articles/articale_05/</link>
+      <pubDate>Thu, 16 Mar 2023 12:30:30 +0800</pubDate>
+      
+      <guid>https://www.jesseedgerunner.com/articles/articale_05/</guid>
+      <description>環境安裝與啟動專案.</description>
+    </item>
+    
+  </channel>
+</rss>
