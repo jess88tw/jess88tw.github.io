@@ -5,7 +5,16 @@
     <link>https://www.jesseedgerunner.com/articles/</link>
     <description>Recent content in Articles on Hihi</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 24 Mar 2023 15:00:29 +0800</lastBuildDate><atom:link href="https://www.jesseedgerunner.com/articles/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 12 Mar 2024 12:00:09 +0800</lastBuildDate><atom:link href="https://www.jesseedgerunner.com/articles/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Angular 屬性綁定方法</title>
+      <link>https://www.jesseedgerunner.com/articles/articale_16/</link>
+      <pubDate>Tue, 12 Mar 2024 12:00:09 +0800</pubDate>
+      
+      <guid>https://www.jesseedgerunner.com/articles/articale_16/</guid>
+      <description>動態調整屬性會造成效能變差?</description>
+    </item>
+    
     <item>
       <title>HUGO(4) GitHub Action</title>
       <link>https://www.jesseedgerunner.com/articles/articale_15/</link>
