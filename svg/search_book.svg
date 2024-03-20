@@ -112,6 +112,7 @@
         }
     }
     #eivYVu7GHnq2_l_b {
+        stroke-dasharray: 47.93 47.93;
         animation: eivYVu7GHnq2_l_b__b 3000ms linear infinite normal forwards
       }
       @keyframes eivYVu7GHnq2_l_b__b {
@@ -129,6 +130,7 @@
         }
       }
       #eivYVu7GHnq2_l_u {
+        stroke-dasharray: 47.93 47.93;
         animation: eivYVu7GHnq2_l_u__u 3000ms linear infinite normal forwards
       }
       @keyframes eivYVu7GHnq2_l_u__u {
@@ -146,6 +148,7 @@
         }
       }
       #eivYVu7GHnq2_r_b {
+        stroke-dasharray: 47.93 47.93;
         animation: eivYVu7GHnq2_r_b__b 3000ms linear infinite normal forwards
       }
       @keyframes eivYVu7GHnq2_r_b__b {
@@ -163,6 +166,7 @@
         }
       }
       #eivYVu7GHnq2_r_u {
+        stroke-dasharray: 47.93 47.93;
         animation: eivYVu7GHnq2_r_u__u 3000ms linear infinite normal forwards
       }
       @keyframes eivYVu7GHnq2_r_u__u {
@@ -198,7 +202,6 @@
           stroke="#000"
           stroke-width="6"
           stroke-linecap="round"
-          stroke-dasharray="47.93"
         />
         <path
           d="M49.7469,74.5306h47.9266"
@@ -214,7 +217,6 @@
           stroke="#0FFFFF"
           stroke-width="6"
           stroke-linecap="round"
-          stroke-dasharray="47.93"
         />
         <path
           d="M200.253,105.22h-47.926"
@@ -230,7 +232,6 @@
           stroke="#0FFFFF"
           stroke-width="6"
           stroke-linecap="round"
-          stroke-dasharray="47.93"
         />
         <path
           d="M200.253,74.5306h-47.926"
@@ -246,10 +247,9 @@
           stroke="#000"
           stroke-width="6"
           stroke-linecap="round"
-          stroke-dasharray="47.93"
         />
         <path
-          d="M125,193.927v-127.3841m0,127.3841h-102.5796c-.2322,0-.4204-.189-.4204-.421v-149.6652c0-.4644.3764-.8408.8408-.8408h78.6162C114.46,43,125,53.5405,125,66.5429m0,127.3841h102.58c.232,0,.42-.189.42-.421v-149.6652c0-.4644-.376-.8408-.841-.8408h-78.616C135.54,43,125,53.5405,125,66.5429M22,166.39h201.796"
+          d="M126 195.927V68.5429M126 195.927H23.4204C23.1882 195.927 23 195.738 23 195.506V45.8408C23 45.3764 23.3764 45 23.8408 45H102.457C115.46 45 126 55.5405 126 68.5429M126 195.927H228.58C228.812 195.927 229 195.738 229 195.506V45.8408C229 45.3764 228.624 45 228.159 45H149.543C136.54 45 126 55.5405 126 68.5429M23 168.39H229"
           fill="none"
           stroke="#000"
           stroke-width="6"
