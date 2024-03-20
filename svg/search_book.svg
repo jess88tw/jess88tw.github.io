@@ -1,0 +1,293 @@
+<svg
+  id="eivYVu7GHnq1"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  viewBox="0 0 250 250"
+  shape-rendering="geometricPrecision"
+  text-rendering="geometricPrecision"
+>
+  <style>
+    <![CDATA[
+    #eivYVu7GHnq2_to {
+        animation: eivYVu7GHnq2_to__to 3000ms linear infinite normal forwards
+    }
+    @keyframes eivYVu7GHnq2_to__to {
+        0% {
+            transform: translate(125px,118.463501px);
+            animation-timing-function: cubic-bezier(0.42,0,1,1)}
+        6.666667% {
+            transform: translate(125px,113.09212px);
+            animation-timing-function: cubic-bezier(0.42,0,1,1)
+        }
+        13.333333% {
+            transform: translate(125px,118.463501px);
+            animation-timing-function: cubic-bezier(0.42,0,1,1)
+        }
+        70% {
+            transform: translate(125px,118.463501px);
+            animation-timing-function: cubic-bezier(0.42,0,1,1)
+        }
+        76.666667% {
+            transform: translate(125px,103.906109px);
+            animation-timing-function: cubic-bezier(0.42,0,1,1)
+        }
+        83.333333% {
+            transform: translate(125px,118.463501px)
+        }
+        100% {
+            transform: translate(125px,118.463501px)
+        }
+    }
+    #eivYVu7GHnq2_tr {
+        animation: eivYVu7GHnq2_tr__tr 3000ms linear infinite normal forwards
+    }
+    @keyframes eivYVu7GHnq2_tr__tr {
+        0% {transform: rotate(0deg)
+        }
+        6.666667% {
+            transform: rotate(3.261353deg)
+        }
+        13.333333% {transform: rotate(0deg)} 100% {transform: rotate(0deg)}
+    }
+    #eivYVu7GHnq15_to {
+        animation: eivYVu7GHnq15_to__to 3000ms linear infinite normal forwards
+    }
+    @keyframes eivYVu7GHnq15_to__to {
+        0% {
+            offset-distance: 0%
+        }
+        10% {
+            offset-distance: 0%;
+            animation-timing-function: cubic-bezier(0.42,0,1,1)
+        }
+        30% {
+            offset-distance: 29.055713%;
+            animation-timing-function: cubic-bezier(0.42,0,1,1)
+        }
+        43.333333% {
+            offset-distance: 29.055713%;
+            animation-timing-function: cubic-bezier(0.42,0,1,1)
+        }
+        56.666667% {
+            offset-distance: 58.337675%;
+            animation-timing-function: cubic-bezier(0.42,0,1,1)
+        }
+        70% {
+            offset-distance: 58.337675%;
+            animation-timing-function: cubic-bezier(0.42,0,1,1)
+        }
+        90% {
+            offset-distance: 100%
+        }
+        100% {
+            offset-distance: 100%
+        }
+    }
+    #eivYVu7GHnq15_tr {
+        animation: eivYVu7GHnq15_tr__tr 3000ms linear infinite normal forwards
+    }
+    @keyframes eivYVu7GHnq15_tr__tr {
+        0% {transform: rotate(0deg)
+        }
+        13.333333% {
+            transform: rotate(-13.271865deg)
+        }
+        30% {
+            transform: rotate(79.61752deg)
+        }
+        43.333333% {
+            transform: rotate(79.61752deg)
+        }
+        56.666667% {
+            transform: rotate(8.693892deg)
+        }
+        70% {
+            transform: rotate(8.693892deg)
+        }
+        90% {
+            transform: rotate(0deg)
+        }
+        100% {
+            transform: rotate(0deg)
+        }
+    }
+    #eivYVu7GHnq2_l_b {
+        animation: eivYVu7GHnq2_l_b__b 3000ms linear infinite normal forwards
+      }
+      @keyframes eivYVu7GHnq2_l_b__b {
+        0% {
+          stroke-dashoffset: -47.93
+        }
+        66.666667% {
+          stroke-dashoffset: -47.93
+        }
+        80% {
+          stroke-dashoffset: 47.93
+        }
+        100% {
+          stroke-dashoffset: 47.93
+        }
+      }
+      #eivYVu7GHnq2_l_u {
+        animation: eivYVu7GHnq2_l_u__u 3000ms linear infinite normal forwards
+      }
+      @keyframes eivYVu7GHnq2_l_u__u {
+        0% {
+          stroke-dashoffset: -47.93
+        }
+        56.666667% {
+          stroke-dashoffset: -47.93
+        }
+        70% {
+          stroke-dashoffset: 47.93
+        }
+        100% {
+          stroke-dashoffset: 47.93
+        }
+      }
+      #eivYVu7GHnq2_r_b {
+        animation: eivYVu7GHnq2_r_b__b 3000ms linear infinite normal forwards
+      }
+      @keyframes eivYVu7GHnq2_r_b__b {
+        0% {
+          stroke-dashoffset: -47.93
+        }
+        40% {
+          stroke-dashoffset: -47.93
+        }
+        53.333333% {
+          stroke-dashoffset: 47.93
+        }
+        100% {
+          stroke-dashoffset: 47.93
+        }
+      }
+      #eivYVu7GHnq2_r_u {
+        animation: eivYVu7GHnq2_r_u__u 3000ms linear infinite normal forwards
+      }
+      @keyframes eivYVu7GHnq2_r_u__u {
+        0% {
+          stroke-dashoffset: -47.93
+        }
+        30% {
+          stroke-dashoffset: -47.93
+        }
+        43.333333% {
+          stroke-dashoffset: 47.93
+        }
+        100% {
+          stroke-dashoffset: 47.93
+        }
+      }
+    ]]>
+  </style>
+  <g id="eivYVu7GHnq2_to" transform="translate(125,118.463501)">
+    <g id="eivYVu7GHnq2_tr" transform="rotate(0)">
+      <g transform="translate(-125,-118.463501)">
+        <path
+          d="M49.7469,105.22h47.9266"
+          fill="none"
+          stroke="#0FFFFF"
+          stroke-width="6"
+          stroke-linecap="round"
+        />
+        <path
+          id="eivYVu7GHnq2_l_b"
+          d="M49.7469,105.22h47.9266"
+          fill="none"
+          stroke="#000"
+          stroke-width="6"
+          stroke-linecap="round"
+          stroke-dasharray="47.93"
+        />
+        <path
+          d="M49.7469,74.5306h47.9266"
+          fill="none"
+          stroke="#000"
+          stroke-width="6"
+          stroke-linecap="round"
+        />
+        <path
+          id="eivYVu7GHnq2_l_u"
+          d="M49.7469,74.5306h47.9266"
+          fill="none"
+          stroke="#0FFFFF"
+          stroke-width="6"
+          stroke-linecap="round"
+          stroke-dasharray="47.93"
+        />
+        <path
+          d="M200.253,105.22h-47.926"
+          fill="none"
+          stroke="#000"
+          stroke-width="6"
+          stroke-linecap="round"
+        />
+        <path
+          id="eivYVu7GHnq2_r_b"
+          d="M200.253,105.22h-47.926"
+          fill="none"
+          stroke="#0FFFFF"
+          stroke-width="6"
+          stroke-linecap="round"
+          stroke-dasharray="47.93"
+        />
+        <path
+          d="M200.253,74.5306h-47.926"
+          fill="none"
+          stroke="#0FFFFF"
+          stroke-width="6"
+          stroke-linecap="round"
+        />
+        <path
+          id="eivYVu7GHnq2_r_u"
+          d="M200.253,74.5306h-47.926"
+          fill="none"
+          stroke="#000"
+          stroke-width="6"
+          stroke-linecap="round"
+          stroke-dasharray="47.93"
+        />
+        <path
+          d="M125,193.927v-127.3841m0,127.3841h-102.5796c-.2322,0-.4204-.189-.4204-.421v-149.6652c0-.4644.3764-.8408.8408-.8408h78.6162C114.46,43,125,53.5405,125,66.5429m0,127.3841h102.58c.232,0,.42-.189.42-.421v-149.6652c0-.4644-.376-.8408-.841-.8408h-78.616C135.54,43,125,53.5405,125,66.5429M22,166.39h201.796"
+          fill="none"
+          stroke="#000"
+          stroke-width="6"
+        />
+        <g>
+          <path
+            d="M49.7469,135.91h20.6"
+            fill="none"
+            stroke="#000"
+            stroke-width="6"
+            stroke-linecap="round"
+          />
+          <path
+            d="M200.253,135.91h-20.6"
+            fill="none"
+            stroke="#0FFFFF"
+            stroke-width="6"
+            stroke-linecap="round"
+          />
+        </g>
+      </g>
+    </g>
+  </g>
+  <g
+    id="eivYVu7GHnq15_to"
+    style="
+      offset-path: path(
+        'M135.300003,179.5L168.991603,100.866648L168.991603,100.866648L82.782131,100.048185C82.782131,100.048185,82.782131,100.048185,82.782131,100.048185C68.542395,140.265011,75.925891,189.813353,135.300003,179.5'
+      );
+      offset-rotate: 0deg;
+    "
+  >
+    <g id="eivYVu7GHnq15_tr" transform="rotate(0)">
+      <path
+        d="M184.679,233.121c1.171,1.172,3.071,1.172,4.242,0c1.172-1.171,1.172-3.071,0-4.242l-4.242,4.242Zm-21.054-63.709c0,21.215-17.198,38.413-38.413,38.413v6c24.529,0,44.413-19.884,44.413-44.413h-6Zm-38.413,38.413c-21.214,0-38.412-17.198-38.412-38.413h-6c0,24.529,19.884,44.413,44.412,44.413v-6ZM86.8,169.412C86.8,148.198,103.998,131,125.212,131v-6C100.684,125,80.8,144.884,80.8,169.412h6ZM125.212,131c21.215,0,38.413,17.198,38.413,38.412h6c0-24.528-19.884-44.412-44.413-44.412v6Zm27.162,69.817l32.305,32.304l4.242-4.242-32.304-32.305-4.243,4.243Z"
+        transform="translate(-135.300003,-179.5)"
+        fill="#0FFFFF"
+      />
+    </g>
+  </g>
+</svg>
