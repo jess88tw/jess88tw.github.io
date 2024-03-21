@@ -97,7 +97,7 @@
       }
     }
     #eSlqc1Rzv7s7_to {
-      stroke-dasharray: 102.5;
+      stroke-dasharray: 102.5 102.5;
       animation: eSlqc1Rzv7s7_to__to 3000ms linear infinite normal forwards
     }
     @keyframes eSlqc1Rzv7s7_to__to {
@@ -130,7 +130,7 @@
       }
     }
     #eSlqc1Rzv7s8_to {
-      stroke-dasharray: 102;
+      stroke-dasharray: 102 102;
       animation: eSlqc1Rzv7s8_to__to 3000ms linear infinite normal forwards
     }
     @keyframes eSlqc1Rzv7s8_to__to {
