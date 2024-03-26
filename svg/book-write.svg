@@ -8,6 +8,11 @@
 >
   <style>
     <![CDATA[
+    :root {
+        --primary-color: #0FFFFF;
+        --base-color: #000;
+        --background-color: #9b9c9d;
+    }
     #writing_pen_path {
       animation: writing_pen_path_animation 2000ms linear infinite normal forwards;
     }
@@ -91,7 +96,7 @@
   <path
     d="M50.4463,36v25.4359M75.4821,36v25.4359M100.518,36v25.4359M125.554,36v25.4359M25,47.8974h126L151,212h-126v-164.1026Z"
     fill="none"
-    stroke="#000"
+    stroke="var(--base-color)"
     stroke-width="6"
     stroke-linecap="round"
     stroke-linejoin="round"
@@ -99,7 +104,7 @@
   <path
     d="M50,94h76"
     fill="none"
-    stroke="#39dde8"
+    stroke="var(--primary-color)"
     stroke-width="6"
     stroke-linecap="round"
   />
@@ -107,21 +112,21 @@
     id="writing_line"
     d="M50,170h76"
     fill="none"
-    stroke="#000"
+    stroke="var(--base-color)"
     stroke-width="6"
     stroke-linecap="round"
   />
   <path
     d="M50,119h52"
     fill="none"
-    stroke="#000"
+    stroke="var(--base-color)"
     stroke-width="6"
     stroke-linecap="round"
   />
   <path
     d="M49,144h70"
     fill="none"
-    stroke="#39dde8"
+    stroke="var(--primary-color)"
     stroke-width="6"
     stroke-linecap="round"
   />
@@ -135,11 +140,15 @@
     "
   >
     <g id="writing_pen" transform="rotate(0)">
+      <path d="M226 79.413L201.509 52L177 79.413L201.509 79.3107L226 79.413Z" transform="translate(-201.5,-108.245644)" fill="var(--background-color)"/>
+      <path d="M226 79.413L201.509 79.3107V174.54H226V79.413Z" transform="translate(-201.5,-108.245644)" fill="var(--background-color)"/>
+      <path d="M201.509 79.3107L177 79.413L177.018 174.54H201.509V79.3107Z" transform="translate(-201.5,-108.245644)" fill="var(--background-color)"/>
+      <path d="M201.509 174.54H177.018V201.135V202.771C177.018 210.341 187.973 213 201.509 213C215.045 213 226 210.341 226 202.771V201.135V174.54H201.509Z" transform="translate(-201.5,-108.245644)" fill="var(--background-color)"/>
       <path
         d="M226,79.413L201.509,52L177,79.413m49,0l-24.491-.1023M226,79.413v95.127M177,79.413l24.509-.1023M177,79.413l.018,95.127m24.491-95.2293v95.2293m0,0h-24.491m24.491,0h24.491m-48.982,0v26.595v1.636c0,7.57,10.955,10.229,24.491,10.229s24.491-2.659,24.491-10.229v-1.636-26.595"
         transform="translate(-201.5,-108.245644)"
         fill="none"
-        stroke="#000"
+        stroke="var(--base-color)"
         stroke-width="6"
         stroke-linecap="round"
         stroke-linejoin="round"

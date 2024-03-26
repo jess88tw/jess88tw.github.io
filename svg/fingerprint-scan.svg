@@ -8,6 +8,10 @@
 >
   <style>
     <![CDATA[
+    :root {
+      --primary-color: #0FFFFF;
+      --base-color: #000;
+    }
     #eSlqc1Rzv7s2_to {
       animation: eSlqc1Rzv7s2_to__to 3000ms linear infinite normal forwards
     }
@@ -169,7 +173,7 @@
       d="M234,44v-27h-27"
       transform="translate(-220.5,-30.5)"
       fill="none"
-      stroke="#0FFFFF"
+      stroke="var(--primary-color)"
       stroke-width="6"
       stroke-linecap="round"
       stroke-linejoin="round"
@@ -180,7 +184,7 @@
       d="M234,207v27h-27"
       transform="translate(-220.5,-220.5)"
       fill="none"
-      stroke="#0FFFFF"
+      stroke="var(--primary-color)"
       stroke-width="6"
       stroke-linecap="round"
       stroke-linejoin="round"
@@ -191,7 +195,7 @@
       d="M17,44v-27h27"
       transform="translate(-30.5,-30.5)"
       fill="none"
-      stroke="#0FFFFF"
+      stroke="var(--primary-color)"
       stroke-width="6"
       stroke-linecap="round"
       stroke-linejoin="round"
@@ -202,7 +206,7 @@
       d="M17,207v27h27"
       transform="translate(-30.5,-220.5)"
       fill="none"
-      stroke="#0FFFFF"
+      stroke="var(--primary-color)"
       stroke-width="6"
       stroke-linecap="round"
       stroke-linejoin="round"
@@ -211,7 +215,7 @@
   <path
     d="M56,128.237v57.272c1.1148,9.667,7.1673,13.2,14.3344,13.2M56.8779,102.286c2.2257-14.3149,8.5711-27.2123,17.7442-37.3615M94.291,49.7116C100.54,46.4713,107.328,44.1737,114.48,43m33.562,2.9548c2.109.7444,4.172,1.5903,6.183,2.532M195,138.305v-24.61c0-17.1364-5.845-32.867-15.594-45.191M87.9267,92.2987c5.8189-10.769,15.8503-18.7916,27.8003-21.7044M82.497,113.919v61.97m59.509,10.292v8.948c0,7.661,6.029,13.871,13.466,13.871s13.466-6.21,13.466-13.871v-29.531M137.011,70.9342c18.393,5.1151,31.927,22.422,31.927,42.9848v22.148M195,163.585v6.935m0,24.609v13.871m-86.441-39.375v38.033m0-65.326v-28.189c0-9.638,7.585-17.4503,16.941-17.4503s16.941,7.8123,16.941,17.4503v44.968"
     fill="none"
-    stroke="#000"
+    stroke="var(--base-color)"
     stroke-width="6"
     stroke-linecap="round"
   />
@@ -220,7 +224,7 @@
       d="M125.5,125h102.5"
       transform="translate(-125.5,-125)"
       fill="none"
-      stroke="#0FFFFF"
+      stroke="var(--primary-color)"
       stroke-width="6"
       stroke-linecap="round"
     />
@@ -230,7 +234,7 @@
       d="M23,125h102"
       transform="translate(-125.5,-125)"
       fill="none"
-      stroke="#0FFFFF"
+      stroke="var(--primary-color)"
       stroke-width="6"
       stroke-linecap="round"
     />

@@ -8,6 +8,10 @@
 >
   <style>
     <![CDATA[
+    :root {
+        --primary-color: #0FFFFF;
+        --base-color: #000;
+    }
     #phone_vibe {
       animation: phone_vibe_animation 2000ms linear infinite normal forwards;
     }
@@ -231,7 +235,7 @@
               id="ring_part_1"
               d="M220.241 105.954C217.991 85.9127 208.963 67.9854 195.494 54.5088"
               fill="none"
-              stroke="#0FFFFF"
+              stroke="var(--primary-color)"
               stroke-width="6"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -240,7 +244,7 @@
               id="ring_part_2"
               d="M144.049 29.762C164.083 31.9896 182.013 41.0197 195.494 54.5088"
               fill="none"
-              stroke="#0FFFFF"
+              stroke="var(--primary-color)"
               stroke-width="6"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -249,7 +253,7 @@
               id="ring_part_3"
               d="M187.245 101.237C185.35 91.5072 180.573 82.8478 173.828 76.1757"
               fill="none"
-              stroke="#0FFFFF"
+              stroke="var(--primary-color)"
               stroke-width="6"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -258,7 +262,7 @@
               id="ring_part_4"
               d="M149.149 63.1412C158.696 64.9956 167.209 69.6291 173.828 76.1757"
               fill="none"
-              stroke="#0FFFFF"
+              stroke="var(--primary-color)"
               stroke-width="6"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -270,7 +274,7 @@
           clip-rule="evenodd"
           fill="none"
           fill-rule="evenodd"
-          stroke="#000"
+          stroke="var(--base-color)"
           stroke-width="6"
           stroke-linecap="round"
           stroke-linejoin="round"

@@ -8,6 +8,10 @@
 >
   <style>
     <![CDATA[
+    :root {
+        --primary-color: #0FFFFF;
+        --base-color: #000;
+    }
     #eivYVu7GHnq2_to {
         animation: eivYVu7GHnq2_to__to 3000ms linear infinite normal forwards
     }
@@ -191,7 +195,7 @@
         <path
           d="M49.7469,105.22h47.9266"
           fill="none"
-          stroke="#0FFFFF"
+          stroke="var(--primary-color)"
           stroke-width="6"
           stroke-linecap="round"
         />
@@ -199,14 +203,14 @@
           id="eivYVu7GHnq2_l_b"
           d="M49.7469,105.22h47.9266"
           fill="none"
-          stroke="#000"
+          stroke="var(--base-color)"
           stroke-width="6"
           stroke-linecap="round"
         />
         <path
           d="M49.7469,74.5306h47.9266"
           fill="none"
-          stroke="#000"
+          stroke="var(--base-color)"
           stroke-width="6"
           stroke-linecap="round"
         />
@@ -214,14 +218,14 @@
           id="eivYVu7GHnq2_l_u"
           d="M49.7469,74.5306h47.9266"
           fill="none"
-          stroke="#0FFFFF"
+          stroke="var(--primary-color)"
           stroke-width="6"
           stroke-linecap="round"
         />
         <path
           d="M200.253,105.22h-47.926"
           fill="none"
-          stroke="#000"
+          stroke="var(--base-color)"
           stroke-width="6"
           stroke-linecap="round"
         />
@@ -229,14 +233,14 @@
           id="eivYVu7GHnq2_r_b"
           d="M200.253,105.22h-47.926"
           fill="none"
-          stroke="#0FFFFF"
+          stroke="var(--primary-color)"
           stroke-width="6"
           stroke-linecap="round"
         />
         <path
           d="M200.253,74.5306h-47.926"
           fill="none"
-          stroke="#0FFFFF"
+          stroke="var(--primary-color)"
           stroke-width="6"
           stroke-linecap="round"
         />
@@ -244,28 +248,28 @@
           id="eivYVu7GHnq2_r_u"
           d="M200.253,74.5306h-47.926"
           fill="none"
-          stroke="#000"
+          stroke="var(--base-color)"
           stroke-width="6"
           stroke-linecap="round"
         />
         <path
           d="M126 195.927V68.5429M126 195.927H23.4204C23.1882 195.927 23 195.738 23 195.506V45.8408C23 45.3764 23.3764 45 23.8408 45H102.457C115.46 45 126 55.5405 126 68.5429M126 195.927H228.58C228.812 195.927 229 195.738 229 195.506V45.8408C229 45.3764 228.624 45 228.159 45H149.543C136.54 45 126 55.5405 126 68.5429M23 168.39H229"
           fill="none"
-          stroke="#000"
+          stroke="var(--base-color)"
           stroke-width="6"
         />
         <g>
           <path
             d="M49.7469,135.91h20.6"
             fill="none"
-            stroke="#000"
+            stroke="var(--base-color)"
             stroke-width="6"
             stroke-linecap="round"
           />
           <path
             d="M200.253,135.91h-20.6"
             fill="none"
-            stroke="#0FFFFF"
+            stroke="var(--primary-color)"
             stroke-width="6"
             stroke-linecap="round"
           />
@@ -286,7 +290,7 @@
       <path
         d="M184.679,233.121c1.171,1.172,3.071,1.172,4.242,0c1.172-1.171,1.172-3.071,0-4.242l-4.242,4.242Zm-21.054-63.709c0,21.215-17.198,38.413-38.413,38.413v6c24.529,0,44.413-19.884,44.413-44.413h-6Zm-38.413,38.413c-21.214,0-38.412-17.198-38.412-38.413h-6c0,24.529,19.884,44.413,44.412,44.413v-6ZM86.8,169.412C86.8,148.198,103.998,131,125.212,131v-6C100.684,125,80.8,144.884,80.8,169.412h6ZM125.212,131c21.215,0,38.413,17.198,38.413,38.412h6c0-24.528-19.884-44.412-44.413-44.412v6Zm27.162,69.817l32.305,32.304l4.242-4.242-32.304-32.305-4.243,4.243Z"
         transform="translate(-135.300003,-179.5)"
-        fill="#0FFFFF"
+        fill="var(--primary-color)"
       />
     </g>
   </g>
