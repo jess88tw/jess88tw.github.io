@@ -5,7 +5,16 @@
     <link>https://www.jesseedgerunner.com/blog/</link>
     <description>Recent content in Blog on Hihi</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 12 Jun 2024 13:40:59 +0800</lastBuildDate><atom:link href="https://www.jesseedgerunner.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 25 Sep 2024 13:47:59 +0800</lastBuildDate><atom:link href="https://www.jesseedgerunner.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TypeScript 中的 type 和 interface 使用指南</title>
+      <link>https://www.jesseedgerunner.com/blog/blog-27/</link>
+      <pubDate>Wed, 25 Sep 2024 13:47:59 +0800</pubDate>
+      
+      <guid>https://www.jesseedgerunner.com/blog/blog-27/</guid>
+      <description>Typescript 該用 Type 還是 Interface🤔</description>
+    </item>
+    
     <item>
       <title>Angular NgRx 專案目錄結構</title>
       <link>https://www.jesseedgerunner.com/blog/blog_26/</link>
