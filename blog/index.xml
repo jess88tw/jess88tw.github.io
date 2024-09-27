@@ -5,13 +5,22 @@
     <link>https://www.jesseedgerunner.com/blog/</link>
     <description>Recent content in Blog on Hihi</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 25 Sep 2024 13:47:59 +0800</lastBuildDate><atom:link href="https://www.jesseedgerunner.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 26 Sep 2024 15:34:32 +0800</lastBuildDate><atom:link href="https://www.jesseedgerunner.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Angular Component Selectors</title>
+      <link>https://www.jesseedgerunner.com/blog/blog_28/</link>
+      <pubDate>Thu, 26 Sep 2024 15:34:32 +0800</pubDate>
+      
+      <guid>https://www.jesseedgerunner.com/blog/blog_28/</guid>
+      <description>進階 Angular Component 選擇器使用技巧✨</description>
+    </item>
+    
     <item>
       <title>TypeScript 中的 type 和 interface 使用指南</title>
-      <link>https://www.jesseedgerunner.com/blog/blog-27/</link>
+      <link>https://www.jesseedgerunner.com/blog/blog_27/</link>
       <pubDate>Wed, 25 Sep 2024 13:47:59 +0800</pubDate>
       
-      <guid>https://www.jesseedgerunner.com/blog/blog-27/</guid>
+      <guid>https://www.jesseedgerunner.com/blog/blog_27/</guid>
       <description>Typescript 該用 Type 還是 Interface🤔</description>
     </item>
     
@@ -30,7 +39,7 @@
       <pubDate>Tue, 07 Nov 2023 13:40:59 +0800</pubDate>
       
       <guid>https://www.jesseedgerunner.com/blog/blog_25/</guid>
-      <description>Weekly Report.</description>
+      <description>Weekly Report</description>
     </item>
     
     <item>
@@ -57,7 +66,7 @@
       <pubDate>Thu, 13 Jul 2023 08:30:30 +0800</pubDate>
       
       <guid>https://www.jesseedgerunner.com/blog/blog_22/</guid>
-      <description>Weekly Report.</description>
+      <description>Weekly Report</description>
     </item>
     
     <item>
@@ -75,7 +84,7 @@
       <pubDate>Tue, 06 Jun 2023 11:04:43 +0800</pubDate>
       
       <guid>https://www.jesseedgerunner.com/blog/blog_20/</guid>
-      <description>好用的 ES6.</description>
+      <description>好用的 ES6</description>
     </item>
     
     <item>
@@ -120,7 +129,7 @@
       <pubDate>Sat, 25 Mar 2023 11:22:47 +0800</pubDate>
       
       <guid>https://www.jesseedgerunner.com/blog/blog_15/</guid>
-      <description>讓 VsCode 變得方便好用.</description>
+      <description>讓 VsCode 變得方便好用</description>
     </item>
     
     <item>
@@ -129,7 +138,7 @@
       <pubDate>Tue, 14 Mar 2023 11:24:47 +0800</pubDate>
       
       <guid>https://www.jesseedgerunner.com/blog/blog_14/</guid>
-      <description>強大的 Spread Operator.</description>
+      <description>強大的 Spread Operator</description>
     </item>
     
     <item>
@@ -138,7 +147,7 @@
       <pubDate>Mon, 13 Mar 2023 18:00:30 +0800</pubDate>
       
       <guid>https://www.jesseedgerunner.com/blog/blog_13/</guid>
-      <description>find() &amp;amp; reduce() 不在搞混.</description>
+      <description>find() &amp;amp; reduce() 不在搞混</description>
     </item>
     
     <item>
@@ -147,7 +156,7 @@
       <pubDate>Sun, 12 Mar 2023 18:20:30 +0800</pubDate>
       
       <guid>https://www.jesseedgerunner.com/blog/blog_11/</guid>
-      <description>ChatGPT好用喔, 其他的網站再慢慢收集.</description>
+      <description>ChatGPT好用喔, 其他的網站再慢慢收集</description>
     </item>
     
     <item>
@@ -156,7 +165,7 @@
       <pubDate>Fri, 13 Jan 2023 08:30:24 +0800</pubDate>
       
       <guid>https://www.jesseedgerunner.com/blog/blog_12/</guid>
-      <description>Weekly Report.</description>
+      <description>Weekly Report</description>
     </item>
     
     <item>
@@ -165,7 +174,7 @@
       <pubDate>Fri, 30 Dec 2022 08:30:22 +0800</pubDate>
       
       <guid>https://www.jesseedgerunner.com/blog/blog_10/</guid>
-      <description>Weekly Report.</description>
+      <description>Weekly Report</description>
     </item>
     
     <item>
@@ -174,7 +183,7 @@
       <pubDate>Wed, 23 Nov 2022 10:22:50 +0800</pubDate>
       
       <guid>https://www.jesseedgerunner.com/blog/blog_09/</guid>
-      <description>Weekly Report.</description>
+      <description>Weekly Report</description>
     </item>
     
     <item>
@@ -183,7 +192,7 @@
       <pubDate>Tue, 18 Oct 2022 18:32:50 +0800</pubDate>
       
       <guid>https://www.jesseedgerunner.com/blog/blog_08/</guid>
-      <description>不管是 IDE 或是 作業系統常用的快捷鍵都在這.</description>
+      <description>不管是 IDE 或是 作業系統常用的快捷鍵都在這</description>
     </item>
     
     <item>
@@ -192,7 +201,7 @@
       <pubDate>Sat, 15 Oct 2022 12:50:47 +0800</pubDate>
       
       <guid>https://www.jesseedgerunner.com/blog/blog_07/</guid>
-      <description>學好 Java Optional 告別菜鳥.</description>
+      <description>學好 Java Optional 告別菜鳥</description>
     </item>
     
     <item>
@@ -210,7 +219,7 @@
       <pubDate>Fri, 30 Sep 2022 10:15:47 +0800</pubDate>
       
       <guid>https://www.jesseedgerunner.com/blog/blog_05/</guid>
-      <description>Weekly Report.</description>
+      <description>Weekly Report</description>
     </item>
     
     <item>
@@ -219,7 +228,7 @@
       <pubDate>Fri, 23 Sep 2022 13:38:07 +0800</pubDate>
       
       <guid>https://www.jesseedgerunner.com/blog/blog_04/</guid>
-      <description>highlight.min.js 修改.</description>
+      <description>highlight.min.js 修改</description>
     </item>
     
     <item>
@@ -228,7 +237,7 @@
       <pubDate>Thu, 22 Sep 2022 10:21:37 +0800</pubDate>
       
       <guid>https://www.jesseedgerunner.com/blog/blog_03/</guid>
-      <description>.md 之道就在其中.</description>
+      <description>.md 之道就在其中</description>
     </item>
     
     <item>
@@ -237,7 +246,7 @@
       <pubDate>Wed, 14 Sep 2022 10:20:47 +0800</pubDate>
       
       <guid>https://www.jesseedgerunner.com/blog/blog_02/</guid>
-      <description>解決煩人的 .DS_Store.</description>
+      <description>解決煩人的 .DS_Store</description>
     </item>
     
     <item>
@@ -246,7 +255,7 @@
       <pubDate>Tue, 13 Sep 2022 10:21:27 +0800</pubDate>
       
       <guid>https://www.jesseedgerunner.com/blog/blog_01/</guid>
-      <description>慶祝阿毛的 Blog 誕生.</description>
+      <description>慶祝阿毛的 Blog 誕生</description>
     </item>
     
   </channel>
