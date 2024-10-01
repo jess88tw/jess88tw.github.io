@@ -8,46 +8,46 @@
     <lastBuildDate>Sat, 10 Jun 2023 11:12:34 +0800</lastBuildDate><atom:link href="https://www.jesseedgerunner.com/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>JavaScript Destructuring 用法</title>
-      <link>https://www.jesseedgerunner.com/blog/blog_21/</link>
+      <link>https://www.jesseedgerunner.com/blogs/blog_21/</link>
       <pubDate>Sat, 10 Jun 2023 11:12:34 +0800</pubDate>
       
-      <guid>https://www.jesseedgerunner.com/blog/blog_21/</guid>
+      <guid>https://www.jesseedgerunner.com/blogs/blog_21/</guid>
       <description>解構賦值</description>
     </item>
     
     <item>
       <title>JavaScript Array 常用方法</title>
-      <link>https://www.jesseedgerunner.com/blog/blog_20/</link>
+      <link>https://www.jesseedgerunner.com/blogs/blog_20/</link>
       <pubDate>Tue, 06 Jun 2023 11:04:43 +0800</pubDate>
       
-      <guid>https://www.jesseedgerunner.com/blog/blog_20/</guid>
+      <guid>https://www.jesseedgerunner.com/blogs/blog_20/</guid>
       <description>好用的 ES6</description>
     </item>
     
     <item>
       <title>限定 Input Element 英文輸入法</title>
-      <link>https://www.jesseedgerunner.com/blog/blog_17/</link>
+      <link>https://www.jesseedgerunner.com/blogs/blog_17/</link>
       <pubDate>Tue, 11 Apr 2023 13:57:27 +0800</pubDate>
       
-      <guid>https://www.jesseedgerunner.com/blog/blog_17/</guid>
+      <guid>https://www.jesseedgerunner.com/blogs/blog_17/</guid>
       <description>密碼不能輸入其他語言拉!</description>
     </item>
     
     <item>
       <title>JavaScript Spread Operator 用法</title>
-      <link>https://www.jesseedgerunner.com/blog/blog_14/</link>
+      <link>https://www.jesseedgerunner.com/blogs/blog_14/</link>
       <pubDate>Tue, 14 Mar 2023 11:24:47 +0800</pubDate>
       
-      <guid>https://www.jesseedgerunner.com/blog/blog_14/</guid>
+      <guid>https://www.jesseedgerunner.com/blogs/blog_14/</guid>
       <description>強大的 Spread Operator</description>
     </item>
     
     <item>
       <title>JavaScript find() &amp; reduce() 用法和差異</title>
-      <link>https://www.jesseedgerunner.com/blog/blog_13/</link>
+      <link>https://www.jesseedgerunner.com/blogs/blog_13/</link>
       <pubDate>Mon, 13 Mar 2023 18:00:30 +0800</pubDate>
       
-      <guid>https://www.jesseedgerunner.com/blog/blog_13/</guid>
+      <guid>https://www.jesseedgerunner.com/blogs/blog_13/</guid>
       <description>find() &amp;amp; reduce() 不在搞混</description>
     </item>
     

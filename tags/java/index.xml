@@ -8,28 +8,28 @@
     <lastBuildDate>Mon, 24 Jul 2023 16:51:54 +0800</lastBuildDate><atom:link href="https://www.jesseedgerunner.com/tags/java/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Java AtomicInteger 用法</title>
-      <link>https://www.jesseedgerunner.com/blog/blog_23/</link>
+      <link>https://www.jesseedgerunner.com/blogs/blog_23/</link>
       <pubDate>Mon, 24 Jul 2023 16:51:54 +0800</pubDate>
       
-      <guid>https://www.jesseedgerunner.com/blog/blog_23/</guid>
+      <guid>https://www.jesseedgerunner.com/blogs/blog_23/</guid>
       <description>原子操作!!!</description>
     </item>
     
     <item>
       <title>Java Optional 常用方法</title>
-      <link>https://www.jesseedgerunner.com/blog/blog_07/</link>
+      <link>https://www.jesseedgerunner.com/blogs/blog_07/</link>
       <pubDate>Sat, 15 Oct 2022 12:50:47 +0800</pubDate>
       
-      <guid>https://www.jesseedgerunner.com/blog/blog_07/</guid>
+      <guid>https://www.jesseedgerunner.com/blogs/blog_07/</guid>
       <description>學好 Java Optional 告別菜鳥</description>
     </item>
     
     <item>
       <title>Java query 常用方法</title>
-      <link>https://www.jesseedgerunner.com/blog/blog_06/</link>
+      <link>https://www.jesseedgerunner.com/blogs/blog_06/</link>
       <pubDate>Thu, 13 Oct 2022 11:30:47 +0800</pubDate>
       
-      <guid>https://www.jesseedgerunner.com/blog/blog_06/</guid>
+      <guid>https://www.jesseedgerunner.com/blogs/blog_06/</guid>
       <description>OEM query 很方便喔!</description>
     </item>
     
