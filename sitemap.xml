@@ -2,6 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://www.jesseedgerunner.com/articles/</loc>
+    <lastmod>2026-02-26T10:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://www.jesseedgerunner.com/tags/ci-cd/</loc>
+    <lastmod>2026-02-26T10:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://www.jesseedgerunner.com/articles/article_21/</loc>
+    <lastmod>2026-02-26T10:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://www.jesseedgerunner.com/tags/deploy-key/</loc>
+    <lastmod>2026-02-26T10:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://www.jesseedgerunner.com/tags/github-actions/</loc>
+    <lastmod>2026-02-26T10:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://www.jesseedgerunner.com/</loc>
+    <lastmod>2026-02-26T10:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://www.jesseedgerunner.com/tags/ssh/</loc>
+    <lastmod>2026-02-26T10:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://www.jesseedgerunner.com/tags/</loc>
+    <lastmod>2026-02-26T10:00:00+08:00</lastmod>
+  </url><url>
     <loc>https://www.jesseedgerunner.com/tags/advanced/</loc>
     <lastmod>2024-10-03T10:00:00+08:00</lastmod>
   </url><url>
@@ -11,16 +35,7 @@
     <loc>https://www.jesseedgerunner.com/articles/article_20/</loc>
     <lastmod>2024-10-03T10:00:00+08:00</lastmod>
   </url><url>
-    <loc>https://www.jesseedgerunner.com/articles/</loc>
-    <lastmod>2024-10-03T10:00:00+08:00</lastmod>
-  </url><url>
-    <loc>https://www.jesseedgerunner.com/</loc>
-    <lastmod>2024-10-03T10:00:00+08:00</lastmod>
-  </url><url>
     <loc>https://www.jesseedgerunner.com/tags/signal/</loc>
-    <lastmod>2024-10-03T10:00:00+08:00</lastmod>
-  </url><url>
-    <loc>https://www.jesseedgerunner.com/tags/</loc>
     <lastmod>2024-10-03T10:00:00+08:00</lastmod>
   </url><url>
     <loc>https://www.jesseedgerunner.com/tags/viewchild/</loc>

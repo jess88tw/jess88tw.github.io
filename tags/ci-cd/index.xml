@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>ci-cd on Hihi</title>
+    <link>https://www.jesseedgerunner.com/tags/ci-cd/</link>
+    <description>Recent content in ci-cd on Hihi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 26 Feb 2026 10:00:00 +0800</lastBuildDate><atom:link href="https://www.jesseedgerunner.com/tags/ci-cd/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Deploy Key 更新指南</title>
+      <link>https://www.jesseedgerunner.com/articles/article_21/</link>
+      <pubDate>Thu, 26 Feb 2026 10:00:00 +0800</pubDate>
+      
+      <guid>https://www.jesseedgerunner.com/articles/article_21/</guid>
+      <description>GitHub Actions 部署金鑰過期時的完整更新流程🔑</description>
+    </item>
+    
+  </channel>
+</rss>
