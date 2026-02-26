@@ -5,7 +5,16 @@
     <link>https://www.jesseedgerunner.com/tags/component/</link>
     <description>Recent content in component on Hihi</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 17 Mar 2023 18:30:30 +0800</lastBuildDate><atom:link href="https://www.jesseedgerunner.com/tags/component/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 02 Oct 2024 10:00:00 +0800</lastBuildDate><atom:link href="https://www.jesseedgerunner.com/tags/component/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Angular Signal(3): Input 與 Output</title>
+      <link>https://www.jesseedgerunner.com/articles/article_19/</link>
+      <pubDate>Wed, 02 Oct 2024 10:00:00 +0800</pubDate>
+      
+      <guid>https://www.jesseedgerunner.com/articles/article_19/</guid>
+      <description>使用 Signal 實現元件通訊✨</description>
+    </item>
+    
     <item>
       <title>🚀Angular(4) Component</title>
       <link>https://www.jesseedgerunner.com/articles/article_07/</link>

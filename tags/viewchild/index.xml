@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>viewchild on Hihi</title>
+    <link>https://www.jesseedgerunner.com/tags/viewchild/</link>
+    <description>Recent content in viewchild on Hihi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 03 Oct 2024 10:00:00 +0800</lastBuildDate><atom:link href="https://www.jesseedgerunner.com/tags/viewchild/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Angular Signal(4): ViewChild 與進階應用</title>
+      <link>https://www.jesseedgerunner.com/articles/article_20/</link>
+      <pubDate>Thu, 03 Oct 2024 10:00:00 +0800</pubDate>
+      
+      <guid>https://www.jesseedgerunner.com/articles/article_20/</guid>
+      <description>掌握 Signal ViewChild 與進階技巧✨</description>
+    </item>
+    
+  </channel>
+</rss>

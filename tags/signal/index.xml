@@ -5,7 +5,34 @@
     <link>https://www.jesseedgerunner.com/tags/signal/</link>
     <description>Recent content in signal on Hihi</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 30 Sep 2024 17:59:46 +0800</lastBuildDate><atom:link href="https://www.jesseedgerunner.com/tags/signal/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 03 Oct 2024 10:00:00 +0800</lastBuildDate><atom:link href="https://www.jesseedgerunner.com/tags/signal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Angular Signal(4): ViewChild 與進階應用</title>
+      <link>https://www.jesseedgerunner.com/articles/article_20/</link>
+      <pubDate>Thu, 03 Oct 2024 10:00:00 +0800</pubDate>
+      
+      <guid>https://www.jesseedgerunner.com/articles/article_20/</guid>
+      <description>掌握 Signal ViewChild 與進階技巧✨</description>
+    </item>
+    
+    <item>
+      <title>Angular Signal(3): Input 與 Output</title>
+      <link>https://www.jesseedgerunner.com/articles/article_19/</link>
+      <pubDate>Wed, 02 Oct 2024 10:00:00 +0800</pubDate>
+      
+      <guid>https://www.jesseedgerunner.com/articles/article_19/</guid>
+      <description>使用 Signal 實現元件通訊✨</description>
+    </item>
+    
+    <item>
+      <title>Angular Signal(2): Computed 與 Effect</title>
+      <link>https://www.jesseedgerunner.com/articles/article_18/</link>
+      <pubDate>Tue, 01 Oct 2024 10:00:00 +0800</pubDate>
+      
+      <guid>https://www.jesseedgerunner.com/articles/article_18/</guid>
+      <description>深入了解 Computed Signal 和 Effect 的使用✨</description>
+    </item>
+    
     <item>
       <title>Angular Signal(1)</title>
       <link>https://www.jesseedgerunner.com/articles/article_17/</link>

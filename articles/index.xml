@@ -5,7 +5,34 @@
     <link>https://www.jesseedgerunner.com/articles/</link>
     <description>Recent content in Articles on Hihi</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 30 Sep 2024 17:59:46 +0800</lastBuildDate><atom:link href="https://www.jesseedgerunner.com/articles/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 03 Oct 2024 10:00:00 +0800</lastBuildDate><atom:link href="https://www.jesseedgerunner.com/articles/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Angular Signal(4): ViewChild 與進階應用</title>
+      <link>https://www.jesseedgerunner.com/articles/article_20/</link>
+      <pubDate>Thu, 03 Oct 2024 10:00:00 +0800</pubDate>
+      
+      <guid>https://www.jesseedgerunner.com/articles/article_20/</guid>
+      <description>掌握 Signal ViewChild 與進階技巧✨</description>
+    </item>
+    
+    <item>
+      <title>Angular Signal(3): Input 與 Output</title>
+      <link>https://www.jesseedgerunner.com/articles/article_19/</link>
+      <pubDate>Wed, 02 Oct 2024 10:00:00 +0800</pubDate>
+      
+      <guid>https://www.jesseedgerunner.com/articles/article_19/</guid>
+      <description>使用 Signal 實現元件通訊✨</description>
+    </item>
+    
+    <item>
+      <title>Angular Signal(2): Computed 與 Effect</title>
+      <link>https://www.jesseedgerunner.com/articles/article_18/</link>
+      <pubDate>Tue, 01 Oct 2024 10:00:00 +0800</pubDate>
+      
+      <guid>https://www.jesseedgerunner.com/articles/article_18/</guid>
+      <description>深入了解 Computed Signal 和 Effect 的使用✨</description>
+    </item>
+    
     <item>
       <title>Angular Signal(1)</title>
       <link>https://www.jesseedgerunner.com/articles/article_17/</link>
@@ -43,7 +70,7 @@
     </item>
     
     <item>
-      <title>🚧[維修中]Angular(10) Service</title>
+      <title>🚀Angular(10) Service</title>
       <link>https://www.jesseedgerunner.com/articles/article_13/</link>
       <pubDate>Sat, 18 Mar 2023 12:16:50 +0800</pubDate>
       
@@ -52,7 +79,7 @@
     </item>
     
     <item>
-      <title>🚧[維修中]Angular(9) Router</title>
+      <title>🚀Angular(9) Router</title>
       <link>https://www.jesseedgerunner.com/articles/article_12/</link>
       <pubDate>Sat, 18 Mar 2023 10:16:50 +0800</pubDate>
       
@@ -61,7 +88,7 @@
     </item>
     
     <item>
-      <title>🚧[維修中]Angular(8) LifeCycle</title>
+      <title>🚀Angular(8) LifeCycle</title>
       <link>https://www.jesseedgerunner.com/articles/article_11/</link>
       <pubDate>Fri, 17 Mar 2023 23:32:30 +0800</pubDate>
       
@@ -70,7 +97,7 @@
     </item>
     
     <item>
-      <title>🚧[維修中]Angular(7) Pipe</title>
+      <title>🚀Angular(7) Pipe</title>
       <link>https://www.jesseedgerunner.com/articles/article_10/</link>
       <pubDate>Fri, 17 Mar 2023 23:30:30 +0800</pubDate>
       
@@ -79,7 +106,7 @@
     </item>
     
     <item>
-      <title>🚧[維修中]Angular(6) Directive</title>
+      <title>🚀Angular(6) Directive</title>
       <link>https://www.jesseedgerunner.com/articles/article_09/</link>
       <pubDate>Fri, 17 Mar 2023 22:30:30 +0800</pubDate>
       
@@ -88,7 +115,7 @@
     </item>
     
     <item>
-      <title>🚧[維修中]Angular(5) Data Binding</title>
+      <title>🚀Angular(5) Data Binding</title>
       <link>https://www.jesseedgerunner.com/articles/article_08/</link>
       <pubDate>Fri, 17 Mar 2023 21:30:30 +0800</pubDate>
       

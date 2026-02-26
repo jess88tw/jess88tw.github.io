@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>input on Hihi</title>
+    <link>https://www.jesseedgerunner.com/tags/input/</link>
+    <description>Recent content in input on Hihi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 02 Oct 2024 10:00:00 +0800</lastBuildDate><atom:link href="https://www.jesseedgerunner.com/tags/input/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Angular Signal(3): Input 與 Output</title>
+      <link>https://www.jesseedgerunner.com/articles/article_19/</link>
+      <pubDate>Wed, 02 Oct 2024 10:00:00 +0800</pubDate>
+      
+      <guid>https://www.jesseedgerunner.com/articles/article_19/</guid>
+      <description>使用 Signal 實現元件通訊✨</description>
+    </item>
+    
+  </channel>
+</rss>
