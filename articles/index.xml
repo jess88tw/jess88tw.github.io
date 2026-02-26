@@ -5,16 +5,7 @@
     <link>https://www.jesseedgerunner.com/articles/</link>
     <description>Recent content in Articles on Hihi</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 26 Feb 2026 10:00:00 +0800</lastBuildDate><atom:link href="https://www.jesseedgerunner.com/articles/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Deploy Key 更新指南</title>
-      <link>https://www.jesseedgerunner.com/articles/article_21/</link>
-      <pubDate>Thu, 26 Feb 2026 10:00:00 +0800</pubDate>
-      
-      <guid>https://www.jesseedgerunner.com/articles/article_21/</guid>
-      <description>GitHub Actions 部署金鑰過期時的完整更新流程🔑</description>
-    </item>
-    
+    <lastBuildDate>Thu, 03 Oct 2024 10:00:00 +0800</lastBuildDate><atom:link href="https://www.jesseedgerunner.com/articles/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Angular Signal(4): ViewChild 與進階應用</title>
       <link>https://www.jesseedgerunner.com/articles/article_20/</link>
