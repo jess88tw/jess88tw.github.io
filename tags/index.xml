@@ -5,7 +5,34 @@
     <link>https://www.jesseedgerunner.com/tags/</link>
     <description>Recent content in Tags on Hihi</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 26 Feb 2026 10:00:00 +0800</lastBuildDate><atom:link href="https://www.jesseedgerunner.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 02 Mar 2026 10:00:00 +0800</lastBuildDate><atom:link href="https://www.jesseedgerunner.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>best-practices</title>
+      <link>https://www.jesseedgerunner.com/tags/best-practices/</link>
+      <pubDate>Mon, 02 Mar 2026 10:00:00 +0800</pubDate>
+      
+      <guid>https://www.jesseedgerunner.com/tags/best-practices/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>type-system</title>
+      <link>https://www.jesseedgerunner.com/tags/type-system/</link>
+      <pubDate>Mon, 02 Mar 2026 10:00:00 +0800</pubDate>
+      
+      <guid>https://www.jesseedgerunner.com/tags/type-system/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>typeScript</title>
+      <link>https://www.jesseedgerunner.com/tags/typescript/</link>
+      <pubDate>Mon, 02 Mar 2026 10:00:00 +0800</pubDate>
+      
+      <guid>https://www.jesseedgerunner.com/tags/typescript/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>ci-cd</title>
       <link>https://www.jesseedgerunner.com/tags/ci-cd/</link>
@@ -93,15 +120,6 @@
       <pubDate>Thu, 12 Feb 2026 00:00:00 +0800</pubDate>
       
       <guid>https://www.jesseedgerunner.com/tags/node.js/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>typeScript</title>
-      <link>https://www.jesseedgerunner.com/tags/typescript/</link>
-      <pubDate>Thu, 12 Feb 2026 00:00:00 +0800</pubDate>
-      
-      <guid>https://www.jesseedgerunner.com/tags/typescript/</guid>
       <description></description>
     </item>
     
