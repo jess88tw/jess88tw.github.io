@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>hackerrank on Hihi</title>
+    <link>https://www.jesseedgerunner.com/tags/hackerrank/</link>
+    <description>Recent content in hackerrank on Hihi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 22 Jun 2026 10:00:00 +0800</lastBuildDate><atom:link href="https://www.jesseedgerunner.com/tags/hackerrank/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>刷題筆記(1): HackerRank - Solve Me First (I/O 與核心邏輯剝離)</title>
+      <link>https://www.jesseedgerunner.com/articles/article_22/</link>
+      <pubDate>Mon, 22 Jun 2026 10:00:00 +0800</pubDate>
+      
+      <guid>https://www.jesseedgerunner.com/articles/article_22/</guid>
+      <description>從一題 Easy 題校準觀念: 把 I/O 與核心邏輯拆開寫✨</description>
+    </item>
+    
+  </channel>
+</rss>

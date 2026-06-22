@@ -16,6 +16,15 @@
     </item>
     
     <item>
+      <title>刷題筆記(1): HackerRank - Solve Me First (I/O 與核心邏輯剝離)</title>
+      <link>https://www.jesseedgerunner.com/articles/article_22/</link>
+      <pubDate>Mon, 22 Jun 2026 10:00:00 +0800</pubDate>
+      
+      <guid>https://www.jesseedgerunner.com/articles/article_22/</guid>
+      <description>從一題 Easy 題校準觀念: 把 I/O 與核心邏輯拆開寫✨</description>
+    </item>
+    
+    <item>
       <title>20260313 Weekly Report</title>
       <link>https://www.jesseedgerunner.com/blogs/blog_31/</link>
       <pubDate>Fri, 13 Mar 2026 13:40:59 +0800</pubDate>
