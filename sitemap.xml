@@ -2,37 +2,46 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://www.jesseedgerunner.com/tags/algorithm/</loc>
+    <lastmod>2026-06-23T10:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://www.jesseedgerunner.com/tags/array/</loc>
+    <lastmod>2026-06-23T10:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://www.jesseedgerunner.com/articles/</loc>
+    <lastmod>2026-06-23T10:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://www.jesseedgerunner.com/tags/hackerrank/</loc>
+    <lastmod>2026-06-23T10:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://www.jesseedgerunner.com/</loc>
+    <lastmod>2026-06-23T10:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://www.jesseedgerunner.com/tags/reduce/</loc>
+    <lastmod>2026-06-23T10:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://www.jesseedgerunner.com/tags/</loc>
+    <lastmod>2026-06-23T10:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://www.jesseedgerunner.com/tags/typescript/</loc>
+    <lastmod>2026-06-23T10:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://www.jesseedgerunner.com/articles/article_23/</loc>
+    <lastmod>2026-06-23T10:00:00+08:00</lastmod>
+  </url><url>
     <loc>https://www.jesseedgerunner.com/blogs/blog_32/</loc>
     <lastmod>2026-06-22T13:40:59+08:00</lastmod>
   </url><url>
     <loc>https://www.jesseedgerunner.com/blogs/</loc>
     <lastmod>2026-06-22T13:40:59+08:00</lastmod>
   </url><url>
-    <loc>https://www.jesseedgerunner.com/</loc>
-    <lastmod>2026-06-22T13:40:59+08:00</lastmod>
-  </url><url>
     <loc>https://www.jesseedgerunner.com/tags/mood/</loc>
     <lastmod>2026-06-22T13:40:59+08:00</lastmod>
-  </url><url>
-    <loc>https://www.jesseedgerunner.com/tags/</loc>
-    <lastmod>2026-06-22T13:40:59+08:00</lastmod>
-  </url><url>
-    <loc>https://www.jesseedgerunner.com/tags/algorithm/</loc>
-    <lastmod>2026-06-22T10:00:00+08:00</lastmod>
-  </url><url>
-    <loc>https://www.jesseedgerunner.com/articles/</loc>
-    <lastmod>2026-06-22T10:00:00+08:00</lastmod>
-  </url><url>
-    <loc>https://www.jesseedgerunner.com/tags/hackerrank/</loc>
-    <lastmod>2026-06-22T10:00:00+08:00</lastmod>
   </url><url>
     <loc>https://www.jesseedgerunner.com/tags/io/</loc>
     <lastmod>2026-06-22T10:00:00+08:00</lastmod>
   </url><url>
     <loc>https://www.jesseedgerunner.com/tags/single-responsibility/</loc>
-    <lastmod>2026-06-22T10:00:00+08:00</lastmod>
-  </url><url>
-    <loc>https://www.jesseedgerunner.com/tags/typescript/</loc>
     <lastmod>2026-06-22T10:00:00+08:00</lastmod>
   </url><url>
     <loc>https://www.jesseedgerunner.com/articles/article_22/</loc>
@@ -187,9 +196,6 @@
   </url><url>
     <loc>https://www.jesseedgerunner.com/blogs/blog_21/</loc>
     <lastmod>2023-06-10T11:12:34+08:00</lastmod>
-  </url><url>
-    <loc>https://www.jesseedgerunner.com/tags/array/</loc>
-    <lastmod>2023-06-06T11:04:43+08:00</lastmod>
   </url><url>
     <loc>https://www.jesseedgerunner.com/blogs/blog_20/</loc>
     <lastmod>2023-06-06T11:04:43+08:00</lastmod>

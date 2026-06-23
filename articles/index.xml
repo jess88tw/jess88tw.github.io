@@ -5,7 +5,16 @@
     <link>https://www.jesseedgerunner.com/articles/</link>
     <description>Recent content in Articles on Hihi</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 22 Jun 2026 10:00:00 +0800</lastBuildDate><atom:link href="https://www.jesseedgerunner.com/articles/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 23 Jun 2026 10:00:00 +0800</lastBuildDate><atom:link href="https://www.jesseedgerunner.com/articles/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>刷題筆記(2): HackerRank - Simple Array Sum (陣列加總與語法進化)</title>
+      <link>https://www.jesseedgerunner.com/articles/article_23/</link>
+      <pubDate>Tue, 23 Jun 2026 10:00:00 +0800</pubDate>
+      
+      <guid>https://www.jesseedgerunner.com/articles/article_23/</guid>
+      <description>從 forEach 到 reduce 的思維進化: 讓加總邏輯更純粹✨</description>
+    </item>
+    
     <item>
       <title>刷題筆記(1): HackerRank - Solve Me First (I/O 與核心邏輯剝離)</title>
       <link>https://www.jesseedgerunner.com/articles/article_22/</link>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>array on Hihi</title>
-    <link>https://www.jesseedgerunner.com/tags/array/</link>
-    <description>Recent content in array on Hihi</description>
+    <title>reduce on Hihi</title>
+    <link>https://www.jesseedgerunner.com/tags/reduce/</link>
+    <description>Recent content in reduce on Hihi</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 23 Jun 2026 10:00:00 +0800</lastBuildDate><atom:link href="https://www.jesseedgerunner.com/tags/array/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 23 Jun 2026 10:00:00 +0800</lastBuildDate><atom:link href="https://www.jesseedgerunner.com/tags/reduce/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>刷題筆記(2): HackerRank - Simple Array Sum (陣列加總與語法進化)</title>
       <link>https://www.jesseedgerunner.com/articles/article_23/</link>
@@ -13,15 +13,6 @@
       
       <guid>https://www.jesseedgerunner.com/articles/article_23/</guid>
       <description>從 forEach 到 reduce 的思維進化: 讓加總邏輯更純粹✨</description>
-    </item>
-    
-    <item>
-      <title>JavaScript Array 常用方法</title>
-      <link>https://www.jesseedgerunner.com/blogs/blog_20/</link>
-      <pubDate>Tue, 06 Jun 2023 11:04:43 +0800</pubDate>
-      
-      <guid>https://www.jesseedgerunner.com/blogs/blog_20/</guid>
-      <description>好用的 ES6</description>
     </item>
     
   </channel>
