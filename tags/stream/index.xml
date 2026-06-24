@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>stream on Hihi</title>
+    <link>https://www.jesseedgerunner.com/tags/stream/</link>
+    <description>Recent content in stream on Hihi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 24 Jun 2026 10:00:00 +0800</lastBuildDate><atom:link href="https://www.jesseedgerunner.com/tags/stream/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>刷題筆記(3): HackerRank - A Very Big Sum (整數溢位、型別對照與 Java Stream 拆解)</title>
+      <link>https://www.jesseedgerunner.com/articles/article_24/</link>
+      <pubDate>Wed, 24 Jun 2026 10:00:00 +0800</pubDate>
+      
+      <guid>https://www.jesseedgerunner.com/articles/article_24/</guid>
+      <description>從大數加總拆解 Java 與 TypeScript 的型別差異, 以及 Stream 寫法的思維整理✨</description>
+    </item>
+    
+  </channel>
+</rss>
