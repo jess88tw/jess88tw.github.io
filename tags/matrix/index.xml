@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>matrix on Hihi</title>
+    <link>https://www.jesseedgerunner.com/tags/matrix/</link>
+    <description>Recent content in matrix on Hihi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 25 Jun 2026 10:00:00 +0800</lastBuildDate><atom:link href="https://www.jesseedgerunner.com/tags/matrix/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>刷題筆記(4): HackerRank - Diagonal Difference (矩陣對角線規律與跨語言語法對照)</title>
+      <link>https://www.jesseedgerunner.com/articles/article_25/</link>
+      <pubDate>Thu, 25 Jun 2026 10:00:00 +0800</pubDate>
+      
+      <guid>https://www.jesseedgerunner.com/articles/article_25/</guid>
+      <description>從座標規律推導 O(N) 解法, 並整理 TypeScript 與 Java 的矩陣存取差異✨</description>
+    </item>
+    
+  </channel>
+</rss>
