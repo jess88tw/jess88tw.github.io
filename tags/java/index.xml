@@ -5,7 +5,16 @@
     <link>https://www.jesseedgerunner.com/tags/java/</link>
     <description>Recent content in java on Hihi</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 25 Jun 2026 10:00:00 +0800</lastBuildDate><atom:link href="https://www.jesseedgerunner.com/tags/java/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 29 Jun 2026 10:00:00 +0800</lastBuildDate><atom:link href="https://www.jesseedgerunner.com/tags/java/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>刷題筆記(26): HackerRank - Plus Minus (正負比例、整數除法陷阱與查表法重構)</title>
+      <link>https://www.jesseedgerunner.com/articles/article_26/</link>
+      <pubDate>Mon, 29 Jun 2026 10:00:00 +0800</pubDate>
+      
+      <guid>https://www.jesseedgerunner.com/articles/article_26/</guid>
+      <description>從一題 Easy 題拆解跨語言數值陷阱, 並整理 TypeScript 與 Java 的重構手感✨</description>
+    </item>
+    
     <item>
       <title>刷題筆記(4): HackerRank - Diagonal Difference (矩陣對角線規律與跨語言語法對照)</title>
       <link>https://www.jesseedgerunner.com/articles/article_25/</link>

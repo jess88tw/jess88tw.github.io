@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>floating-point on Hihi</title>
+    <link>https://www.jesseedgerunner.com/tags/floating-point/</link>
+    <description>Recent content in floating-point on Hihi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 29 Jun 2026 10:00:00 +0800</lastBuildDate><atom:link href="https://www.jesseedgerunner.com/tags/floating-point/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>刷題筆記(26): HackerRank - Plus Minus (正負比例、整數除法陷阱與查表法重構)</title>
+      <link>https://www.jesseedgerunner.com/articles/article_26/</link>
+      <pubDate>Mon, 29 Jun 2026 10:00:00 +0800</pubDate>
+      
+      <guid>https://www.jesseedgerunner.com/articles/article_26/</guid>
+      <description>從一題 Easy 題拆解跨語言數值陷阱, 並整理 TypeScript 與 Java 的重構手感✨</description>
+    </item>
+    
+  </channel>
+</rss>

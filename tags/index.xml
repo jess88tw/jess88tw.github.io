@@ -5,11 +5,11 @@
     <link>https://www.jesseedgerunner.com/tags/</link>
     <description>Recent content in Tags on Hihi</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 25 Jun 2026 10:00:00 +0800</lastBuildDate><atom:link href="https://www.jesseedgerunner.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 29 Jun 2026 10:00:00 +0800</lastBuildDate><atom:link href="https://www.jesseedgerunner.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>algorithm</title>
       <link>https://www.jesseedgerunner.com/tags/algorithm/</link>
-      <pubDate>Thu, 25 Jun 2026 10:00:00 +0800</pubDate>
+      <pubDate>Mon, 29 Jun 2026 10:00:00 +0800</pubDate>
       
       <guid>https://www.jesseedgerunner.com/tags/algorithm/</guid>
       <description></description>
@@ -18,16 +18,25 @@
     <item>
       <title>array</title>
       <link>https://www.jesseedgerunner.com/tags/array/</link>
-      <pubDate>Thu, 25 Jun 2026 10:00:00 +0800</pubDate>
+      <pubDate>Mon, 29 Jun 2026 10:00:00 +0800</pubDate>
       
       <guid>https://www.jesseedgerunner.com/tags/array/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>floating-point</title>
+      <link>https://www.jesseedgerunner.com/tags/floating-point/</link>
+      <pubDate>Mon, 29 Jun 2026 10:00:00 +0800</pubDate>
+      
+      <guid>https://www.jesseedgerunner.com/tags/floating-point/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>hackerrank</title>
       <link>https://www.jesseedgerunner.com/tags/hackerrank/</link>
-      <pubDate>Thu, 25 Jun 2026 10:00:00 +0800</pubDate>
+      <pubDate>Mon, 29 Jun 2026 10:00:00 +0800</pubDate>
       
       <guid>https://www.jesseedgerunner.com/tags/hackerrank/</guid>
       <description></description>
@@ -36,9 +45,18 @@
     <item>
       <title>java</title>
       <link>https://www.jesseedgerunner.com/tags/java/</link>
-      <pubDate>Thu, 25 Jun 2026 10:00:00 +0800</pubDate>
+      <pubDate>Mon, 29 Jun 2026 10:00:00 +0800</pubDate>
       
       <guid>https://www.jesseedgerunner.com/tags/java/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>typescript</title>
+      <link>https://www.jesseedgerunner.com/tags/typescript/</link>
+      <pubDate>Mon, 29 Jun 2026 10:00:00 +0800</pubDate>
+      
+      <guid>https://www.jesseedgerunner.com/tags/typescript/</guid>
       <description></description>
     </item>
     
@@ -57,15 +75,6 @@
       <pubDate>Thu, 25 Jun 2026 10:00:00 +0800</pubDate>
       
       <guid>https://www.jesseedgerunner.com/tags/matrix/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>typescript</title>
-      <link>https://www.jesseedgerunner.com/tags/typescript/</link>
-      <pubDate>Thu, 25 Jun 2026 10:00:00 +0800</pubDate>
-      
-      <guid>https://www.jesseedgerunner.com/tags/typescript/</guid>
       <description></description>
     </item>
     
